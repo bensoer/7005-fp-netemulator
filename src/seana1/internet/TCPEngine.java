@@ -1,4 +1,4 @@
-package networkemulator;
+package seana1.internet;
 
 import java.io.BufferedReader;
 import java.io.IOException;

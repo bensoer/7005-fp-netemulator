@@ -1,6 +1,6 @@
 package networkemulator.client;
 
-import networkemulator.TCPEngine;
+import seana1.internet.TCPEngine;
 
 /**
  * Created by bensoer on 03/11/15.
