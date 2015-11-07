@@ -1,8 +1,14 @@
 package seana1.client;
 
+import seana1.Packet;
+import seana1.PacketType;
+import seana1.SerielizationHelper;
+import seana1.internet.TCPEngine;
+
 import java.io.*;
 import java.net.InetAddress;
 import java.net.Socket;
+import java.net.UnknownHostException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.Scanner;
@@ -110,9 +116,47 @@ public class ClientSocket
             dIn = new DataInputStream(this.SOCKET.getInputStream());    //Creating socket input stream
             dOut = new DataOutputStream(this.SOCKET.getOutputStream()); //Creating socket output stream
         } catch (IOException ex) {
-            System.out.println("Filed to open socket stream");
+            System.out.println("Failed to open socket stream");
         }
 
+        //read in file contents
+        Packet packet = new Packet();
+        packet.packetType = PacketType.PUSH.toInt();
+        packet.seqNum = 1;
+        packet.ackNum = 2;
+        packet.data = "GET " + serverFilePath;
+
+        TCPEngine manager = new TCPEngine();
+        try{
+            manager.createClientSocket("localhost", 8000);
+            manager.writeToSocket(packet);
+        }catch(UnknownHostException uhe){
+
+        }catch(IOException ioe){
+
+        }
+
+/*
+        try{
+            String payload = SerielizationHelper.toString(packet);
+
+            dOut.write(payload.getBytes(), 0, payload.getBytes().length);
+            dOut.writeUTF("DoNE!");
+            //System.out.println("PAYLOAD");
+            System.out.println(payload);
+            //dOut.writeUTF(payload + "DoNE!");
+            dOut.flush();
+        }catch(IOException ioe){
+            System.out.println("Serielization Failure");
+            ioe.printStackTrace();
+        }
+*/
+
+        //cut up into appropriate number of packets
+
+
+
+/*
         try {//2 Part request (GET, server file path) the nil does nothing, it just needs to be 3 parts
             dOut.writeByte(1);
             dOut.writeUTF("GET");
@@ -157,7 +201,7 @@ public class ClientSocket
 
         } catch (IOException ex) {
             System.out.println("Failed to read data from socket input stream GET request");
-        }
+        }*/
     }
 
     /**

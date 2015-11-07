@@ -1,12 +1,14 @@
-package seana1.internet;
+package networkemulator;
 
-import seana1.Packet;
+import networkemulator.Packet;
 
-import java.io.*;
+import java.io.EOFException;
+import java.io.IOException;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.net.UnknownHostException;
-import java.nio.CharBuffer;
 
 /**
  * Created by bensoer on 03/11/15.
@@ -107,6 +109,7 @@ public class TCPEngine {
 
     public void closeSocket(){
         if(serverSessionSocket != null && !serverSessionSocket.isClosed()){
+            System.out.println("TCPEngine - Closing Server Socket");
             try{
                 serverSessionSocket.close();
             }catch(IOException ioe){
@@ -116,6 +119,7 @@ public class TCPEngine {
         }
 
         if(clientSocket != null && !clientSocket.isClosed()){
+            System.out.println("TCPEngine - Closing Client Socket");
             try{
                 clientSocket.close();
             }catch(IOException ioe){
@@ -124,68 +128,14 @@ public class TCPEngine {
         }
     }
 
- /*   public String readFromSocket() throws IOException{
-        try{
-            String fullMessage = null;
-            String userInput;
-            final int BUFFER = 2048;
-            char[] buffer = new char[BUFFER];
-            //System.out.println(in.read(buffer));
-            while(in.read(buffer) != -1){
-                System.out.println("Reading Content");
-                System.out.println(buffer);
-                System.out.println(new String(buffer));
-                System.out.println("Checking if has a DoNE!");
-                if(this.isEnd(buffer)){
-                    System.out.println("This one has a done");
-                    int index = getIndexOfEnd(buffer);
-
-                    String strBuffer = new String(buffer);
-                    String subBuffer = strBuffer.substring(0, index);
-
-
-                    if(fullMessage == null){
-                        fullMessage = subBuffer;
-                    }else{
-                        fullMessage += subBuffer;
-                    }
-
-                    System.out.println("Returning from read");
-                    return fullMessage;
-
-                }else{
-                    System.out.println("Content has no done");
-                    if(fullMessage == null){
-                        fullMessage = new String(buffer);
-                    }else{
-                        fullMessage += new String(buffer);
-                    }
-                    System.out.println("Appending and cycling again");
-                }
-                buffer = new char[BUFFER];
-            }
-            return null;
-            /*while((userInput = in.readLine()) != null){
-                if(fullMessage == null){
-                    fullMessage = userInput;
-                }else{
-                    fullMessage += userInput;
-                }
-            }*//*
-
-            //return fullMessage;
-        }catch(IOException ioe){
-            System.out.println("Error Reading Content");
-            ioe.printStackTrace();
-            throw ioe;
-        }
-
-    }
-*/
     public Packet readFromSocket(){
         Object result = null;
         try {
             result = in.readObject();
+
+        }catch(EOFException eofe){
+            //apparently this is how you handle EOF problems when streaming in java
+
 
         }catch(IOException ioe){
             System.out.println("IOException reading packet from socket");
@@ -197,23 +147,4 @@ public class TCPEngine {
         }
         return (Packet)result;
     }
-
-    private boolean isEnd(char[] buffer){
-        String strBuffer = new String(buffer);
-
-        System.out.println("In is end. buffer pre convert: " + buffer);
-        System.out.println("In is end. The buffer: " + strBuffer);
-
-
-        int index = strBuffer.indexOf("DoNE!");
-        System.out.println(index);
-
-        return index > -1;
-    }
-
-    private int getIndexOfEnd(char[] buffer){
-        return new String(buffer).indexOf("DoNE!");
-    }
-
-
 }

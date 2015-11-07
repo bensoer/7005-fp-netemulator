@@ -50,6 +50,7 @@ public class Client {
     {
         ClientSocket clientSocket = new ClientSocket(IP_ADDRESS, PORT);
 
+
         if(REQUEST_TYPE.equals("GET")) {
             clientSocket.sendGetRequest(this.FILE_PATH, "./files/");
         } else if(REQUEST_TYPE.equals("SEND")){
@@ -57,6 +58,10 @@ public class Client {
         } else {
             System.out.println("Error on request method");
             System.exit(1);
+        }
+
+        while(true){
+
         }
 
     }

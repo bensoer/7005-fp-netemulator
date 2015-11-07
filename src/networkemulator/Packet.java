@@ -1,13 +1,15 @@
 package networkemulator;
 
-/**
- * Created by bensoer on 03/11/15.
- */
-public class Packet {
+import java.io.Serializable;
 
-    public int packetType;
-    public int seqNum;
-    public String data;
-    public int windowSize;
-    public int ackNum;
+/**
+ * Created by bensoer on 06/11/15.
+ */
+public class Packet implements Serializable {
+
+        public int packetType;
+        public int seqNum;
+        public String data;
+        public int windowSize;
+        public int ackNum;
 }

@@ -1,7 +1,6 @@
-package seana1;
+package networkemulator;
 
 import java.io.*;
-import java.util.Base64;
 
 /**
  * Created by bensoer on 06/11/15.
