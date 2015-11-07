@@ -6,7 +6,7 @@ package seana1.internet;
 public class Main {
 
     public static void main(String[] args){
-        Internet internet = new Internet();
+        Internet internet = new Internet(50);
         internet.startInternet();
     }
 

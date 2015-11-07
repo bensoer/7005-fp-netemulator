@@ -53,7 +53,7 @@ public class Server
             try {
                 connectionSocket = SOCKET.accept();
                 ServerSocket serverSocket = new ServerSocket(PORT, connectionSocket);
-                serverSocket.listen();
+                //serverSocket.listen();
                 serverSocket.close();
             } catch (IOException ex) {
                 System.out.println("Could not connect to client, aborting");

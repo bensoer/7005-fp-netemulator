@@ -15,10 +15,10 @@ public class InternetSocket {
 
     }
 
-    public TCPEngine createListener(){
+    public TCPEngine createListener(int port){
         try{
-            listenerManager.createServerSocket(7000);
-            System.out.print("Server Created");
+            listenerManager.createServerSocket(port);
+
 
             /*listenerManager.startSession();
             System.out.println("Connection Accepted");
@@ -28,7 +28,7 @@ public class InternetSocket {
         }catch(Exception e){
             e.printStackTrace();
         }
-
+        System.out.println("Internet Socket - Listener Successfully Created");
         return listenerManager;
     }
 
@@ -36,9 +36,12 @@ public class InternetSocket {
         try{
             senderManager.createClientSocket(hostName, portNumber);
 
+
         }catch(Exception e){
             e.printStackTrace();
         }
+
+        System.out.println("Internet Socket - Sender Successfully Created");
         return senderManager;
     }
 }

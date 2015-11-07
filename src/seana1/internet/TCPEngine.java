@@ -26,23 +26,26 @@ public class TCPEngine {
     }
 
     public void createClientSocket(String hostName, int portNumber) throws UnknownHostException, IOException{
+        System.out.println("TCPEngine - Attempting to connect to " + hostName + " on port " + portNumber);
         try{
+            System.out.println("TCPEngine - Creating Client input and output socket buffers");
             clientSocket = new Socket(hostName, portNumber);
             out = new PrintWriter(clientSocket.getOutputStream(), true);
             in = new BufferedReader(
                     new InputStreamReader(clientSocket.getInputStream()));
         }catch(UnknownHostException uhe){
-            System.out.println("Failed to Create Socket");
+            System.out.println("TCPEngine - Failed to Create Socket");
             uhe.printStackTrace();
             throw uhe;
         }catch(IOException ioe){
-            System.out.println("Failed to Access IO");
+            System.out.println("TCPEngine - Failed to Access IO");
             ioe.printStackTrace();
             throw ioe;
         }
     }
 
     public void createServerSocket(int portNumber) throws IOException{
+        System.out.println("TCPEngine - Attempting to Create Server Socket on port " + portNumber);
         if(serverSocket != null && !serverSocket.isClosed()){
             closeSocket();
         }
@@ -56,16 +59,20 @@ public class TCPEngine {
         }
     }
 
-    public void startSession() throws NullPointerException, IOException{
+    public String startSession() throws NullPointerException, IOException{
+        System.out.println("TCPEngine - Starting A Session");
         if(serverSocket == null){
             throw new NullPointerException("Server Socket Must Be Initialized before starting a session");
         }
 
         try{
+            System.out.println("TCPEngine - Awaiting A Connection Request");
             serverSessionSocket = serverSocket.accept();
+            System.out.println("TCPEngine - Allocating Input and Output Buffers for New Connection Request");
             out = new PrintWriter(serverSessionSocket.getOutputStream(), true);
             in = new BufferedReader(
                     new InputStreamReader(serverSessionSocket.getInputStream()));
+            return serverSessionSocket.getInetAddress().toString();
         }catch(IOException ioe){
             System.out.println("Server Could Not Start Session, Unable to Allocate");
             ioe.printStackTrace();
