@@ -1,9 +1,7 @@
 package networkemulator.client;
 
 
-import networkemulator.Packet;
-import networkemulator.PacketType;
-import networkemulator.TCPEngine;
+import networkemulator.*;
 
 /**
  * Created by bensoer on 03/11/15.
@@ -11,11 +9,10 @@ import networkemulator.TCPEngine;
 public class Client {
 
 
-    private String message = "";
-
-    private TCPEngine manager;
-
     public static void main(String[] args){
+
+        WindowManager wm = new WindowManager(6);
+        PacketBuilder pb = new PacketBuilder(Locations.CLIENT, Locations.SERVER, wm);
 
         TCPEngine manager = new TCPEngine();
         try{
@@ -23,42 +20,41 @@ public class Client {
             manager.createClientSocket("localhost", 8000);
             System.out.println("Client - Socket Created");
 
-            Packet packet = new Packet();
-            packet.seqNum = 893;
-            packet.data = "YES";
-            packet.ackNum = 784;
-            packet.packetType = PacketType.PUSH.toInt();
-
-            Packet packet2 = new Packet();
-            packet2.seqNum = 894;
-            packet2.data = "LEODLOE";
-            packet2.ackNum = 784;
-            packet2.packetType = PacketType.PUSH.toInt();
-
-            Packet packet3 = new Packet();
-            packet3.seqNum = 895;
-            packet3.data = "WOOOT";
-            packet3.ackNum = 784;
-            packet3.packetType = PacketType.PUSH.toInt();
-
-            Packet packet4 = new Packet();
-            packet4.seqNum = 896;
-            packet4.data = "EJWEKLEW";
-            packet4.ackNum = 784;
-            packet4.packetType = PacketType.PUSH.toInt();
-
-
-
-            manager.writeToSocket(packet);
-            manager.writeToSocket(packet2);
-            manager.writeToSocket(packet3);
-            manager.writeToSocket(packet4);
-           // manager.writeToSocket("HEELOOO OVER THERE");
-            System.out.println("Client - Message Sent");
-            manager.closeSocket();
         }catch(Exception e){
             e.printStackTrace();
         }
+            System.out.println("Client - Creating Listener Thread");
+            Thread cln = new ClientSocketListener(manager, wm);
+            cln.start();
+
+            System.out.println("Client - Listening Thread Created");
+
+
+            Packet packet = pb.createPacket(PacketType.PUSH,0);
+            packet.data = "HELLO WORLD";
+
+        try{
+            System.out.println("Client - Sending Packet");
+            while(!PacketBuilder.sendPacket(packet, manager, wm)){
+                System.out.println("Client - Couldn't Send - Sleeping and Trying Again");
+                Thread.sleep(200);
+            }
+        }catch(InterruptedException ie){
+            System.out.println("Interrupt Exception Sending Packet From Client");
+            ie.printStackTrace();
+        }
+
+
+
+            //System.out.println("Client - Message Sent");
+            //manager.closeSocket();
+
+        try{
+            cln.join();
+        }catch(InterruptedException ie){
+            System.out.println("Client - Interrupt Exception Joing Thread to Main Thread");
+        }
+
     }
 
 

@@ -1,5 +1,6 @@
 package networkemulator.internet;
 
+import networkemulator.Locations;
 import networkemulator.TCPEngine;
 import networkemulator.Packet;
 import networkemulator.PacketType;
@@ -47,6 +48,23 @@ public class Internet {
 
         //starts the listener to look for incoming client requests
         startSession();
+
+        //start the threads for listening on both inputs at the same time
+        Thread c2i = new Client2Internet(listener, sender);
+        Thread s2i = new Server2Internet(sender, listener);
+
+        c2i.start();
+        s2i.start();
+
+        try {
+            c2i.join();
+            s2i.join();
+        } catch (InterruptedException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
+
+
     }
 
     private void startSession(){
@@ -92,34 +110,7 @@ public class Internet {
                     + data.ackNum + " \n\t Type: " + data.packetType);
 
 
-            //based on set error rate decide what to remove from it and if to remove anything from it
-            int maxValue = 100 / this.bitErrorPercent;
-            int number = generator.nextInt(maxValue);
-            //iunno if this even makes sense but it probably will work lol
-            System.out.println(number);
-            if(number == (maxValue/2)){
-                System.out.println("Internet - Packet with Seq: " + data.seqNum + " is being dropped");
-                continue;
-            }else{
 
-                System.out.println("Internet - Sending Data");
-                if(this.isClientsTurn){
-                    //means client is sending to the server
-                    System.out.println("Internet - Sending Data to Server");
-                    sender.writeToSocket(data);
-                }else{
-                    //means server is sending to the client
-                    System.out.println("Internet - Sending Data to Client");
-                    listener.writeToSocket(data);
-                }
-
-                //if this packet is end of transmission and it has succeeded and will be sent, we need to switch
-                //where to expect data coming from
-                if(data.packetType == PacketType.EOT.toInt()){
-                    this.isClientsTurn = (!this.isClientsTurn);
-                }
-
-            }
 
 
 

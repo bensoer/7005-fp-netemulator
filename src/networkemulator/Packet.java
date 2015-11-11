@@ -7,6 +7,9 @@ import java.io.Serializable;
  */
 public class Packet implements Serializable {
 
+        public String src;
+        public String dst;
+
         public int packetType;
         public int seqNum;
         public String data;
