@@ -33,7 +33,7 @@ public class ServerSocketListener extends Thread {
             }else if(data.packetType == PacketType.PUSH.toInt()){
                 Logger.log("ServerSocketListener - It is a PUSH packet. Sending back an ACK");
                 Packet acknowledgement = this.pb.createResponsePacket(data);
-                this.pb.sendPacket(acknowledgement, socket);
+                PacketBuilder.sendPacket(acknowledgement, socket);
             }
         }
 

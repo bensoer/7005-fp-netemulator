@@ -100,7 +100,16 @@ public class WindowManager {
             window.set(index, pm);
         }else{
             //DUPLICATE ACK. SAY WURT
-            System.out.println("For some unexplainable gawdamn reason you just got a duplicate ack...");
+            if(packet.packetType == PacketType.ACK.toInt()){
+                Logger.log("WindowManager - A Duplicate ACK has been received. Seq:" + packet.seqNum + " Ack: " + packet.ackNum
+                        + " Type: " + packet.packetType + " Src: [" + packet.src + "] Dst: [" + packet.dst + "]  WindowSize: "
+                        + packet.windowSize);
+                Logger.log("WindowManager - A Duplicate ACK signals that your timer preferences settings are too short "
+                        + "and should be extended. For this Emulation, the duplicate ACK will simply be dropped");
+            }
+
+            //otherwise not sure what came back so far...
+
         }
     }
 
