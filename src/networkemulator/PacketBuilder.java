@@ -32,6 +32,8 @@ public class PacketBuilder {
 
         Packet packet = new Packet();
         packet.packetType = type.toInt();
+
+        //set the window size just in case here - will be off by 1 on average
         packet.windowSize = windowManager.getWindowSpace();
 
         packet.seqNum = sequenceNumber;
@@ -70,8 +72,8 @@ public class PacketBuilder {
         response.src = packet.dst;
         response.dst = packet.src;
 
-        //set the window size
-        response.windowSize = windowManager.getWindowSpace();
+        //set window size just in case here - will be off by 1 on average
+        packet.windowSize = this.windowManager.getWindowSpace();
 
         response.data = "";
 
@@ -83,6 +85,9 @@ public class PacketBuilder {
         int dataLength = packet.data.length();
         packet.ackNum = packet.seqNum + dataLength + 1;
 
+        //set window size to the current size
+        packet.windowSize = window.getWindowSpace();
+
         Logger.log("PacketBuilder - Sending Packet Seq: " + packet.seqNum + " Ack: " + packet.ackNum + " Type: "
                 + packet.packetType + " Src: [" + packet.src + "] Dst: [" + packet.dst + "] WindowSize: " + packet.windowSize);
 
@@ -91,34 +96,23 @@ public class PacketBuilder {
             Logger.log("PacketBuilder - Can't Add Packet To Window. Window Is Full");
             return false;
         }else{
-            PacketMeta pm = new PacketMeta(socket, packet, window);
-            window.push(pm);
 
-            socket.writeToSocket(packet);
-            pm.setTimer(5000);
+
+            //if this is an ACK then we don't want to add it to the window to time. We don't need an ACK for an ACK
+            if(packet.packetType == PacketType.ACK.toInt()){
+                socket.writeToSocket(packet);
+            }else{
+                PacketMeta pm = new PacketMeta(socket, packet, window);
+                window.push(pm);
+
+                socket.writeToSocket(packet);
+                pm.setTimer(5000);
+            }
             return true;
         }
 
     }
 
-
-    /**
-     * this overload of sendPacket is for sending packets without adding them to the window as unacknowledged. This
-     * is mainly used for explicit acknowledgement packets which themselves do not need to be acknowledged
-     * @param packet Packet  - the packet being sent
-     * @param socket TCPEngine - the socket the packet is being sent over
-     */
-    public static void sendPacket(Packet packet, TCPEngine socket){
-
-
-        int dataLength = packet.data.length();
-        packet.ackNum = packet.seqNum + dataLength + 1;
-
-        Logger.log("PacketBuilder - Sending Packet Seq: " + packet.seqNum + " Ack: " + packet.ackNum + " Type: "
-                + packet.packetType + " Src: [" + packet.src + "] Dst: [" + packet.dst + "] WindowSize: " + packet.windowSize);
-
-        socket.writeToSocket(packet);
-    }
 
 
 
