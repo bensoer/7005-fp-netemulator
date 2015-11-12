@@ -33,9 +33,6 @@ public class PacketBuilder {
         Packet packet = new Packet();
         packet.packetType = type.toInt();
 
-        //set the window size just in case here - will be off by 1 on average
-        packet.windowSize = windowManager.getWindowSpace();
-
         packet.seqNum = sequenceNumber;
 
         packet.src = source.toString();
@@ -72,8 +69,6 @@ public class PacketBuilder {
         response.src = packet.dst;
         response.dst = packet.src;
 
-        //set window size just in case here - will be off by 1 on average
-        packet.windowSize = this.windowManager.getWindowSpace();
 
         response.data = "";
 
@@ -86,10 +81,17 @@ public class PacketBuilder {
         packet.ackNum = packet.seqNum + dataLength + 1;
 
         //set window size to the current size
-        packet.windowSize = window.getWindowSpace();
+        packet.windowSize = window.getWindowSpace() - 1;
 
         Logger.log("PacketBuilder - Sending Packet Seq: " + packet.seqNum + " Ack: " + packet.ackNum + " Type: "
                 + packet.packetType + " Src: [" + packet.src + "] Dst: [" + packet.dst + "] WindowSize: " + packet.windowSize);
+
+
+        //if this is an ACK then we don't want to add it to the window to time. We don't need an ACK for an ACK
+        if(packet.packetType == PacketType.ACK.toInt()) {
+            socket.writeToSocket(packet);
+            return true;
+        }
 
 
         if(!window.canAddPacket()){
@@ -97,19 +99,15 @@ public class PacketBuilder {
             return false;
         }else{
 
+            PacketMeta pm = new PacketMeta(socket, packet, window);
+            window.push(pm);
 
-            //if this is an ACK then we don't want to add it to the window to time. We don't need an ACK for an ACK
-            if(packet.packetType == PacketType.ACK.toInt()){
-                socket.writeToSocket(packet);
-            }else{
-                PacketMeta pm = new PacketMeta(socket, packet, window);
-                window.push(pm);
-
-                socket.writeToSocket(packet);
-                pm.setTimer(5000);
-            }
-            return true;
+            socket.writeToSocket(packet);
+            pm.setTimer(5000);
         }
+
+        return true;
+
 
     }
 

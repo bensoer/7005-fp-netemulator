@@ -32,9 +32,7 @@ public class Client2Internet extends Thread {
             System.out.println("Client2Internet - Client is Sending Data. Listening to Client");
             data = listener.readFromSocket();
             System.out.println("Client2Internet - Back from read");
-            Logger.log("Client2Internet - Received Packet Seq: " + data.seqNum + " Ack: " + data.ackNum
-                    + " Src: [" + data.src + "] Dst: [" + data.dst + "] Type: " + data.packetType + " WindowSize: "
-                    + data.windowSize);
+
             //System.out.println(data);
             if(data == null){
                 System.out.println("Client2Internet - Client has Terminated. Not processing Data. Attempting to Recover");
@@ -42,6 +40,10 @@ public class Client2Internet extends Thread {
                 System.out.println("Client2Internet - Recovery Successful");
                 continue;
             }
+
+            Logger.log("Client2Internet - Received Packet Seq: " + data.seqNum + " Ack: " + data.ackNum
+                    + " Src: [" + data.src + "] Dst: [" + data.dst + "] Type: " + data.packetType + " WindowSize: "
+                    + data.windowSize);
 
             if(InternetTools.dropPacket(50)){
                 System.out.println("Client2Internet - Packet with Seq: " + data.seqNum + " is being dropped");
