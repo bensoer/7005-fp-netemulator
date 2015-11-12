@@ -1,5 +1,6 @@
 package networkemulator;
 
+import java.util.NoSuchElementException;
 import java.util.Vector;
 
 /**
@@ -10,14 +11,22 @@ public class WindowManager {
     private Vector<PacketMeta> window;
     private int windowSize;
 
+    private boolean vectorIsBeingEdited = false;
+    private int initPacketTimeout;
 
-    public WindowManager(int windowSize){
+
+    public WindowManager(int windowSize, int packetInitialTimeoutLength){
         window = new Vector<PacketMeta>(windowSize);
         this.windowSize = windowSize;
+        this.initPacketTimeout = packetInitialTimeoutLength;
+    }
+
+    public int getInitialPacketDelay(){
+        return this.initPacketTimeout;
     }
 
     public boolean canAddPacket(){
-        System.out.println("WindowManager - canAddPacket Breakdown: \n\t Capacity: " + window.capacity() + " \n\t windowSize: " + windowSize + " \n\t Size: " + window.size());
+        System.out.println("WindowManager - The current Window Size is : " + windowSize + ". The number of slots taken are: " + window.size());
         return window.size() < windowSize;
     }
 
@@ -27,18 +36,31 @@ public class WindowManager {
      * @param packet
      */
     public void push(PacketMeta packet){
-        System.out.println("WindowManager - Pushing Packet: \n\t Capacity: " + window.capacity() + " \n\t windowSize: " + windowSize + "\n\t Size: " + window.size());
         if(window.size() < windowSize) {
+            Logger.log("WindowManager - Window Has Room. Size: " + windowSize + ". Slots taken: " + window.size());
+
 
             //check if one already exists and replace it
             int index = findMatchingPacketIndex(packet);
             if(index != -1){
-                window.remove(index);
-                window.add(index, packet);
+
+                Logger.log("WindowManager - Found Duplicate Packet in the Window. Overwriting...");
+                //update the PacketMeta send count to be whatever its last value + 1
+                packet.setsendCount((window.get(index).getsendCount() + 1));
+
+                window.set(index, packet);
             }else{
-                //else add the packet
+                //else add the packet to the end
+
+                //update the PacketMeta that this is the first time it is being sent
+                packet.setsendCount(1);
                 window.add(packet);
             }
+
+            Logger.log("WindowManager - Window Has Now Had Packet Added. Size: " + windowSize + ". Slots taken: " + window.size());
+        }else{
+            Logger.log("WindowManager - Push Attempted By Program but Window Has No Room. Size: " + windowSize + ". Slots taken: " + window.size());
+            Logger.log("WindowManager - The Packet with Seq " + packet.packet.seqNum + " was not added becuase of this");
         }
     }
 
@@ -46,6 +68,17 @@ public class WindowManager {
         for(int i=0; i < window.size(); i++){
 
             if(window.get(i).packet.seqNum == packet.packet.seqNum && window.get(i).packet.ackNum == packet.packet.ackNum){
+                return i;
+            }
+        }
+        return -1;
+
+    }
+
+    private int findingMatchingSentPacket(Packet packet){
+        for(int i=0; i < window.size(); i++){
+
+            if(window.get(i).packet.ackNum == packet.seqNum){
                 return i;
             }
         }
@@ -59,13 +92,12 @@ public class WindowManager {
     }
 
     public void acknowledgePacket(Packet packet){
-        int index = findMatchingPacketIndex(packet);
+        int index = findingMatchingSentPacket(packet);
 
         if(index != -1){
             PacketMeta pm = window.get(index);
             pm.acknowledged = true;
-            window.remove(index);
-            window.add(index, pm);
+            window.set(index, pm);
         }else{
             //DUPLICATE ACK. SAY WURT
             System.out.println("For some unexplainable gawdamn reason you just got a duplicate ack...");
@@ -77,13 +109,34 @@ public class WindowManager {
         boolean isMore = true;
         while(isMore){
 
-            PacketMeta pm = window.firstElement();
-            if(pm.acknowledged){
-                pop();
-            }else{
+
+            try{
+                PacketMeta pm = window.firstElement();
+                if(pm.acknowledged){
+                    pop();
+                }
+            }catch(NoSuchElementException nsee){
                 isMore = false;
             }
         }
+    }
+
+    private int releaseWindowAccess(){
+        vectorIsBeingEdited = false;
+        return 1;
+    }
+
+    private int requestWindowAccess(){
+        while(vectorIsBeingEdited){
+            try{
+                Thread.sleep(1);
+            }catch(InterruptedException ie){
+                Logger.log("WindowManager - There was an error sleeping requesitng for the Vector to be available");
+            }
+        }
+        vectorIsBeingEdited = true;
+
+        return 1;
     }
 
     /**

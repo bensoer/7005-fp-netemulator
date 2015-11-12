@@ -1,9 +1,6 @@
 package networkemulator.internet;
 
-import networkemulator.Locations;
-import networkemulator.TCPEngine;
-import networkemulator.Packet;
-import networkemulator.PacketType;
+import networkemulator.*;
 
 import java.io.IOException;
 import java.util.Random;
@@ -28,6 +25,7 @@ public class Internet {
     }
 
     public void startInternet(){
+        Logger.configure(true, true, "./InternetLog.txt");
 
         //setup listener for incoming client connections
         try{
@@ -36,7 +34,6 @@ public class Internet {
             System.out.println("Failed to Setup Listener's Resources");
             ioe.printStackTrace();
         }
-
 
         //setup sender to connect with the server
         try{
@@ -63,8 +60,6 @@ public class Internet {
             // TODO Auto-generated catch block
             e.printStackTrace();
         }
-
-
     }
 
     private void startSession(){
@@ -75,48 +70,6 @@ public class Internet {
         }catch(IOException ioe){
             ioe.printStackTrace();
         }
-    }
-
-    public void beginProcessing(){
-
-
-        while(true){
-
-            Packet data;
-            //collect serielized object and make instance of it
-            if(this.isClientsTurn){
-                //means the client is sending data to the server
-                System.out.println("Internet - Client is Sending Data. Listening to Client");
-                data = listener.readFromSocket();
-                System.out.println("Back from read");
-                //System.out.println(data);
-                if(data == null){
-                    System.out.println("Internet - Client has Terminated. Not processing Data. Attempting to Recover");
-                    this.startSession();
-                    System.out.println("Internet - Recovery Successful");
-                    continue;
-                }
-            }else{
-                System.out.println("Internet - Server is Sending Data. Listening to Server");
-                data = sender.readFromSocket();
-                //System.out.println(data);
-                if(data == null){
-                    System.out.println("Internet - Server has Terminated. Not processing Data. Unable To Recover. Aborting");
-                    break;
-                }
-            }
-
-            System.out.println("Internet - Recieved a Packet: \n\t Seq: " + data.seqNum + " \n\t Ack: "
-                    + data.ackNum + " \n\t Type: " + data.packetType);
-
-
-
-
-
-
-
-        }
-
     }
 
 

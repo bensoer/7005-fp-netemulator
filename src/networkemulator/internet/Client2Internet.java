@@ -1,6 +1,7 @@
 package networkemulator.internet;
 
 import networkemulator.Locations;
+import networkemulator.Logger;
 import networkemulator.Packet;
 import networkemulator.TCPEngine;
 
@@ -30,7 +31,10 @@ public class Client2Internet extends Thread {
             //means the client is sending data to the server
             System.out.println("Client2Internet - Client is Sending Data. Listening to Client");
             data = listener.readFromSocket();
-            System.out.println("Back from read");
+            System.out.println("Client2Internet - Back from read");
+            Logger.log("Client2Internet - Received Packet Seq: " + data.seqNum + " Ack: " + data.ackNum
+                    + " Src: [" + data.src + "] Dst: [" + data.dst + "] Type: " + data.packetType + " WindowSize: "
+                    + data.windowSize);
             //System.out.println(data);
             if(data == null){
                 System.out.println("Client2Internet - Client has Terminated. Not processing Data. Attempting to Recover");
@@ -44,7 +48,7 @@ public class Client2Internet extends Thread {
                 continue;
             }else{
 
-                System.out.println("Client2Internet - Sending Data");
+                System.out.println("Client2Internet - Sending Packet with Seq: " + data.seqNum);
 
                 if(data.dst.equals(Locations.CLIENT.toString())){
 

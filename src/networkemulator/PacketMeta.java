@@ -18,14 +18,29 @@ public class PacketMeta {
 
     public boolean acknowledged = false;
 
+    private int delay;
+    private int sendCount = 0;
+
     public PacketMeta(TCPEngine socket, Packet packet, WindowManager windowManager){
         this.socket = socket;
         this.packet = packet;
         this.windowManager = windowManager;
+        this.delay = this.windowManager.getInitialPacketDelay();
+    }
+
+
+
+    public int getsendCount(){
+        return sendCount;
+    }
+
+    public void setsendCount(int sendCount){
+        this.sendCount = sendCount;
     }
 
 
     public void setTimer(int delay){
+        //this.delay = delay;
         timer.schedule(new TimerTask(){
 
             @Override
@@ -33,10 +48,11 @@ public class PacketMeta {
 
                 if(!acknowledged){
                     //we need to resend the packet
-                    System.out.println("Packet: " + packet.seqNum + " has failed to be ACK'd in time. Resending");
+                    Logger.log("PacketMeta - Packet " + packet.seqNum + " has failed to be ACK'd in time. Resending");
 
                     double prevFactor = 0;
                     while(!PacketBuilder.sendPacket(packet, socket, windowManager)){
+                        Logger.log("PacketMeta - Window Is Full, Waiting to Resend Packet");
                         long waitTime = (long) Math.pow(200.0, prevFactor);
                         prevFactor++;
                         try{
@@ -51,6 +67,6 @@ public class PacketMeta {
                 }
             }
 
-        }, delay);
+        }, (long)Math.pow(this.delay, this.sendCount));
     }
 }

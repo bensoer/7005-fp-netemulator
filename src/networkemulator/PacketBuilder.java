@@ -39,6 +39,8 @@ public class PacketBuilder {
         packet.src = source.toString();
         packet.dst = destinations.toString();
 
+        packet.data = "";
+
         return packet;
 
     }
@@ -71,6 +73,7 @@ public class PacketBuilder {
         //set the window size
         response.windowSize = windowManager.getWindowSpace();
 
+        response.data = "";
 
         return response;
     }
@@ -78,11 +81,14 @@ public class PacketBuilder {
     public static boolean sendPacket(Packet packet, TCPEngine socket, WindowManager window){
 
         int dataLength = packet.data.length();
-        packet.ackNum = packet.seqNum + dataLength;
+        packet.ackNum = packet.seqNum + dataLength + 1;
+
+        Logger.log("PacketBuilder - Sending Packet Seq: " + packet.seqNum + " Ack: " + packet.ackNum + " Type: "
+                + packet.packetType + " Src: [" + packet.src + "] Dst: [" + packet.dst + "] WindowSize: " + packet.windowSize);
 
 
         if(!window.canAddPacket()){
-            System.out.println("PacketBuilder - Can't Add Packet");
+            Logger.log("PacketBuilder - Can't Add Packet To Window. Window Is Full");
             return false;
         }else{
             PacketMeta pm = new PacketMeta(socket, packet, window);
@@ -94,6 +100,27 @@ public class PacketBuilder {
         }
 
     }
+
+
+    /**
+     * this overload of sendPacket is for sending packets without adding them to the window as unacknowledged. This
+     * is mainly used for explicit acknowledgement packets which themselves do not need to be acknowledged
+     * @param packet Packet  - the packet being sent
+     * @param socket TCPEngine - the socket the packet is being sent over
+     */
+    public static void sendPacket(Packet packet, TCPEngine socket){
+
+
+        int dataLength = packet.data.length();
+        packet.ackNum = packet.seqNum + dataLength + 1;
+
+        Logger.log("PacketBuilder - Sending Packet Seq: " + packet.seqNum + " Ack: " + packet.ackNum + " Type: "
+                + packet.packetType + " Src: [" + packet.src + "] Dst: [" + packet.dst + "] WindowSize: " + packet.windowSize);
+
+        socket.writeToSocket(packet);
+    }
+
+
 
 
 }
