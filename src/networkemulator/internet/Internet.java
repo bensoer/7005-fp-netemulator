@@ -26,10 +26,11 @@ public class Internet {
 
     public void startInternet(){
         Logger.configure(true, true, "./InternetLog.txt");
+        ConfigurationManager cm = ConfigurationManager.getInstance();
 
         //setup listener for incoming client connections
         try{
-            listener.createServerSocket(8000);
+            listener.createServerSocket(cm.internetConnectionListenerPort);
         }catch(IOException ioe){
             System.out.println("Failed to Setup Listener's Resources");
             ioe.printStackTrace();
@@ -37,7 +38,7 @@ public class Internet {
 
         //setup sender to connect with the server
         try{
-            sender.createClientSocket("localhost", 7000);
+            sender.createClientSocket(cm.internetConnectionSenderHost, cm.internetConnectionSenderPort);
         }catch(IOException ioe){
             System.out.println("Failed to Allocated Sender's Recources");
             ioe.printStackTrace();

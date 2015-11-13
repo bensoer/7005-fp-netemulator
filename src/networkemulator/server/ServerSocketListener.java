@@ -34,6 +34,10 @@ public class ServerSocketListener extends Thread {
                 Logger.log("ServerSocketListener - It is a PUSH packet. Sending back an ACK");
                 Packet acknowledgement = this.pb.createResponsePacket(data);
                 PacketBuilder.sendPacket(acknowledgement, socket, wm);
+            }else if(data.packetType == PacketType.EOT.toInt()){
+                Logger.log("ServerSocketListener - Transmission has terminated. We can send stuff now");
+            }else{
+                Logger.log("ServerSocketListener - An Unknown Packet Type Was Recieved");
             }
         }
 

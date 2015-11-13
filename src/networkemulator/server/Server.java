@@ -1,5 +1,7 @@
 package networkemulator.server;
 
+import jdk.nashorn.internal.runtime.regexp.joni.Config;
+import networkemulator.ConfigurationManager;
 import networkemulator.Logger;
 import networkemulator.TCPEngine;
 import networkemulator.WindowManager;
@@ -15,10 +17,11 @@ public class Server {
 
     public static void main(String[] args){
         manager = new TCPEngine();
-        wm = new WindowManager(6, 500);
+        ConfigurationManager cm = ConfigurationManager.getInstance();
+        wm = new WindowManager(cm.serverConnectionWindowSize, cm.serverConnectionInitTimeout);
         Logger.configure(true,true, "./ServerLog.txt");
         try{
-            manager.createServerSocket(7000);
+            manager.createServerSocket(cm.serverConnectionPort);
             Logger.log("Server - Server Created");
             manager.startSession();
             Logger.log("Server - Connection Accepted");
