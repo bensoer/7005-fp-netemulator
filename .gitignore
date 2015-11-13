@@ -1,2 +1,4 @@
 /out
-*.txt
+ClientLog.txt
+InternetLog.txt
+ServerLog.txt
