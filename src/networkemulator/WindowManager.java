@@ -31,12 +31,30 @@ public class WindowManager {
     }
 
     /**
+     * canAddPacket checks whether the passed packet is in the window already. If it is in the window already this infers
+     * the client is triggering a retransmission, so it can go through. Otherwise if it is not, it can only be added if
+     * there is room in the window
+     * @param packet Packet - the packet attempting to be added to the window
+     * @return Boolean - whether or not the packet can be added to the window
+     */
+    public boolean canAddPacket(Packet packet){
+        System.out.println("WindowManager - The current Window Size is : " + windowSize + ". The number of slots taken are: " + window.size());
+
+        int index = findMatchingPacketIndex(packet);
+        if(index != -1){
+            return true;
+        }else{
+            return window.size() < windowSize;
+        }
+    }
+
+    /**
      * push will push on a packet at the end of the window unless it already exists in which case it will replace
      * the old packet with the new one
      * @param packet
      */
     public void push(PacketMeta packet){
-        if(window.size() < windowSize) {
+        if(window.size() < windowSize || findMatchingPacketIndex(packet) != -1) {
             Logger.log("WindowManager - Window Has Room. Size: " + windowSize + ". Slots taken: " + window.size());
 
 
@@ -86,9 +104,13 @@ public class WindowManager {
     }
 
     private int findMatchingPacketIndex(Packet packet){
-        PacketMeta pm = new PacketMeta(null,null,null);
-        pm.packet = packet;
-        return findMatchingPacketIndex(pm);
+        for(int i=0; i < window.size(); i++){
+
+            if(window.get(i).packet.seqNum == packet.seqNum && window.get(i).packet.ackNum == packet.ackNum){
+                return i;
+            }
+        }
+        return -1;
     }
 
     public void acknowledgePacket(Packet packet){

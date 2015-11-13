@@ -36,7 +36,7 @@ public class Server2Internet extends Thread {
                     + " Src: [" + data.src + "] Dst: [" + data.dst + "] Type: " + data.packetType + " WindowSize: "
                     + data.windowSize);
 
-            if(InternetTools.dropPacket(50)){
+            if(InternetTools.dropPacket(0)){
                 System.out.println("Server2Internet - Packet with Seq: " + data.seqNum + " is being dropped");
                 continue;
             }else{

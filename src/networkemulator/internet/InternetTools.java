@@ -10,6 +10,10 @@ public class InternetTools {
     public static boolean dropPacket(int bitErrorPercent){
         Random generator = new Random();
 
+        if(bitErrorPercent == 0){
+            return false;
+        }
+
         int maxValue = 100 / bitErrorPercent;
         int number = generator.nextInt(maxValue);
 

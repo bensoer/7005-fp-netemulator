@@ -8,7 +8,7 @@ import java.util.TimerTask;
  */
 public class PacketMeta {
 
-    private Timer timer = new Timer();
+    private Timer timer = TimerManager.getInstance();
 
     public Packet packet;
 
@@ -39,8 +39,7 @@ public class PacketMeta {
     }
 
 
-    public void setTimer(int delay){
-        //this.delay = delay;
+    public void setTimer(){
         timer.schedule(new TimerTask(){
 
             @Override
@@ -64,6 +63,8 @@ public class PacketMeta {
 
                     };
 
+                }else{
+                    this.cancel();
                 }
             }
 

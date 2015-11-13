@@ -13,12 +13,13 @@ public class PacketBuilder {
     private WindowManager windowManager;
 
 
-
     public PacketBuilder(Locations source, Locations destination, WindowManager wm){
         this.source = source;
         this.destination = destination;
         this.windowManager = wm;
     }
+
+
 
     public void setSourceLocation(Locations source){
         this.source = source;
@@ -78,7 +79,7 @@ public class PacketBuilder {
     public static boolean sendPacket(Packet packet, TCPEngine socket, WindowManager window){
 
         int dataLength = packet.data.length();
-        packet.ackNum = packet.seqNum + dataLength + 1;
+        packet.ackNum = packet.seqNum + dataLength;
 
         //set window size to the current size
         packet.windowSize = window.getWindowSpace() - 1;
@@ -94,7 +95,7 @@ public class PacketBuilder {
         }
 
 
-        if(!window.canAddPacket()){
+        if(!window.canAddPacket(packet)){
             Logger.log("PacketBuilder - Can't Add Packet To Window. Window Is Full");
             return false;
         }else{
@@ -103,11 +104,10 @@ public class PacketBuilder {
             window.push(pm);
 
             socket.writeToSocket(packet);
-            pm.setTimer(5000);
+            pm.setTimer();
         }
 
         return true;
-
 
     }
 

@@ -31,7 +31,6 @@ public class ServerSocketListener extends Thread {
                 wm.acknowledgePacket(data);
                 wm.attemptMoveWindow();
             }else if(data.packetType == PacketType.PUSH.toInt()){
-                Logger.log("ServerSocketListener - It is a PUSH packet. Sending back an ACK");
                 Packet acknowledgement = this.pb.createResponsePacket(data);
                 PacketBuilder.sendPacket(acknowledgement, socket, wm);
             }else if(data.packetType == PacketType.EOT.toInt()){
