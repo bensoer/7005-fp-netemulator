@@ -3,11 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="3d4b5f4b-424c-4cfd-9b15-e2e0341783a9" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/networkemulator/PacketBuilder.java" afterPath="$PROJECT_DIR$/src/networkemulator/PacketBuilder.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/networkemulator/WindowManager.java" afterPath="$PROJECT_DIR$/src/networkemulator/WindowManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/networkemulator/ConfigurationManager.java" afterPath="$PROJECT_DIR$/src/networkemulator/ConfigurationManager.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/networkemulator/client/Client.java" afterPath="$PROJECT_DIR$/src/networkemulator/client/Client.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/networkemulator/client/ClientSocketListener.java" afterPath="$PROJECT_DIR$/src/networkemulator/client/ClientSocketListener.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/networkemulator/server/ServerSocketListener.java" afterPath="$PROJECT_DIR$/src/networkemulator/server/ServerSocketListener.java" />
     </list>
     <ignored path="network-emulator.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,7 +38,17 @@
             <entry file="file://$PROJECT_DIR$/src/networkemulator/server/ServerSocketListener.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.0">
-                  <caret line="38" column="70" selection-start-line="38" selection-start-column="70" selection-end-line="38" selection-end-column="70" />
+                  <caret line="29" column="73" selection-start-line="29" selection-start-column="73" selection-end-line="29" selection-end-column="73" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Server.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/networkemulator/server/Server.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.73031026">
+                  <caret line="21" column="55" selection-start-line="21" selection-start-column="55" selection-end-line="21" selection-end-column="55" />
                   <folding />
                 </state>
               </provider>
@@ -59,12 +66,24 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="PacketBuilder.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="PacketBuilder.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/networkemulator/PacketBuilder.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.7583732">
+                <state vertical-scroll-proportion="0.0">
                   <caret line="76" column="57" selection-start-line="76" selection-start-column="57" selection-end-line="76" selection-end-column="57" />
                   <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ConfigurationManager.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/networkemulator/ConfigurationManager.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="27" column="35" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -73,7 +92,7 @@
             <entry file="file://$PROJECT_DIR$/src/networkemulator/client/Client.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.0">
-                  <caret line="94" column="26" selection-start-line="94" selection-start-column="26" selection-end-line="94" selection-end-column="26" />
+                  <caret line="78" column="55" selection-start-line="78" selection-start-column="55" selection-end-line="78" selection-end-column="55" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -108,8 +127,8 @@
           <file leaf-file-name="configuration.properties" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/networkemulator/configuration.properties">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.17224881">
-                  <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+                <state vertical-scroll-proportion="0.25775656">
+                  <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
                   <folding />
                 </state>
               </provider>
@@ -162,7 +181,6 @@
         <option value="$PROJECT_DIR$/src/networkemulator/internet/Main.java" />
         <option value="$PROJECT_DIR$/src/networkemulator/Logger.java" />
         <option value="$PROJECT_DIR$/files/client/300loriumipsum.txt" />
-        <option value="$PROJECT_DIR$/src/networkemulator/ConfigurationManager.java" />
         <option value="$PROJECT_DIR$/src/networkemulator/internet/Internet.java" />
         <option value="$PROJECT_DIR$/src/networkemulator/server/Server.java" />
         <option value="$PROJECT_DIR$/src/networkemulator/configuration.properties" />
@@ -174,9 +192,10 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/networkemulator/WindowManager.java" />
         <option value="$PROJECT_DIR$/src/networkemulator/client/ClientSocketListener.java" />
-        <option value="$PROJECT_DIR$/src/networkemulator/client/Client.java" />
         <option value="$PROJECT_DIR$/src/networkemulator/server/ServerSocketListener.java" />
         <option value="$PROJECT_DIR$/src/networkemulator/PacketBuilder.java" />
+        <option value="$PROJECT_DIR$/src/networkemulator/ConfigurationManager.java" />
+        <option value="$PROJECT_DIR$/src/networkemulator/client/Client.java" />
       </list>
     </option>
   </component>
@@ -943,12 +962,12 @@
       <workItem from="1447358311710" duration="52000" />
       <workItem from="1447379542943" duration="16201000" />
       <workItem from="1447445064306" duration="11000" />
-      <workItem from="1447528573002" duration="4385000" />
+      <workItem from="1447528573002" duration="4702000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95096000" />
+    <option name="totallyTimeSpent" value="95413000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
@@ -970,7 +989,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.50548244" sideWeight="0.40427807" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.50438595" sideWeight="0.40427807" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1245,16 +1264,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/networkemulator/ConfigurationManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="35" column="28" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/networkemulator/TCPEngine.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1267,14 +1276,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/networkemulator/server/Server.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
           <folding />
         </state>
       </provider>
@@ -1327,14 +1328,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/networkemulator/configuration.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17224881">
-          <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/networkemulator/PacketMeta.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1361,10 +1354,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/networkemulator/client/Client.java">
+    <entry file="file://$PROJECT_DIR$/src/networkemulator/configuration.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.25775656">
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/networkemulator/PacketBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="94" column="26" selection-start-line="94" selection-start-column="26" selection-end-line="94" selection-end-column="26" />
+          <caret line="76" column="57" selection-start-line="76" selection-start-column="57" selection-end-line="76" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/networkemulator/ConfigurationManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="35" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1374,15 +1383,25 @@
     <entry file="file://$PROJECT_DIR$/src/networkemulator/server/ServerSocketListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="38" column="70" selection-start-line="38" selection-start-column="70" selection-end-line="38" selection-end-column="70" />
+          <caret line="29" column="73" selection-start-line="29" selection-start-column="73" selection-end-line="29" selection-end-column="73" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/networkemulator/PacketBuilder.java">
+    <entry file="file://$PROJECT_DIR$/src/networkemulator/client/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7583732">
-          <caret line="76" column="57" selection-start-line="76" selection-start-column="57" selection-end-line="76" selection-end-column="57" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="78" column="55" selection-start-line="78" selection-start-column="55" selection-end-line="78" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/networkemulator/server/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.73031026">
+          <caret line="21" column="55" selection-start-line="21" selection-start-column="55" selection-end-line="21" selection-end-column="55" />
           <folding />
         </state>
       </provider>

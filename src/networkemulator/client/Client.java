@@ -71,16 +71,17 @@ public class Client {
     }
 
     private static ArrayList<Packet> loadFileIntoPackets(PacketBuilder pb){
+        ConfigurationManager cm = ConfigurationManager.getInstance();
         try{
             ArrayList<Packet> list = new ArrayList<Packet>();
             File file = new File("./files/client/300loriumipsum.txt");
             byte[] data = Files.readAllBytes(file.toPath());
             String strData = new String(data, "UTF-8");
             //System.out.println(strData);
-            for(int i = 0; i < strData.length(); i += 200){
+            for(int i = 0; i < strData.length(); i += cm.clientPacketMaxSize){
 
 
-                int endIndex = i + 200;
+                int endIndex = i + cm.clientPacketMaxSize;
                 if(endIndex >= strData.length()){
                     endIndex = strData.length();
                 }

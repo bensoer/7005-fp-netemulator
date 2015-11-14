@@ -24,6 +24,9 @@ public final class ConfigurationManager {
     public int serverConnectionWindowSize;
     public int serverConnectionInitTimeout;
 
+    public int clientPacketMaxSize;
+    public int serverPacketMaxSize;
+
     private static ConfigurationManager instance = null;
 
     public static ConfigurationManager getInstance(){
@@ -56,6 +59,9 @@ public final class ConfigurationManager {
             this.serverConnectionPort = Integer.parseInt(prop.getProperty("server.connection.port"));
             this.serverConnectionWindowSize = Integer.parseInt(prop.getProperty("server.connection.windowsize"));
             this.serverConnectionInitTimeout = Integer.parseInt(prop.getProperty("server.connection.inittimeout"));
+
+            this.clientPacketMaxSize = Integer.parseInt(prop.getProperty("client.packet.maxsize"));
+            this.serverPacketMaxSize = Integer.parseInt(prop.getProperty("server.packet.maxsize"));
 
 
 
