@@ -73,7 +73,8 @@ public class PacketBuilder {
         }else if(packet.packetType == PacketType.ACK.toInt()){
             packet.packetType = PacketType.PUSH.toInt();
         }else if(packet.packetType == PacketType.EOT.toInt()){
-            throw new InvalidParameterException("EOT Packet is Invalid For Producing an Appropriate Response Packet");
+            //throw new InvalidParameterException("EOT Packet is Invalid For Producing an Appropriate Response Packet");
+            response.packetType = PacketType.ACK.toInt();
         }
 
 

@@ -38,6 +38,8 @@ public class Client {
         cln.start();
         Logger.log("Client - Listening Thread Created");
 
+
+
         ArrayList<Packet> delivery = loadFileIntoPackets(pb);
 
         for(Packet packet : delivery){
@@ -54,15 +56,17 @@ public class Client {
             }
         }
 
-
-            //System.out.println("Client - Message Sent");
-            //manager.closeSocket();
-
         try{
             cln.join();
         }catch(InterruptedException ie){
             Logger.log("Client - Interrupt Exception Joing Thread to Main Thread");
         }
+
+
+            //System.out.println("Client - Message Sent");
+            //manager.closeSocket();
+
+
 
     }
 
@@ -85,6 +89,11 @@ public class Client {
                 Packet packet = pb.createPacket(PacketType.PUSH,subData);
                 list.add(packet);
             }
+
+
+            Packet eot = pb.createPacket(PacketType.EOT, "");
+            list.add(eot);
+
             return list;
         }catch(FileNotFoundException fnfe){
             fnfe.printStackTrace();

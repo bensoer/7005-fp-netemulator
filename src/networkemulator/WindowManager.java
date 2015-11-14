@@ -99,7 +99,7 @@ public class WindowManager {
     private int findingMatchingSentPacket(Packet packet){
         for(int i=0; i < window.size(); i++){
 
-            if(window.get(i).packet.ackNum == packet.seqNum){
+            if(window.get(i).packet.seqNum == packet.ackNum){
                 return i;
             }
         }
@@ -120,6 +120,7 @@ public class WindowManager {
         int index = findingMatchingSentPacket(packet);
 
         if(index != -1){
+            System.out.println("Packet Acknowledged and Found. Acknowledging Now");
             PacketMeta pm = window.get(index);
             pm.acknowledged = true;
             window.set(index, pm);
@@ -146,15 +147,15 @@ public class WindowManager {
     }
 
     public void attemptMoveWindow(){
-
         boolean isMore = true;
         while(isMore){
-
 
             try{
                 PacketMeta pm = window.firstElement();
                 if(pm.acknowledged){
                     pop();
+                }else{
+                    isMore = false;
                 }
             }catch(NoSuchElementException nsee){
                 isMore = false;

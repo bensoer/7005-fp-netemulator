@@ -35,6 +35,8 @@ public class ServerSocketListener extends Thread {
                 PacketBuilder.sendPacket(acknowledgement, socket, wm);
             }else if(data.packetType == PacketType.EOT.toInt()){
                 Logger.log("ServerSocketListener - Transmission has terminated. We can send stuff now");
+                Packet acknowledgement = this.pb.createResponsePacket(data, "");
+                PacketBuilder.sendPacket(acknowledgement, socket, wm);
             }else{
                 Logger.log("ServerSocketListener - An Unknown Packet Type Was Recieved");
             }

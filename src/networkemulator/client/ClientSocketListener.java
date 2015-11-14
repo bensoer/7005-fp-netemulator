@@ -23,7 +23,9 @@ public class ClientSocketListener extends Thread {
 
 
         while(true){
+            //System.out.println("ClientSocketListener - About to Read From Socket");
             Packet data = socket.readFromSocket();
+            //System.out.println("ClientSocketListener - Recieved From Socket");
 
             Logger.log("ClientSocketListener - Recieved A Packet: Seq: " + data.seqNum + " Ack: " +data.ackNum
                     + " PacketType: " + data.packetType + " Sender: [" + data.src + "] Recipient: [" + data.dst
