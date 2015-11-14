@@ -14,6 +14,9 @@ public class WindowManager {
     private boolean vectorIsBeingEdited = false;
     private int initPacketTimeout;
 
+    public int previousSEQ = 0;
+    public int previousACK = 500;
+
 
     public WindowManager(int windowSize, int packetInitialTimeoutLength){
         window = new Vector<PacketMeta>(windowSize);
@@ -120,6 +123,13 @@ public class WindowManager {
             PacketMeta pm = window.get(index);
             pm.acknowledged = true;
             window.set(index, pm);
+
+            //recalculate the ACK number for future requests made from this side
+            int newACKCandidate = pm.packet.seqNum + pm.packet.data.length();
+            if(newACKCandidate > this.previousACK){
+                this.previousACK = newACKCandidate;
+            }
+
         }else{
             //DUPLICATE ACK. SAY WURT
             if(packet.packetType == PacketType.ACK.toInt()){

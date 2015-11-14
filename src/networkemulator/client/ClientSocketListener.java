@@ -36,7 +36,7 @@ public class ClientSocketListener extends Thread {
                 Logger.log("ClientSocketListener - Transmission has terminated. We can send stuff now");
             }else if(data.packetType == PacketType.PUSH.toInt()){
                 Logger.log("ClientSocketListener - It is a PUSH packet. Sending back an ACK");
-                Packet acknowledgement = this.pb.createResponsePacket(data);
+                Packet acknowledgement = this.pb.createResponsePacket(data, "");
                 PacketBuilder.sendPacket(acknowledgement, socket, wm);
             }else{
                 Logger.log("ClientSocketListener - An unknown Packet was Recieved");

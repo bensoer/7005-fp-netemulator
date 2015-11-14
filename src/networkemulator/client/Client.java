@@ -74,7 +74,7 @@ public class Client {
             String strData = new String(data, "UTF-8");
             //System.out.println(strData);
             for(int i = 0; i < strData.length(); i += 200){
-                Packet packet = pb.createPacket(PacketType.PUSH,i);
+
 
                 int endIndex = i + 200;
                 if(endIndex >= strData.length()){
@@ -82,7 +82,7 @@ public class Client {
                 }
 
                 String subData = strData.substring(i, endIndex);
-                packet.data = subData;
+                Packet packet = pb.createPacket(PacketType.PUSH,subData);
                 list.add(packet);
             }
             return list;

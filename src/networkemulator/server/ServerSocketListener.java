@@ -31,7 +31,7 @@ public class ServerSocketListener extends Thread {
                 wm.acknowledgePacket(data);
                 wm.attemptMoveWindow();
             }else if(data.packetType == PacketType.PUSH.toInt()){
-                Packet acknowledgement = this.pb.createResponsePacket(data);
+                Packet acknowledgement = this.pb.createResponsePacket(data, "");
                 PacketBuilder.sendPacket(acknowledgement, socket, wm);
             }else if(data.packetType == PacketType.EOT.toInt()){
                 Logger.log("ServerSocketListener - Transmission has terminated. We can send stuff now");

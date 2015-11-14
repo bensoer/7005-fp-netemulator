@@ -13,6 +13,7 @@ public class PacketBuilder {
     private WindowManager windowManager;
 
 
+
     public PacketBuilder(Locations source, Locations destination, WindowManager wm){
         this.source = source;
         this.destination = destination;
@@ -29,12 +30,17 @@ public class PacketBuilder {
         this.destination = destination;
     }
 
-    public Packet createPacket(PacketType type, int sequenceNumber, Locations source, Locations destinations){
+    public Packet createPacket(PacketType type, String data, Locations source, Locations destinations){
 
         Packet packet = new Packet();
         packet.packetType = type.toInt();
 
-        packet.seqNum = sequenceNumber;
+        packet.data = data;
+
+        //packet.seqNum = sequenceNumber;
+        packet.seqNum = this.windowManager.previousSEQ;
+        this.windowManager.previousSEQ += data.length();
+        packet.ackNum = this.windowManager.previousACK;
 
         packet.src = source.toString();
         packet.dst = destinations.toString();
@@ -45,17 +51,21 @@ public class PacketBuilder {
 
     }
 
-    public Packet createPacket(PacketType type, int sequenceNumber){
-        return this.createPacket(type, sequenceNumber,this.source,this.destination);
+    public Packet createPacket(PacketType type, String data){
+        return this.createPacket(type, data ,this.source,this.destination);
     }
 
-    public Packet createResponsePacket(Packet packet) throws InvalidParameterException{
+    public Packet createResponsePacket(Packet packet, String data) throws InvalidParameterException{
 
         //create response packet
         Packet response = new Packet();
 
         //set sequence num as the ack num
         response.seqNum = packet.ackNum;
+
+        response.data = data;
+        int dataLength = response.data.length();
+        response.ackNum = packet.seqNum + dataLength;
 
         //set the appropriate response type
         if(packet.packetType == PacketType.PUSH.toInt()) {
@@ -65,6 +75,7 @@ public class PacketBuilder {
         }else if(packet.packetType == PacketType.EOT.toInt()){
             throw new InvalidParameterException("EOT Packet is Invalid For Producing an Appropriate Response Packet");
         }
+
 
         //set source and destination as eachother
         response.src = packet.dst;
@@ -78,8 +89,7 @@ public class PacketBuilder {
 
     public static boolean sendPacket(Packet packet, TCPEngine socket, WindowManager window){
 
-        int dataLength = packet.data.length();
-        packet.ackNum = packet.seqNum + dataLength;
+
 
         //set window size to the current size
         packet.windowSize = window.getWindowSpace() - 1;
@@ -92,6 +102,11 @@ public class PacketBuilder {
         if(packet.packetType == PacketType.ACK.toInt()) {
             socket.writeToSocket(packet);
             return true;
+        }
+
+        //if this is a PUSH we need to recalc sequence numbers
+        if(packet.packetType == PacketType.PUSH.toInt()){
+            window.previousSEQ = packet.seqNum + packet.data.length();
         }
 
 
