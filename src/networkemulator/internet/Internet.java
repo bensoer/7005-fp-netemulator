@@ -19,9 +19,12 @@ public class Internet {
     private Random generator = new Random();
 
     private int bitErrorPercent;
+    private int averageDelay;
 
-    public Internet(int bitErrorPercent){
+    public Internet(int bitErrorPercent, int averageDelay){
         this.bitErrorPercent = bitErrorPercent;
+        this.averageDelay = averageDelay;
+        InternetTools.delayAverage = averageDelay;
     }
 
     public void startInternet(){

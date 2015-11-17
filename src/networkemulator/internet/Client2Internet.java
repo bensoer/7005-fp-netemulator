@@ -57,15 +57,18 @@ public class Client2Internet extends Thread {
 
                 if(data.dst.equals(Locations.CLIENT.toString())){
 
+
                     //means server is sending to the client
                     System.out.println("Client2Internet - Sending Data to Client");
-                    listener.writeToSocket(data);
+                    //listener.writeToSocket(data);
+                    InternetTools.delayBeforeSending(data, listener);
 
                 }else if(data.dst.equals(Locations.SERVER.toString())){
 
                     //means this packet is for the server
                     System.out.println("Client2Internet - Sending Data to Server");
-                    sender.writeToSocket(data);
+                    //sender.writeToSocket(data);
+                    InternetTools.delayBeforeSending(data, sender);
 
                 }
             }

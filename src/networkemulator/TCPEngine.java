@@ -9,6 +9,7 @@ import java.io.ObjectOutputStream;
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.net.UnknownHostException;
+import java.util.concurrent.locks.ReentrantLock;
 
 /**
  * Created by bensoer on 03/11/15.
@@ -24,6 +25,8 @@ public class TCPEngine {
     private ObjectOutputStream out;
     //private BufferedReader in;
     private ObjectInputStream in;
+
+    private ReentrantLock writeLock = new ReentrantLock(true);
 
     public TCPEngine(){
 
@@ -93,12 +96,15 @@ public class TCPEngine {
     }
 
     public void writeToSocket(Packet packet){
+        writeLock.lock();
         try{
             out.writeObject(packet);
             out.flush();
         }catch(IOException ioe){
             System.out.println("Failure Serielizing to Socket");
             ioe.printStackTrace();
+        }finally {
+            writeLock.unlock();
         }
 
         //out.print(message + "DoNE!");

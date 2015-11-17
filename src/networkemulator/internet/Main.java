@@ -8,15 +8,20 @@ public class Main {
     public static void main(String[] args){
 
         String result = scanForValue("-ber", args);
-        if(result == null){
+        String avgDelay = scanForValue("-ad", args);
+        if(result == null || avgDelay == null){
             System.out.println("Error. Unable to Start Internet Due To Invalid Parameters");
-            System.out.println("Expected Use: Main -ber <ber-percent>");
+            System.out.println("Expected Use: Main -ber <ber-percent> -ad <avg-delay-ms>");
             return;
         }else{
             System.out.println("Internet - Found Bit Error Rate of: " + result + "%");
-            Internet internet  = new Internet(Integer.parseInt(result));
-            internet.startInternet();
+            System.out.println("Internet - Found Average Delay of: " + avgDelay + "ms");
+
         }
+
+
+        Internet internet  = new Internet(Integer.parseInt(result), Integer.parseInt(avgDelay));
+        internet.startInternet();
 
     }
 
