@@ -61,7 +61,7 @@ public class PacketMeta {
                             ie.printStackTrace();
                         }
 
-                    };
+                    }
 
                 }else{
                     this.cancel();

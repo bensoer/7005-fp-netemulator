@@ -48,7 +48,7 @@ public class Client {
                 Logger.log("Client - Sending Packet");
                 while(!PacketBuilder.sendPacket(packet, manager, wm)){
                     Logger.log("Client - Couldn't Send - Sleeping and Trying Again");
-                    Thread.sleep(200);
+                    Thread.sleep(600);
                 }
             }catch(InterruptedException ie){
                 Logger.log("Interrupt Exception Sending Packet From Client");

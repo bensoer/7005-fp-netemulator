@@ -90,12 +90,12 @@ public class PacketBuilder {
         //set window size to the current size
         packet.windowSize = window.getWindowSpace() - 1;
 
-        Logger.log("PacketBuilder - Sending Packet Seq: " + packet.seqNum + " Ack: " + packet.ackNum + " Type: "
-                + packet.packetType + " Src: [" + packet.src + "] Dst: [" + packet.dst + "] WindowSize: " + packet.windowSize);
-
 
         //if this is an ACK then we don't want to add it to the window to time. We don't need an ACK for an ACK
         if(packet.packetType == PacketType.ACK.toInt()) {
+            Logger.log("PacketBuilder - Sending Packet Seq: " + packet.seqNum + " Ack: " + packet.ackNum + " Type: "
+                    + packet.packetType + " Src: [" + packet.src + "] Dst: [" + packet.dst + "] WindowSize: " + packet.windowSize);
+
             socket.writeToSocket(packet);
             return true;
         }
@@ -107,9 +107,12 @@ public class PacketBuilder {
 
 
         if(!window.canAddPacket(packet)){
-            Logger.log("PacketBuilder - Can't Add Packet To Window. Window Is Full");
+            Logger.log("PacketBuilder - Can't Add Packet " + packet.seqNum + " To Window. Window Is Full");
             return false;
         }else{
+
+            Logger.log("PacketBuilder - Sending Packet Seq: " + packet.seqNum + " Ack: " + packet.ackNum + " Type: "
+                    + packet.packetType + " Src: [" + packet.src + "] Dst: [" + packet.dst + "] WindowSize: " + packet.windowSize);
 
             PacketMeta pm = new PacketMeta(socket, packet, window);
             window.push(pm);

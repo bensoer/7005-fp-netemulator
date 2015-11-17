@@ -15,9 +15,12 @@ public class Client2Internet extends Thread {
     private TCPEngine listener;
     private TCPEngine sender;
 
-    public Client2Internet(TCPEngine listener, TCPEngine sender){
+    private int bitErrorPercent;
+
+    public Client2Internet(TCPEngine listener, TCPEngine sender, int bitErrorPercent){
         this.listener = listener;
         this.sender = sender;
+        this.bitErrorPercent = bitErrorPercent;
     }
 
 
@@ -45,7 +48,7 @@ public class Client2Internet extends Thread {
                     + " Src: [" + data.src + "] Dst: [" + data.dst + "] Type: " + data.packetType + " WindowSize: "
                     + data.windowSize);
 
-            if(InternetTools.dropPacket(0)){
+            if(InternetTools.dropPacket(this.bitErrorPercent)){
                 System.out.println("Client2Internet - Packet with Seq: " + data.seqNum + " is being dropped");
                 continue;
             }else{

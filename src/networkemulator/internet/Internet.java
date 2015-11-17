@@ -48,8 +48,8 @@ public class Internet {
         startSession();
 
         //start the threads for listening on both inputs at the same time
-        Thread c2i = new Client2Internet(listener, sender);
-        Thread s2i = new Server2Internet(sender, listener);
+        Thread c2i = new Client2Internet(listener, sender, this.bitErrorPercent);
+        Thread s2i = new Server2Internet(sender, listener, this.bitErrorPercent);
 
         c2i.start();
         s2i.start();
