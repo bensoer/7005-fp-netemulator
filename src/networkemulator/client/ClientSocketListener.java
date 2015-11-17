@@ -2,6 +2,9 @@ package networkemulator.client;
 
 import networkemulator.*;
 
+import java.io.FileWriter;
+import java.io.IOException;
+
 /**
  * Created by bensoer on 10/11/15.
  */
@@ -20,8 +23,8 @@ public class ClientSocketListener extends Thread {
 
     @Override
     public void run(){
-
-
+        ConfigurationManager cm = ConfigurationManager.getInstance();
+        DataAssembler da = new DataAssembler(cm.serverPacketMaxSize);
         while(true){
             //System.out.println("ClientSocketListener - About to Read From Socket");
             Packet data = socket.readFromSocket();
@@ -35,15 +38,38 @@ public class ClientSocketListener extends Thread {
                 wm.acknowledgePacket(data);
                 wm.attemptMoveWindow();
             }else if(data.packetType == PacketType.EOT.toInt()){
-                Logger.log("ClientSocketListener - Transmission has terminated. We can send stuff now");
+                Logger.log("ClientSocketListener - Transmission has terminated. We could send stuff now");
+                Packet acknowledgement = this.pb.createResponsePacket(data, "");
+                PacketBuilder.sendPacket(acknowledgement, socket, wm);
+                da.EOTArrived();
             }else if(data.packetType == PacketType.PUSH.toInt()){
                 Logger.log("ClientSocketListener - It is a PUSH packet. Sending back an ACK");
                 Packet acknowledgement = this.pb.createResponsePacket(data, "");
                 PacketBuilder.sendPacket(acknowledgement, socket, wm);
+                da.addData(data);
             }else{
                 Logger.log("ClientSocketListener - An unknown Packet was Recieved");
                 //just to get rid of duplicate code prompt
                 Logger.log("");
+            }
+
+            //if the EOT has occurred and we have recieved all missing packets. LETS GOO
+            if(!da.isDisabled() && da.EOTHasArrived() && !da.isMissingPackets()){
+                Logger.log("ClientSocketListener - EOT Received and And No Missing Packets");
+                String fileContent = da.fetchData();
+
+                System.out.println("ClientSocketListener - File retrieved. Now Writing");
+
+                try{
+                    FileWriter fw = new FileWriter("./files/client/serveripsum.txt");
+                    fw.write(fileContent);
+                    fw.flush();
+                    fw.close();
+                }catch(IOException ioe){
+                    System.out.println("ClientSocketListener - Writing Retrieved To File");
+                    ioe.printStackTrace();
+                }
+
             }
         }
 

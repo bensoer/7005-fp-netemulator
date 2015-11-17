@@ -1,22 +1,25 @@
 package networkemulator.server;
 
 import jdk.nashorn.internal.runtime.regexp.joni.Config;
-import networkemulator.ConfigurationManager;
-import networkemulator.Logger;
-import networkemulator.TCPEngine;
-import networkemulator.WindowManager;
+import networkemulator.*;
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.util.ArrayList;
 
 /**
  * Created by bensoer on 03/11/15.
  */
 public class Server {
 
-    private static TCPEngine manager;
+    private static TCPEngine manager = new TCPEngine();
     private static WindowManager wm;
 
+    public static boolean canSendBack = false;
 
     public static void main(String[] args){
-        manager = new TCPEngine();
         ConfigurationManager cm = ConfigurationManager.getInstance();
         wm = new WindowManager(cm.serverConnectionWindowSize, cm.serverConnectionInitTimeout);
         Logger.configure(true,true, "./ServerLog.txt");
@@ -31,17 +34,26 @@ public class Server {
             e.printStackTrace();
         }
 
+        Logger.log("Server - Preparing Sender Thread");
+        Thread sss = new ServerSocketSender(manager, wm);
+        Logger.log("Server - Prepped Sender Thread");
+
         Logger.log("Server - Creating Listener Thread");
-        Thread sln = new ServerSocketListener(manager, wm);
+        Thread sln = new ServerSocketListener(manager, wm, sss);
         sln.start();
 
         Logger.log("Server - Listening Thread Created");
 
+
         try{
             sln.join();
+            sss.join();
         }catch(InterruptedException ie){
             Logger.log("Server - Interrupt Exception Joing Thread to Main Thread");
         }
-
     }
+
+
+
+
 }

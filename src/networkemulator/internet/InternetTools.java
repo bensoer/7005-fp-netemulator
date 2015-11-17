@@ -9,8 +9,15 @@ public class InternetTools {
 
     public static boolean dropPacket(int bitErrorPercent){
         Random generator = new Random();
+        int number = generator.nextInt(100);
 
-        if(bitErrorPercent == 0){
+        if(number < bitErrorPercent){
+            return true;
+        }else{
+            return false;
+        }
+
+       /* if(bitErrorPercent == 0){
             return false;
         }
 
@@ -21,6 +28,6 @@ public class InternetTools {
             return true;
         }else{
             return false;
-        }
+        }*/
     }
 }

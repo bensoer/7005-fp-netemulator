@@ -45,8 +45,6 @@ public class PacketBuilder {
         packet.src = source.toString();
         packet.dst = destinations.toString();
 
-        packet.data = "";
-
         return packet;
 
     }
@@ -81,9 +79,6 @@ public class PacketBuilder {
         //set source and destination as eachother
         response.src = packet.dst;
         response.dst = packet.src;
-
-
-        response.data = "";
 
         return response;
     }
