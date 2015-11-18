@@ -106,3 +106,6 @@ are as follows:
 * ACK = 200
 
 See PacketType.java enum for source details
+
+##docs
+Additional documentation on class diagrams, outlines and testing procedures can be found in the `/docs` folder
