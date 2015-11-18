@@ -1,5 +1,7 @@
 package networkemulator;
 
+import networkemulator.socketemulator.Packet;
+
 import java.util.ArrayList;
 import java.util.List;
 

@@ -1,4 +1,6 @@
-package networkemulator;
+package networkemulator.socketemulator;
+
+import networkemulator.*;
 
 import java.security.InvalidParameterException;
 

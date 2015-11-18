@@ -1,4 +1,4 @@
-package networkemulator;
+package networkemulator.socketemulator;
 
 /**
  * Created by bensoer on 07/11/15.
