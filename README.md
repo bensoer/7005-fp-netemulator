@@ -95,13 +95,14 @@ many packets will be needed to cutup the data being sent
 
 
 
-#number reference
+#reference
 
 ##packet type
-Going to use HTTP codes as a reference to make these numbers somewhat meaningful
+When viewing the logged output the packet type is displayed as integer values. The meaning of the integer values
+are as follows:
 
 * EOT (End of Transmission) = 101
 * PUSH = 100
 * ACK = 200
 
-See PacketType enum for details.
+See PacketType.java enum for source details
