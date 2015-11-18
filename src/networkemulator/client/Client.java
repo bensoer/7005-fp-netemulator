@@ -2,12 +2,11 @@ package networkemulator.client;
 
 
 import networkemulator.*;
+import networkemulator.socketemulator.*;
 
 import java.io.*;
 import java.nio.file.Files;
-import java.nio.file.Path;
 import java.util.ArrayList;
-import java.util.Scanner;
 
 /**
  * Created by bensoer on 03/11/15.

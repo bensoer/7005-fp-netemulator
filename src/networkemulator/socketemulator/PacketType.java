@@ -1,4 +1,4 @@
-package seana1;
+package networkemulator.socketemulator;
 
 /**
  * Created by bensoer on 06/11/15.

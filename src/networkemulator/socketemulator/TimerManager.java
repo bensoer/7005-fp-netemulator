@@ -1,4 +1,4 @@
-package networkemulator;
+package networkemulator.socketemulator;
 
 import java.util.Timer;
 

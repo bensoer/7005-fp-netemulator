@@ -1,9 +1,9 @@
 package networkemulator.internet;
 
-import networkemulator.Locations;
+import networkemulator.socketemulator.Locations;
 import networkemulator.Logger;
-import networkemulator.Packet;
-import networkemulator.TCPEngine;
+import networkemulator.socketemulator.Packet;
+import networkemulator.socketemulator.TCPEngine;
 
 import java.io.IOException;
 

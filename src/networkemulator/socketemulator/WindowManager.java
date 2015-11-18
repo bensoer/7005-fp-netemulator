@@ -1,4 +1,6 @@
-package networkemulator;
+package networkemulator.socketemulator;
+
+import networkemulator.Logger;
 
 import java.util.NoSuchElementException;
 import java.util.Vector;

@@ -1,6 +1,6 @@
-package networkemulator;
+package networkemulator.socketemulator;
 
-import networkemulator.Packet;
+import networkemulator.socketemulator.Packet;
 
 import java.io.EOFException;
 import java.io.IOException;

@@ -1,6 +1,7 @@
 package networkemulator.internet;
 
 import networkemulator.*;
+import networkemulator.socketemulator.TCPEngine;
 
 import java.io.IOException;
 import java.util.Random;

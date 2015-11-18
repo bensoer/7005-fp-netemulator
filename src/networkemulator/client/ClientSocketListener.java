@@ -1,6 +1,7 @@
 package networkemulator.client;
 
 import networkemulator.*;
+import networkemulator.socketemulator.*;
 
 import java.io.FileWriter;
 import java.io.IOException;

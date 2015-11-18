@@ -1,9 +1,9 @@
 package networkemulator.internet;
 
 import networkemulator.Logger;
-import networkemulator.Packet;
-import networkemulator.TCPEngine;
-import networkemulator.TimerManager;
+import networkemulator.socketemulator.Packet;
+import networkemulator.socketemulator.TCPEngine;
+import networkemulator.socketemulator.TimerManager;
 
 import java.util.Random;
 import java.util.Timer;
