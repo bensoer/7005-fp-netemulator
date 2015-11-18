@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d4b5f4b-424c-4cfd-9b15-e2e0341783a9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/network-emulator-design.zargo" afterPath="$PROJECT_DIR$/network-emulator-design.zargo" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="network-emulator.iws" />
@@ -838,12 +837,12 @@
       <workItem from="1447707807733" duration="3924000" />
       <workItem from="1447723919811" duration="17528000" />
       <workItem from="1447777207342" duration="6680000" />
-      <workItem from="1447805599782" duration="3730000" />
+      <workItem from="1447805599782" duration="3772000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="128626000" />
+    <option name="totallyTimeSpent" value="128668000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
