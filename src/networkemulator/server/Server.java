@@ -6,6 +6,10 @@ import networkemulator.socketemulator.WindowManager;
 
 /**
  * Created by bensoer on 03/11/15.
+ *
+ * Server is the main entrance point for the Server module of the network emulator. It sets up and initializes its 2
+ * threads for recieving initialy data from the client, and then sending data back to the client. This class then
+ * holds onto the threads and terminates them when the Server class is terminated.
  */
 public class Server {
 

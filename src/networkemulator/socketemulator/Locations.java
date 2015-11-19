@@ -2,6 +2,8 @@ package networkemulator.socketemulator;
 
 /**
  * Created by bensoer on 07/11/15.
+ *
+ * Locations is an enum specifying all locations that a packet can be sent to.
  */
 public enum Locations {
     CLIENT("Client"), SERVER("Server");

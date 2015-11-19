@@ -13,6 +13,9 @@ import java.util.concurrent.locks.ReentrantLock;
 
 /**
  * Created by bensoer on 03/11/15.
+ *
+ * TCPEngine is a socket wrapper for the network emulator and allows easy management and transfer of the Packet objects
+ * into the TCP Stream.
  */
 public class TCPEngine {
 
@@ -32,6 +35,14 @@ public class TCPEngine {
 
     }
 
+    /**
+     * createClientSocket is a helper method for creating a socket that acts as a client to wherever it is connecting
+     * to
+     * @param hostName String - the hostname to connect to
+     * @param portNumber int - the port number on the host to connect to
+     * @throws UnknownHostException - Thrown if the hostName parameter is invalid or unknown
+     * @throws IOException - Thrown when IO Resources are unavailable
+     */
     public void createClientSocket(String hostName, int portNumber) throws UnknownHostException, IOException{
         System.out.println("TCPEngine - Attempting to connect to " + hostName + " on port " + portNumber);
         try{
@@ -53,6 +64,12 @@ public class TCPEngine {
         }
     }
 
+    /**
+     * createServerSocket is a helper method that creates a socket as if it were belonging to a server. If this method
+     * is called multiple times, the previous socket will be closed before a new one is created
+     * @param portNumber int - the port number for the server socket to listen on
+     * @throws IOException - Thrown if resources are not available
+     */
     public void createServerSocket(int portNumber) throws IOException{
         System.out.println("TCPEngine - Attempting to Create Server Socket on port " + portNumber);
         if(serverSocket != null && !serverSocket.isClosed()){
@@ -68,6 +85,14 @@ public class TCPEngine {
         }
     }
 
+    /**
+     * startSession is a helper method to be used with createServerSocket for accepting connections from a client (who
+     * may have connected by calling the createClientSocket method). This function will throw an exception if the
+     * createServerSocket method has not been called yet
+     * @return String - The Addresses of the connecting client
+     * @throws NullPointerException - Thrown if the serverSocket hasn't been created yet
+     * @throws IOException - Thrown if resources are not available
+     */
     public String startSession() throws NullPointerException, IOException{
         System.out.println("TCPEngine - Starting A Session");
         if(serverSocket == null){
@@ -95,6 +120,10 @@ public class TCPEngine {
 
     }
 
+    /**
+     * writeToSocket allows the client to write a Packet object passed in as a parameter to the socket
+     * @param packet Packet - the packet being written to the socket
+     */
     public void writeToSocket(Packet packet){
         writeLock.lock();
         try{
@@ -111,8 +140,11 @@ public class TCPEngine {
         //out.flush();
     }
 
-
-
+    /**
+     * closeSocket closes the socket. It contains a safe guard and will only close the socket if it is already not closed
+     * and thus avoids throwing an exception. This method can be used when both createClientSocket and createServerSocket
+     * are called as both are checked and only if they are running are they closed.
+     */
     public void closeSocket(){
         if(serverSessionSocket != null && !serverSessionSocket.isClosed()){
             System.out.println("TCPEngine - Closing Server Socket");
@@ -134,6 +166,10 @@ public class TCPEngine {
         }
     }
 
+    /**
+     * readFromSocket is a blocking function that waits for a Packet to read from the socket
+     * @return Packet - the packet read from the socket
+     */
     public Packet readFromSocket(){
         Object result = null;
         try {

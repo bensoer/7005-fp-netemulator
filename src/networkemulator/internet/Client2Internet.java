@@ -9,6 +9,9 @@ import java.io.IOException;
 
 /**
  * Created by bensoer on 10/11/15.
+ *
+ * Client2Internet listens for incoming data from the client. It then calculates the delay time and whether or not
+ * to drop the packet before sending it out to the socket to the Server
  */
 public class Client2Internet extends Thread {
 
@@ -24,6 +27,12 @@ public class Client2Internet extends Thread {
     }
 
 
+    /**
+     * the default entry for the thread. Creates an infinite loop listening for incoming data, then parsing it, calculating
+     * whether the packet will be dropped, if so dropping it, if not then calculating the delay time the packet will
+     * wait before being sent to the server. The loop uses the 'src' and 'dst' attributes to determine which socket
+     * to pass the packet
+     */
     @Override
     public void run(){
 
@@ -77,6 +86,12 @@ public class Client2Internet extends Thread {
 
     }
 
+    /**
+     * startSession is a helper function during the setup of the emulator. startSession accepts an incoming connection
+     * from the client so as to establish a connection to start transfering data over it. This method is used whenever
+     * the client drops. The Client2Internet module then goes into a recovery mode and restarts the connection. Typically
+     * though this breaks the simulation and requires the whole system to be restarted.
+     */
     private void startSession(){
         try{
             System.out.println("Internet - Waiting for Connections from Client");

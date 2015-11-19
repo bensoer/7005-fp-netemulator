@@ -8,6 +8,8 @@ import java.io.IOException;
 
 /**
  * Created by bensoer on 11/11/15.
+ *
+ * ServerSocketListener is in charge of listening to incoming packets for the Server.
  */
 public class ServerSocketListener extends Thread {
 
@@ -24,7 +26,14 @@ public class ServerSocketListener extends Thread {
         this.senderThread = senderThread;
     }
 
-
+    /**
+     * The default main entrance for the Thread. Creates an infinite while loop and waits for content to arrive, which
+     * it then parses and decides what to do based on the type of packet recieved. When an EOT packet is recieved scanning
+     * is done to make sure all packets have been recieved. At which point the Server switches roles as the reciever and
+     * starts the ServerSocketSender thread to start sending data back to the client. The ServerSocketListener then listens
+     * only for acknowledgements for the ServerSocketSender's window
+     */
+    @Override
     public void run(){
         ConfigurationManager cm = ConfigurationManager.getInstance();
         DataAssembler da = new DataAssembler(cm.serverPacketMaxSize);

@@ -4,6 +4,8 @@ import java.io.Serializable;
 
 /**
  * Created by bensoer on 06/11/15.
+ *
+ * Packet is a Serializable class that represents a packet that is sent over the network
  */
 public class Packet implements Serializable {
 

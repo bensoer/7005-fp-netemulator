@@ -8,6 +8,9 @@ import java.io.IOException;
 
 /**
  * Created by bensoer on 10/11/15.
+ *
+ * ClientSocketListener is a thread that listens for incoming data for the Client. This is used to listen for
+ * acknowledgements of packets and listen for incoming recieval of packets from the server
  */
 public class ClientSocketListener extends Thread {
 
@@ -22,6 +25,10 @@ public class ClientSocketListener extends Thread {
         this.pb = new PacketBuilder(Locations.CLIENT, Locations.SERVER, this.wm);
     }
 
+    /**
+     * the main starting function for the thread. This creates an infinite while loop where it listens for packets,
+     * parses what type they are, and then carries out the appropriate action based on that type
+     */
     @Override
     public void run(){
         ConfigurationManager cm = ConfigurationManager.getInstance();

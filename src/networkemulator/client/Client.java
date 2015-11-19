@@ -10,6 +10,9 @@ import java.util.ArrayList;
 
 /**
  * Created by bensoer on 03/11/15.
+ *
+ * Client is the main entry point for the client side of the network emulator. It takes its data file, loads it
+ * and then sends it over the network. It also sets up the ClientSocketListener thread so as to listen for acknowledgements
  */
 public class Client {
 
@@ -69,6 +72,13 @@ public class Client {
 
     }
 
+    /**
+     * loadFileIntoPackets is a helper function that loads the text file containing data into packets using the packet
+     * builder.
+     * @param pb the PacketBuilder instance
+     * @return ArrayList<Packet> - An Array list of packets contianing all of the data to be sent over the network. Includes
+     * the EOT packet
+     */
     private static ArrayList<Packet> loadFileIntoPackets(PacketBuilder pb){
         ConfigurationManager cm = ConfigurationManager.getInstance();
         try{
