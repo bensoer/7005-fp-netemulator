@@ -92,6 +92,13 @@ public class PacketBuilder {
         //set window size to the current size
         packet.windowSize = window.getWindowSpace() - 1;
 
+        //if this is a PUSH we need to recalc sequence numbers
+        //if(packet.packetType == PacketType.PUSH.toInt()){
+        if(window.previousSEQ < (packet.seqNum + packet.data.length())){
+            window.previousSEQ = packet.seqNum + packet.data.length();
+        }
+        //}
+
 
         //if this is an ACK then we don't want to add it to the window to time. We don't need an ACK for an ACK
         if(packet.packetType == PacketType.ACK.toInt()) {
@@ -102,10 +109,7 @@ public class PacketBuilder {
             return true;
         }
 
-        //if this is a PUSH we need to recalc sequence numbers
-        if(packet.packetType == PacketType.PUSH.toInt()){
-            window.previousSEQ = packet.seqNum + packet.data.length();
-        }
+
 
 
         if(!window.canAddPacket(packet)){

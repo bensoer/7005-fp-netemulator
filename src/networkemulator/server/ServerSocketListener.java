@@ -44,16 +44,18 @@ public class ServerSocketListener extends Thread {
                 da.addData(data);
 
             }else if(data.packetType == PacketType.EOT.toInt()){
-                Logger.log("ServerSocketListener - Transmission has terminated. We could send stuff now");
+                Logger.log("ServerSocketListener - Recieved an EOT packet. We could send this now");
                 Packet acknowledgement = this.pb.createResponsePacket(data, "");
                 PacketBuilder.sendPacket(acknowledgement, socket, wm);
+                //add EOT to the list so that it is the appropriate length
+                da.addData(data);
                 da.EOTArrived();
             }else{
                 Logger.log("ServerSocketListener - An Unknown Packet Type Was Recieved");
             }
 
             //if the EOT has occurred and we have recieved all missing packets. LETS GOO
-            if(!da.isDisabled() && da.EOTHasArrived() && !da.isMissingPackets()){
+            if(!da.isDisabled() && da.EOTHasArrived() && !da.isMissingPackets(0)){
                 Logger.log("ServerSocketListener - EOT Received and And No Missing Packets");
                 String fileContent = da.fetchData();
 

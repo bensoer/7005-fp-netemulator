@@ -40,7 +40,9 @@ public class DataAssembler {
 
         String fullData = "";
         for(Packet packet: dataSequence){
-            fullData += packet.data;
+            if(packet != null){
+                fullData += packet.data;
+            }
         }
 
         return fullData;
@@ -69,16 +71,17 @@ public class DataAssembler {
         return this.eotArrived;
     }
 
-    public boolean isMissingPackets(){
-        int i = 0;
+    public boolean isMissingPackets(int startIndex){
         System.out.println("DataAssembler - Checking For Missing Packets");
-        for(Packet packet: dataSequence){
-            ++i;
-            if(packet == null){
+        for(int i = startIndex; i < dataSequence.size(); i++){
+            if(dataSequence.get(i) == null){
                 System.out.println("DataAssembler - Found Missing Packet");
+                System.out.println("Missing Packet: Index: " + i + " Seq: " + (i*200 + 500));
                 return true;
             }
         }
+
+
 
         return false;
     }

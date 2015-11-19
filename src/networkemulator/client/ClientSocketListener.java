@@ -42,6 +42,8 @@ public class ClientSocketListener extends Thread {
                 Logger.log("ClientSocketListener - Transmission has terminated. We could send stuff now");
                 Packet acknowledgement = this.pb.createResponsePacket(data, "");
                 PacketBuilder.sendPacket(acknowledgement, socket, wm);
+                //add the EOT packet so that the list is appropriatly set
+                da.addData(data);
                 da.EOTArrived();
             }else if(data.packetType == PacketType.PUSH.toInt()){
                 Logger.log("ClientSocketListener - It is a PUSH packet. Sending back an ACK");
@@ -55,7 +57,7 @@ public class ClientSocketListener extends Thread {
             }
 
             //if the EOT has occurred and we have recieved all missing packets. LETS GOO
-            if(!da.isDisabled() && da.EOTHasArrived() && !da.isMissingPackets()){
+            if(!da.isDisabled() && da.EOTHasArrived() && !da.isMissingPackets(2)){
                 Logger.log("ClientSocketListener - EOT Received and And No Missing Packets");
                 String fileContent = da.fetchData();
 
