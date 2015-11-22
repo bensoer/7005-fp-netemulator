@@ -128,9 +128,15 @@ public class WindowManager {
      * @return int - the index of the sent packet in the window. Returns -1 if there is not matching packet
      */
     private int findingMatchingSentPacket(Packet packet){
+
         for(int i=0; i < window.size(); i++){
 
-            if(window.get(i).packet.seqNum == packet.ackNum){
+            PacketMeta pm = window.get(i);
+            Packet windowPacket = pm.packet;
+
+            int expectedACK = windowPacket.seqNum + windowPacket.data.length();
+
+            if(windowPacket.ackNum == packet.seqNum && packet.ackNum == expectedACK){
                 return i;
             }
         }

@@ -108,6 +108,9 @@ public class PacketBuilder {
         //set the appropriate response type
         if(packet.packetType == PacketType.PUSH.toInt()) {
             response.packetType = PacketType.ACK.toInt();
+
+            //for the ACK overwrite the ACKnum
+            response.ackNum = packet.seqNum + packet.data.length();
         }else if(packet.packetType == PacketType.ACK.toInt()){
             packet.packetType = PacketType.PUSH.toInt();
         }else if(packet.packetType == PacketType.EOT.toInt()){

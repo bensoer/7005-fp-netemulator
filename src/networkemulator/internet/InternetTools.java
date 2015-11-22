@@ -67,6 +67,10 @@ public class InternetTools {
             actualDelay = delayAverage + variance;
         }else{
             actualDelay = delayAverage - variance;
+
+            if(actualDelay < 0){
+                actualDelay = 0;
+            }
         }
 
         Logger.log("Internet Tools - Delay Time Set. It is: " + actualDelay + "ms");
