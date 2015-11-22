@@ -43,7 +43,7 @@ public class Internet {
         try{
             listener.createServerSocket(cm.internetConnectionListenerPort);
         }catch(IOException ioe){
-            System.out.println("Failed to Setup Listener's Resources");
+            Logger.log("Failed to Setup Listener's Resources");
             ioe.printStackTrace();
         }
 
@@ -51,7 +51,7 @@ public class Internet {
         try{
             sender.createClientSocket(cm.internetConnectionSenderHost, cm.internetConnectionSenderPort);
         }catch(IOException ioe){
-            System.out.println("Failed to Allocated Sender's Recources");
+            Logger.log("Failed to Allocated Sender's Recources");
             ioe.printStackTrace();
         }
 
@@ -79,9 +79,9 @@ public class Internet {
      */
     private void startSession(){
         try{
-            System.out.println("Internet - Waiting for Connections from Client");
+            Logger.log("Internet - Waiting for Connections from Client");
             String clientAddress = this.listener.startSession();
-            System.out.println("Internet - Accepted Connection from Client " + clientAddress);
+            Logger.log("Internet - Accepted Connection from Client " + clientAddress);
         }catch(IOException ioe){
             ioe.printStackTrace();
         }

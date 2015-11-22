@@ -68,7 +68,7 @@ public class ClientSocketListener extends Thread {
                 Logger.log("ClientSocketListener - EOT Received and And No Missing Packets");
                 String fileContent = da.fetchData();
 
-                System.out.println("ClientSocketListener - File retrieved. Now Writing");
+                Logger.log("ClientSocketListener - File retrieved. Now Writing");
 
                 try{
                     FileWriter fw = new FileWriter("./files/client/serveripsum.txt");
@@ -76,7 +76,7 @@ public class ClientSocketListener extends Thread {
                     fw.flush();
                     fw.close();
                 }catch(IOException ioe){
-                    System.out.println("ClientSocketListener - Writing Retrieved To File");
+                    Logger.log("ClientSocketListener - Writing To File Failed");
                     ioe.printStackTrace();
                 }
 

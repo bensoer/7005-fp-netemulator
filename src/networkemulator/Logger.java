@@ -56,7 +56,7 @@ public class Logger {
      */
     public static void writeToFile(String message){
         try{
-            fw.write(message);
+            fw.write(message + "\n");
             fw.flush();
         }catch(IOException ioe){
             System.out.println("Logger - IOException Writing To File");

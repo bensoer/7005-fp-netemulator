@@ -42,7 +42,7 @@ public class WindowManager {
      * @return boolean - the state of whether a packet can be added or not
      */
     public boolean canAddPacket(){
-        System.out.println("WindowManager - The current Window Size is : " + windowSize + ". The number of slots taken are: " + window.size());
+        Logger.log("WindowManager - The current Window Size is : " + windowSize + ". The number of slots taken are: " + window.size());
         return window.size() < windowSize;
     }
 
@@ -54,7 +54,7 @@ public class WindowManager {
      * @return Boolean - whether or not the packet can be added to the window
      */
     public boolean canAddPacket(Packet packet){
-        System.out.println("WindowManager - The current Window Size is : " + windowSize + ". The number of slots taken are: " + window.size());
+        Logger.log("WindowManager - The current Window Size is : " + windowSize + ". The number of slots taken are: " + window.size());
 
         int index = findMatchingPacketIndex(packet);
         if(index != -1){
@@ -166,7 +166,7 @@ public class WindowManager {
         int index = findingMatchingSentPacket(packet);
 
         if(index != -1){
-            System.out.println("Packet Acknowledged and Found. Acknowledging Now");
+            Logger.log("Packet Acknowledged and Found. Acknowledging Now");
             PacketMeta pm = window.get(index);
             pm.acknowledged = true;
             window.set(index, pm);

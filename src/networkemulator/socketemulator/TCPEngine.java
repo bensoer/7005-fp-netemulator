@@ -1,5 +1,6 @@
 package networkemulator.socketemulator;
 
+import networkemulator.Logger;
 import networkemulator.socketemulator.Packet;
 
 import java.io.EOFException;
@@ -44,9 +45,9 @@ public class TCPEngine {
      * @throws IOException - Thrown when IO Resources are unavailable
      */
     public void createClientSocket(String hostName, int portNumber) throws UnknownHostException, IOException{
-        System.out.println("TCPEngine - Attempting to connect to " + hostName + " on port " + portNumber);
+        Logger.log("TCPEngine - Attempting to connect to " + hostName + " on port " + portNumber);
         try{
-            System.out.println("TCPEngine - Creating Client input and output socket buffers");
+            Logger.log("TCPEngine - Creating Client input and output socket buffers");
             clientSocket = new Socket(hostName, portNumber);
             //out = new PrintWriter(clientSocket.getOutputStream(), true);
             out = new ObjectOutputStream(clientSocket.getOutputStream());
@@ -54,11 +55,11 @@ public class TCPEngine {
             //in = new BufferedReader(
                    // new InputStreamReader(clientSocket.getInputStream()));
         }catch(UnknownHostException uhe){
-            System.out.println("TCPEngine - Failed to Create Socket");
+            Logger.log("TCPEngine - Failed to Create Socket");
             uhe.printStackTrace();
             throw uhe;
         }catch(IOException ioe){
-            System.out.println("TCPEngine - Failed to Access IO");
+            Logger.log("TCPEngine - Failed to Access IO");
             ioe.printStackTrace();
             throw ioe;
         }
@@ -71,7 +72,7 @@ public class TCPEngine {
      * @throws IOException - Thrown if resources are not available
      */
     public void createServerSocket(int portNumber) throws IOException{
-        System.out.println("TCPEngine - Attempting to Create Server Socket on port " + portNumber);
+        Logger.log("TCPEngine - Attempting to Create Server Socket on port " + portNumber);
         if(serverSocket != null && !serverSocket.isClosed()){
             closeSocket();
         }
@@ -79,7 +80,7 @@ public class TCPEngine {
         try{
             serverSocket = new ServerSocket(portNumber);
         }catch(IOException ioe){
-            System.out.println("Unable to Create Server Socket. Could not Allocate Resources");
+            Logger.log("Unable to Create Server Socket. Could not Allocate Resources");
             ioe.printStackTrace();
             throw ioe;
         }
@@ -94,15 +95,15 @@ public class TCPEngine {
      * @throws IOException - Thrown if resources are not available
      */
     public String startSession() throws NullPointerException, IOException{
-        System.out.println("TCPEngine - Starting A Session");
+        Logger.log("TCPEngine - Starting A Session");
         if(serverSocket == null){
             throw new NullPointerException("Server Socket Must Be Initialized before starting a session");
         }
 
         try{
-            System.out.println("TCPEngine - Awaiting A Connection Request");
+            Logger.log("TCPEngine - Awaiting A Connection Request");
             serverSessionSocket = serverSocket.accept();
-            System.out.println("TCPEngine - Allocating Input and Output Buffers for New Connection Request");
+            Logger.log("TCPEngine - Allocating Input and Output Buffers for New Connection Request");
             //out = new PrintWriter(serverSessionSocket.getOutputStream(), true);
             out = new ObjectOutputStream(serverSessionSocket.getOutputStream());
             in = new ObjectInputStream(serverSessionSocket.getInputStream());
@@ -110,7 +111,7 @@ public class TCPEngine {
               //      new InputStreamReader(serverSessionSocket.getInputStream()));
             return serverSessionSocket.getInetAddress().toString();
         }catch(IOException ioe){
-            System.out.println("Server Could Not Start Session, Unable to Allocate");
+            Logger.log("Server Could Not Start Session, Unable to Allocate");
             ioe.printStackTrace();
             throw ioe;
         }
@@ -130,7 +131,7 @@ public class TCPEngine {
             out.writeObject(packet);
             out.flush();
         }catch(IOException ioe){
-            System.out.println("Failure Serielizing to Socket");
+            Logger.log("Failure Serielizing to Socket");
             ioe.printStackTrace();
         }finally {
             writeLock.unlock();
@@ -147,21 +148,21 @@ public class TCPEngine {
      */
     public void closeSocket(){
         if(serverSessionSocket != null && !serverSessionSocket.isClosed()){
-            System.out.println("TCPEngine - Closing Server Socket");
+            Logger.log("TCPEngine - Closing Server Socket");
             try{
                 serverSessionSocket.close();
             }catch(IOException ioe){
-                System.out.println("Failed to Close the Server Session Socket");
+                Logger.log("Failed to Close the Server Session Socket");
             }
 
         }
 
         if(clientSocket != null && !clientSocket.isClosed()){
-            System.out.println("TCPEngine - Closing Client Socket");
+            Logger.log("TCPEngine - Closing Client Socket");
             try{
                 clientSocket.close();
             }catch(IOException ioe){
-                System.out.println("Failed to Close the Client Socket");
+                Logger.log("Failed to Close the Client Socket");
             }
         }
     }
@@ -180,11 +181,11 @@ public class TCPEngine {
 
 
         }catch(IOException ioe){
-            System.out.println("IOException reading packet from socket");
+            Logger.log("IOException reading packet from socket");
             ioe.printStackTrace();
 
         }catch(ClassNotFoundException cnfe){
-            System.out.println("ClassNotFoundException reading packet from socket");
+            Logger.log("ClassNotFoundException reading packet from socket");
             cnfe.printStackTrace();
         }
         return (Packet)result;

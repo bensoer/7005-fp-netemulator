@@ -84,7 +84,7 @@ public class PacketMeta {
                         try{
                             Thread.sleep(waitTime);
                         }catch(InterruptedException ie){
-                            System.out.println("PacketMeta - Thread failed to sleep while trying to Resend a packet");
+                            Logger.log("PacketMeta - Thread failed to sleep while trying to Resend a packet");
                             ie.printStackTrace();
                         }
 
