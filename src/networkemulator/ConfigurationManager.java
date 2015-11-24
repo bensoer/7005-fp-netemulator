@@ -55,7 +55,7 @@ public final class ConfigurationManager {
 
         try {
 
-            input = new FileInputStream("./src/networkemulator/configuration.properties");
+            input = new FileInputStream("./configuration.properties");
             // load a properties file
             prop.load(input);
 
