@@ -7,6 +7,10 @@ import java.util.Properties;
 
 /**
  * Created by bensoer on 12/11/15.
+ *
+ * ConfigurationManager is a singleton class that reads in and applies appropriate typing to all data in the
+ * configuration.properties file. This file can then be called from anywhere to access configuration information
+ * for any portion of the emulator
  */
 public final class ConfigurationManager {
 
@@ -29,6 +33,11 @@ public final class ConfigurationManager {
 
     private static ConfigurationManager instance = null;
 
+    /**
+     * getInstance generates a singleton instance of the ConfigurationManager. If an instance already it exists, it is used.
+     * If not, a new instance is created, stored and used
+     * @return
+     */
     public static ConfigurationManager getInstance(){
         if(instance == null){
             instance = new ConfigurationManager();
@@ -36,6 +45,10 @@ public final class ConfigurationManager {
         return instance;
     }
 
+    /**
+     * constructor - reads in the configuration.properties file and assigns it appropriate types along with its
+     * appropriate public attribute in the ConfigurationManager
+     */
     private ConfigurationManager(){
         Properties prop = new Properties();
         InputStream input = null;

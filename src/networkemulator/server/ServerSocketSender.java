@@ -11,6 +11,10 @@ import java.util.ArrayList;
 
 /**
  * Created by bensoer on 16/11/15.
+ *
+ * The ServerSocketSender is a seperate thread that sends data back to the client once it is initialized. The class is
+ * called upon by the ServerSocketListener when it detects the EOT packet has been recieved and all packets have been
+ * recieved
  */
 public class ServerSocketSender extends Thread {
 
@@ -24,11 +28,18 @@ public class ServerSocketSender extends Thread {
 
     }
 
+    /**
+     * the main entrance for Thread. Calls sendDataBack()
+     */
     @Override
     public void run(){
         sendDataBack();
     }
 
+    /**
+     * sendDataBack is a helper method that sends data back to the client. The method terminates when it has been able
+     * to pass all of its packets to the PacketBuilder's sendPacket method
+     */
     private void sendDataBack(){
 
         ArrayList<Packet> delivery = loadFileIntoPackets();
@@ -39,7 +50,7 @@ public class ServerSocketSender extends Thread {
                 Logger.log("Server - Sending Packet");
                 while(!PacketBuilder.sendPacket(packet, manager, wm)){
                     Logger.log("Server - Couldn't Send - Sleeping and Trying Again");
-                    Thread.sleep(200);
+                    Thread.sleep(600);
                 }
             }catch(InterruptedException ie){
                 Logger.log("Interrupt Exception Sending Packet From Server");
@@ -48,6 +59,11 @@ public class ServerSocketSender extends Thread {
         }
     }
 
+    /**
+     * loadFileIntoPackets is a helper method that reads in the hardcoded file and parses it into packets based on the
+     * configured max packet size. It then loads these packets into an array list which it returns
+     * @return ArrayList<Packet> - The list of packets to be sent. Includes the EOT packet
+     */
     private ArrayList<Packet> loadFileIntoPackets(){
         PacketBuilder pb = new PacketBuilder(Locations.SERVER, Locations.CLIENT, wm);
         ConfigurationManager cm = ConfigurationManager.getInstance();

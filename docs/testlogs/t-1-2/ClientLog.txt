@@ -1,0 +1,2619 @@
+Client - Creating Socket
+TCPEngine - Attempting to connect to localhost on port 8000
+TCPEngine - Creating Client input and output socket buffers
+Client - Socket Created
+Client - Creating Listener Thread
+Client - Listening Thread Created
+Client - Sending Packet
+WindowManager - The current Window Size is : 15. The number of slots taken are: 0
+PacketBuilder - Sending Packet Seq: 0 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: 14
+WindowManager - Window Has Room. Size: 15. Slots taken: 0
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 1
+Client - Sending Packet
+WindowManager - The current Window Size is : 15. The number of slots taken are: 1
+PacketBuilder - Sending Packet Seq: 200 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: 13
+WindowManager - Window Has Room. Size: 15. Slots taken: 1
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 2
+Client - Sending Packet
+WindowManager - The current Window Size is : 15. The number of slots taken are: 2
+PacketBuilder - Sending Packet Seq: 400 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: 12
+WindowManager - Window Has Room. Size: 15. Slots taken: 2
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 3
+Client - Sending Packet
+WindowManager - The current Window Size is : 15. The number of slots taken are: 3
+PacketBuilder - Sending Packet Seq: 600 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: 11
+WindowManager - Window Has Room. Size: 15. Slots taken: 3
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 4
+Client - Sending Packet
+WindowManager - The current Window Size is : 15. The number of slots taken are: 4
+PacketBuilder - Sending Packet Seq: 800 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: 10
+WindowManager - Window Has Room. Size: 15. Slots taken: 4
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 5
+Client - Sending Packet
+WindowManager - The current Window Size is : 15. The number of slots taken are: 5
+PacketBuilder - Sending Packet Seq: 1000 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: 9
+WindowManager - Window Has Room. Size: 15. Slots taken: 5
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 6
+Client - Sending Packet
+WindowManager - The current Window Size is : 15. The number of slots taken are: 6
+PacketBuilder - Sending Packet Seq: 1200 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: 8
+WindowManager - Window Has Room. Size: 15. Slots taken: 6
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 7
+Client - Sending Packet
+WindowManager - The current Window Size is : 15. The number of slots taken are: 7
+PacketBuilder - Sending Packet Seq: 1400 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: 7
+WindowManager - Window Has Room. Size: 15. Slots taken: 7
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 8
+Client - Sending Packet
+WindowManager - The current Window Size is : 15. The number of slots taken are: 8
+PacketBuilder - Sending Packet Seq: 1600 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: 6
+WindowManager - Window Has Room. Size: 15. Slots taken: 8
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 9
+Client - Sending Packet
+WindowManager - The current Window Size is : 15. The number of slots taken are: 9
+PacketBuilder - Sending Packet Seq: 1800 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: 5
+WindowManager - Window Has Room. Size: 15. Slots taken: 9
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 10
+Client - Sending Packet
+WindowManager - The current Window Size is : 15. The number of slots taken are: 10
+PacketMeta - Packet 0 has failed to be ACK'd in time. Resending
+PacketBuilder - Sending Packet Seq: 2000 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: 4
+WindowManager - The current Window Size is : 15. The number of slots taken are: 10
+WindowManager - Window Has Room. Size: 15. Slots taken: 10
+PacketBuilder - Sending Packet Seq: 0 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: 4
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 11
+WindowManager - Window Has Room. Size: 15. Slots taken: 11
+WindowManager - Found Duplicate Packet in the Window. Overwriting...
+Client - Sending Packet
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 11
+WindowManager - The current Window Size is : 15. The number of slots taken are: 11
+PacketMeta - Packet 200 has failed to be ACK'd in time. Resending
+WindowManager - The current Window Size is : 15. The number of slots taken are: 11
+PacketBuilder - Sending Packet Seq: 2200 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: 3
+PacketBuilder - Sending Packet Seq: 200 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: 3
+WindowManager - Window Has Room. Size: 15. Slots taken: 11
+WindowManager - Window Has Room. Size: 15. Slots taken: 11
+WindowManager - Found Duplicate Packet in the Window. Overwriting...
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 12
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 12
+Client - Sending Packet
+PacketMeta - Packet 400 has failed to be ACK'd in time. Resending
+WindowManager - The current Window Size is : 15. The number of slots taken are: 12
+WindowManager - The current Window Size is : 15. The number of slots taken are: 12
+PacketBuilder - Sending Packet Seq: 2400 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: 2
+PacketBuilder - Sending Packet Seq: 400 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: 2
+WindowManager - Window Has Room. Size: 15. Slots taken: 12
+WindowManager - Window Has Room. Size: 15. Slots taken: 12
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 13
+WindowManager - Found Duplicate Packet in the Window. Overwriting...
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 13
+Client - Sending Packet
+WindowManager - The current Window Size is : 15. The number of slots taken are: 13
+PacketMeta - Packet 600 has failed to be ACK'd in time. Resending
+PacketBuilder - Sending Packet Seq: 2600 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: 1
+WindowManager - The current Window Size is : 15. The number of slots taken are: 13
+WindowManager - Window Has Room. Size: 15. Slots taken: 13
+PacketBuilder - Sending Packet Seq: 600 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: 1
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 14
+WindowManager - Window Has Room. Size: 15. Slots taken: 14
+Client - Sending Packet
+WindowManager - Found Duplicate Packet in the Window. Overwriting...
+WindowManager - The current Window Size is : 15. The number of slots taken are: 14
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 14
+PacketBuilder - Sending Packet Seq: 2800 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: 0
+PacketMeta - Packet 800 has failed to be ACK'd in time. Resending
+WindowManager - The current Window Size is : 15. The number of slots taken are: 14
+PacketBuilder - Sending Packet Seq: 800 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: 0
+WindowManager - Window Has Room. Size: 15. Slots taken: 14
+WindowManager - Found Duplicate Packet in the Window. Overwriting...
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 14
+PacketMeta - Packet 1000 has failed to be ACK'd in time. Resending
+WindowManager - The current Window Size is : 15. The number of slots taken are: 14
+PacketBuilder - Sending Packet Seq: 1000 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: 0
+WindowManager - Window Has Room. Size: 15. Slots taken: 14
+WindowManager - Found Duplicate Packet in the Window. Overwriting...
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 14
+WindowManager - Window Has Room. Size: 15. Slots taken: 14
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 15
+PacketMeta - Packet 1400 has failed to be ACK'd in time. Resending
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+Client - Sending Packet
+PacketBuilder - Sending Packet Seq: 1400 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: -1
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+WindowManager - Window Has Room. Size: 15. Slots taken: 15
+WindowManager - Found Duplicate Packet in the Window. Overwriting...
+PacketBuilder - Can't Add Packet 3000 To Window. Window Is Full
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 15
+Client - Couldn't Send - Sleeping and Trying Again
+PacketMeta - Packet 1200 has failed to be ACK'd in time. Resending
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Sending Packet Seq: 1200 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: -1
+WindowManager - Window Has Room. Size: 15. Slots taken: 15
+WindowManager - Found Duplicate Packet in the Window. Overwriting...
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 15
+PacketMeta - Packet 1600 has failed to be ACK'd in time. Resending
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Sending Packet Seq: 1600 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: -1
+WindowManager - Window Has Room. Size: 15. Slots taken: 15
+WindowManager - Found Duplicate Packet in the Window. Overwriting...
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 15
+PacketMeta - Packet 1800 has failed to be ACK'd in time. Resending
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Sending Packet Seq: 1800 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: -1
+WindowManager - Window Has Room. Size: 15. Slots taken: 15
+WindowManager - Found Duplicate Packet in the Window. Overwriting...
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 15
+PacketMeta - Packet 2000 has failed to be ACK'd in time. Resending
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Sending Packet Seq: 2000 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: -1
+WindowManager - Window Has Room. Size: 15. Slots taken: 15
+WindowManager - Found Duplicate Packet in the Window. Overwriting...
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 15
+PacketMeta - Packet 2200 has failed to be ACK'd in time. Resending
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Sending Packet Seq: 2200 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: -1
+WindowManager - Window Has Room. Size: 15. Slots taken: 15
+WindowManager - Found Duplicate Packet in the Window. Overwriting...
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 15
+PacketMeta - Packet 2400 has failed to be ACK'd in time. Resending
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Sending Packet Seq: 2400 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: -1
+WindowManager - Window Has Room. Size: 15. Slots taken: 15
+WindowManager - Found Duplicate Packet in the Window. Overwriting...
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 15
+PacketMeta - Packet 2600 has failed to be ACK'd in time. Resending
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Sending Packet Seq: 2600 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: -1
+WindowManager - Window Has Room. Size: 15. Slots taken: 15
+WindowManager - Found Duplicate Packet in the Window. Overwriting...
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 15
+PacketMeta - Packet 2800 has failed to be ACK'd in time. Resending
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Sending Packet Seq: 2800 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: -1
+WindowManager - Window Has Room. Size: 15. Slots taken: 15
+WindowManager - Found Duplicate Packet in the Window. Overwriting...
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 15
+PacketMeta - Packet 0 has failed to be ACK'd in time. Resending
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Sending Packet Seq: 0 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: -1
+WindowManager - Window Has Room. Size: 15. Slots taken: 15
+WindowManager - Found Duplicate Packet in the Window. Overwriting...
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 15
+PacketMeta - Packet 200 has failed to be ACK'd in time. Resending
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Sending Packet Seq: 200 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: -1
+WindowManager - Window Has Room. Size: 15. Slots taken: 15
+WindowManager - Found Duplicate Packet in the Window. Overwriting...
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 15
+PacketMeta - Packet 400 has failed to be ACK'd in time. Resending
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Sending Packet Seq: 400 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: -1
+WindowManager - Window Has Room. Size: 15. Slots taken: 15
+WindowManager - Found Duplicate Packet in the Window. Overwriting...
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 15
+PacketMeta - Packet 600 has failed to be ACK'd in time. Resending
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Sending Packet Seq: 600 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: -1
+WindowManager - Window Has Room. Size: 15. Slots taken: 15
+WindowManager - Found Duplicate Packet in the Window. Overwriting...
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 15
+PacketMeta - Packet 800 has failed to be ACK'd in time. Resending
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Sending Packet Seq: 800 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: -1
+WindowManager - Window Has Room. Size: 15. Slots taken: 15
+WindowManager - Found Duplicate Packet in the Window. Overwriting...
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 15
+PacketMeta - Packet 1000 has failed to be ACK'd in time. Resending
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Sending Packet Seq: 1000 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: -1
+WindowManager - Window Has Room. Size: 15. Slots taken: 15
+WindowManager - Found Duplicate Packet in the Window. Overwriting...
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 15
+PacketMeta - Packet 1400 has failed to be ACK'd in time. Resending
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Sending Packet Seq: 1400 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: -1
+WindowManager - Window Has Room. Size: 15. Slots taken: 15
+WindowManager - Found Duplicate Packet in the Window. Overwriting...
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 15
+PacketMeta - Packet 1200 has failed to be ACK'd in time. Resending
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Sending Packet Seq: 1200 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: -1
+WindowManager - Window Has Room. Size: 15. Slots taken: 15
+WindowManager - Found Duplicate Packet in the Window. Overwriting...
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 15
+PacketMeta - Packet 1600 has failed to be ACK'd in time. Resending
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Sending Packet Seq: 1600 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: -1
+WindowManager - Window Has Room. Size: 15. Slots taken: 15
+WindowManager - Found Duplicate Packet in the Window. Overwriting...
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 15
+PacketMeta - Packet 1800 has failed to be ACK'd in time. Resending
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Sending Packet Seq: 1800 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: -1
+WindowManager - Window Has Room. Size: 15. Slots taken: 15
+WindowManager - Found Duplicate Packet in the Window. Overwriting...
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 15
+PacketMeta - Packet 2000 has failed to be ACK'd in time. Resending
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Sending Packet Seq: 2000 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: -1
+WindowManager - Window Has Room. Size: 15. Slots taken: 15
+WindowManager - Found Duplicate Packet in the Window. Overwriting...
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 15
+PacketMeta - Packet 2200 has failed to be ACK'd in time. Resending
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Sending Packet Seq: 2200 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: -1
+WindowManager - Window Has Room. Size: 15. Slots taken: 15
+WindowManager - Found Duplicate Packet in the Window. Overwriting...
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 15
+PacketMeta - Packet 2400 has failed to be ACK'd in time. Resending
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Sending Packet Seq: 2400 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: -1
+WindowManager - Window Has Room. Size: 15. Slots taken: 15
+WindowManager - Found Duplicate Packet in the Window. Overwriting...
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 15
+PacketMeta - Packet 2600 has failed to be ACK'd in time. Resending
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Sending Packet Seq: 2600 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: -1
+WindowManager - Window Has Room. Size: 15. Slots taken: 15
+WindowManager - Found Duplicate Packet in the Window. Overwriting...
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 15
+PacketMeta - Packet 2800 has failed to be ACK'd in time. Resending
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Sending Packet Seq: 2800 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: -1
+WindowManager - Window Has Room. Size: 15. Slots taken: 15
+WindowManager - Found Duplicate Packet in the Window. Overwriting...
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 15
+ClientSocketListener - Recieved A Packet: Seq: 500 Ack: 2200 PacketType: 200 Sender: [Server] Recipient: [Client] WindowSize: 14
+ClientSocketListener - The Packet is an ACK. Checking/Updating Window
+Packet Acknowledged and Found. Acknowledging Now
+ClientSocketListener - Recieved A Packet: Seq: 500 Ack: 1400 PacketType: 200 Sender: [Server] Recipient: [Client] WindowSize: 14
+ClientSocketListener - The Packet is an ACK. Checking/Updating Window
+Packet Acknowledged and Found. Acknowledging Now
+ClientSocketListener - Recieved A Packet: Seq: 500 Ack: 800 PacketType: 200 Sender: [Server] Recipient: [Client] WindowSize: 14
+ClientSocketListener - The Packet is an ACK. Checking/Updating Window
+Packet Acknowledged and Found. Acknowledging Now
+ClientSocketListener - Recieved A Packet: Seq: 500 Ack: 1200 PacketType: 200 Sender: [Server] Recipient: [Client] WindowSize: 14
+ClientSocketListener - The Packet is an ACK. Checking/Updating Window
+Packet Acknowledged and Found. Acknowledging Now
+ClientSocketListener - Recieved A Packet: Seq: 500 Ack: 800 PacketType: 200 Sender: [Server] Recipient: [Client] WindowSize: 14
+ClientSocketListener - The Packet is an ACK. Checking/Updating Window
+Packet Acknowledged and Found. Acknowledging Now
+ClientSocketListener - Recieved A Packet: Seq: 500 Ack: 200 PacketType: 200 Sender: [Server] Recipient: [Client] WindowSize: 14
+ClientSocketListener - The Packet is an ACK. Checking/Updating Window
+Packet Acknowledged and Found. Acknowledging Now
+ClientSocketListener - Recieved A Packet: Seq: 500 Ack: 1800 PacketType: 200 Sender: [Server] Recipient: [Client] WindowSize: 14
+ClientSocketListener - The Packet is an ACK. Checking/Updating Window
+Packet Acknowledged and Found. Acknowledging Now
+ClientSocketListener - Recieved A Packet: Seq: 500 Ack: 1000 PacketType: 200 Sender: [Server] Recipient: [Client] WindowSize: 14
+ClientSocketListener - The Packet is an ACK. Checking/Updating Window
+Packet Acknowledged and Found. Acknowledging Now
+ClientSocketListener - Recieved A Packet: Seq: 500 Ack: 400 PacketType: 200 Sender: [Server] Recipient: [Client] WindowSize: 14
+ClientSocketListener - The Packet is an ACK. Checking/Updating Window
+Packet Acknowledged and Found. Acknowledging Now
+ClientSocketListener - Recieved A Packet: Seq: 500 Ack: 1400 PacketType: 200 Sender: [Server] Recipient: [Client] WindowSize: 14
+ClientSocketListener - The Packet is an ACK. Checking/Updating Window
+Packet Acknowledged and Found. Acknowledging Now
+ClientSocketListener - Recieved A Packet: Seq: 500 Ack: 3000 PacketType: 200 Sender: [Server] Recipient: [Client] WindowSize: 14
+ClientSocketListener - The Packet is an ACK. Checking/Updating Window
+Packet Acknowledged and Found. Acknowledging Now
+ClientSocketListener - Recieved A Packet: Seq: 500 Ack: 2800 PacketType: 200 Sender: [Server] Recipient: [Client] WindowSize: 14
+ClientSocketListener - The Packet is an ACK. Checking/Updating Window
+Packet Acknowledged and Found. Acknowledging Now
+ClientSocketListener - Recieved A Packet: Seq: 500 Ack: 600 PacketType: 200 Sender: [Server] Recipient: [Client] WindowSize: 14
+ClientSocketListener - The Packet is an ACK. Checking/Updating Window
+Packet Acknowledged and Found. Acknowledging Now
+ClientSocketListener - Recieved A Packet: Seq: 500 Ack: 2400 PacketType: 200 Sender: [Server] Recipient: [Client] WindowSize: 14
+ClientSocketListener - The Packet is an ACK. Checking/Updating Window
+Packet Acknowledged and Found. Acknowledging Now
+ClientSocketListener - Recieved A Packet: Seq: 500 Ack: 2600 PacketType: 200 Sender: [Server] Recipient: [Client] WindowSize: 14
+ClientSocketListener - The Packet is an ACK. Checking/Updating Window
+Packet Acknowledged and Found. Acknowledging Now
+ClientSocketListener - Recieved A Packet: Seq: 500 Ack: 400 PacketType: 200 Sender: [Server] Recipient: [Client] WindowSize: 14
+ClientSocketListener - The Packet is an ACK. Checking/Updating Window
+WindowManager - A Duplicate ACK has been received. Seq:500 Ack: 400 Type: 200 Src: [Server] Dst: [Client]  WindowSize: 14
+WindowManager - A Duplicate ACK signals that your timer preferences settings are too short and should be extended. For this Emulation, the duplicate ACK will simply be dropped
+ClientSocketListener - Recieved A Packet: Seq: 500 Ack: 1000 PacketType: 200 Sender: [Server] Recipient: [Client] WindowSize: 14
+ClientSocketListener - The Packet is an ACK. Checking/Updating Window
+WindowManager - A Duplicate ACK has been received. Seq:500 Ack: 1000 Type: 200 Src: [Server] Dst: [Client]  WindowSize: 14
+WindowManager - A Duplicate ACK signals that your timer preferences settings are too short and should be extended. For this Emulation, the duplicate ACK will simply be dropped
+ClientSocketListener - Recieved A Packet: Seq: 500 Ack: 1400 PacketType: 200 Sender: [Server] Recipient: [Client] WindowSize: 14
+ClientSocketListener - The Packet is an ACK. Checking/Updating Window
+WindowManager - A Duplicate ACK has been received. Seq:500 Ack: 1400 Type: 200 Src: [Server] Dst: [Client]  WindowSize: 14
+WindowManager - A Duplicate ACK signals that your timer preferences settings are too short and should be extended. For this Emulation, the duplicate ACK will simply be dropped
+ClientSocketListener - Recieved A Packet: Seq: 500 Ack: 1800 PacketType: 200 Sender: [Server] Recipient: [Client] WindowSize: 14
+ClientSocketListener - The Packet is an ACK. Checking/Updating Window
+Packet Acknowledged and Found. Acknowledging Now
+ClientSocketListener - Recieved A Packet: Seq: 500 Ack: 2600 PacketType: 200 Sender: [Server] Recipient: [Client] WindowSize: 14
+ClientSocketListener - The Packet is an ACK. Checking/Updating Window
+Packet Acknowledged and Found. Acknowledging Now
+ClientSocketListener - Recieved A Packet: Seq: 500 Ack: 2400 PacketType: 200 Sender: [Server] Recipient: [Client] WindowSize: 14
+ClientSocketListener - The Packet is an ACK. Checking/Updating Window
+Packet Acknowledged and Found. Acknowledging Now
+ClientSocketListener - Recieved A Packet: Seq: 500 Ack: 3000 PacketType: 200 Sender: [Server] Recipient: [Client] WindowSize: 14
+ClientSocketListener - The Packet is an ACK. Checking/Updating Window
+Packet Acknowledged and Found. Acknowledging Now
+WindowManager - The current Window Size is : 15. The number of slots taken are: 8
+PacketBuilder - Sending Packet Seq: 3000 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: 6
+WindowManager - Window Has Room. Size: 15. Slots taken: 8
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 9
+Client - Sending Packet
+WindowManager - The current Window Size is : 15. The number of slots taken are: 9
+PacketBuilder - Sending Packet Seq: 3200 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: 5
+WindowManager - Window Has Room. Size: 15. Slots taken: 9
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 10
+Client - Sending Packet
+WindowManager - The current Window Size is : 15. The number of slots taken are: 10
+PacketBuilder - Sending Packet Seq: 3400 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: 4
+WindowManager - Window Has Room. Size: 15. Slots taken: 10
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 11
+Client - Sending Packet
+WindowManager - The current Window Size is : 15. The number of slots taken are: 11
+PacketBuilder - Sending Packet Seq: 3600 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: 3
+WindowManager - Window Has Room. Size: 15. Slots taken: 11
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 12
+Client - Sending Packet
+WindowManager - The current Window Size is : 15. The number of slots taken are: 12
+PacketBuilder - Sending Packet Seq: 3800 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: 2
+WindowManager - Window Has Room. Size: 15. Slots taken: 12
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 13
+Client - Sending Packet
+WindowManager - The current Window Size is : 15. The number of slots taken are: 13
+PacketBuilder - Sending Packet Seq: 4000 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: 1
+WindowManager - Window Has Room. Size: 15. Slots taken: 13
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 14
+Client - Sending Packet
+WindowManager - The current Window Size is : 15. The number of slots taken are: 14
+PacketBuilder - Sending Packet Seq: 4200 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: 0
+WindowManager - Window Has Room. Size: 15. Slots taken: 14
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 15
+Client - Sending Packet
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+PacketMeta - Packet 3000 has failed to be ACK'd in time. Resending
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Sending Packet Seq: 3000 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: -1
+WindowManager - Window Has Room. Size: 15. Slots taken: 15
+WindowManager - Found Duplicate Packet in the Window. Overwriting...
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 15
+PacketMeta - Packet 3200 has failed to be ACK'd in time. Resending
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Sending Packet Seq: 3200 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: -1
+WindowManager - Window Has Room. Size: 15. Slots taken: 15
+WindowManager - Found Duplicate Packet in the Window. Overwriting...
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 15
+PacketMeta - Packet 3400 has failed to be ACK'd in time. Resending
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Sending Packet Seq: 3400 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: -1
+WindowManager - Window Has Room. Size: 15. Slots taken: 15
+WindowManager - Found Duplicate Packet in the Window. Overwriting...
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 15
+PacketMeta - Packet 3600 has failed to be ACK'd in time. Resending
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Sending Packet Seq: 3600 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: -1
+WindowManager - Window Has Room. Size: 15. Slots taken: 15
+WindowManager - Found Duplicate Packet in the Window. Overwriting...
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 15
+PacketMeta - Packet 3800 has failed to be ACK'd in time. Resending
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Sending Packet Seq: 3800 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: -1
+WindowManager - Window Has Room. Size: 15. Slots taken: 15
+WindowManager - Found Duplicate Packet in the Window. Overwriting...
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 15
+PacketMeta - Packet 4000 has failed to be ACK'd in time. Resending
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Sending Packet Seq: 4000 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: -1
+WindowManager - Window Has Room. Size: 15. Slots taken: 15
+WindowManager - Found Duplicate Packet in the Window. Overwriting...
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 15
+PacketMeta - Packet 4200 has failed to be ACK'd in time. Resending
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Sending Packet Seq: 4200 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: -1
+WindowManager - Window Has Room. Size: 15. Slots taken: 15
+WindowManager - Found Duplicate Packet in the Window. Overwriting...
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 15
+PacketMeta - Packet 3000 has failed to be ACK'd in time. Resending
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Sending Packet Seq: 3000 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: -1
+WindowManager - Window Has Room. Size: 15. Slots taken: 15
+WindowManager - Found Duplicate Packet in the Window. Overwriting...
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 15
+PacketMeta - Packet 3200 has failed to be ACK'd in time. Resending
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Sending Packet Seq: 3200 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: -1
+WindowManager - Window Has Room. Size: 15. Slots taken: 15
+WindowManager - Found Duplicate Packet in the Window. Overwriting...
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 15
+PacketMeta - Packet 3400 has failed to be ACK'd in time. Resending
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Sending Packet Seq: 3400 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: -1
+WindowManager - Window Has Room. Size: 15. Slots taken: 15
+WindowManager - Found Duplicate Packet in the Window. Overwriting...
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 15
+PacketMeta - Packet 3600 has failed to be ACK'd in time. Resending
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Sending Packet Seq: 3600 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: -1
+WindowManager - Window Has Room. Size: 15. Slots taken: 15
+WindowManager - Found Duplicate Packet in the Window. Overwriting...
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 15
+PacketMeta - Packet 3800 has failed to be ACK'd in time. Resending
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Sending Packet Seq: 3800 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: -1
+WindowManager - Window Has Room. Size: 15. Slots taken: 15
+WindowManager - Found Duplicate Packet in the Window. Overwriting...
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 15
+PacketMeta - Packet 4000 has failed to be ACK'd in time. Resending
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Sending Packet Seq: 4000 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: -1
+WindowManager - Window Has Room. Size: 15. Slots taken: 15
+WindowManager - Found Duplicate Packet in the Window. Overwriting...
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 15
+PacketMeta - Packet 4200 has failed to be ACK'd in time. Resending
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Sending Packet Seq: 4200 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: -1
+WindowManager - Window Has Room. Size: 15. Slots taken: 15
+WindowManager - Found Duplicate Packet in the Window. Overwriting...
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 15
+ClientSocketListener - Recieved A Packet: Seq: 500 Ack: 3600 PacketType: 200 Sender: [Server] Recipient: [Client] WindowSize: 14
+ClientSocketListener - The Packet is an ACK. Checking/Updating Window
+Packet Acknowledged and Found. Acknowledging Now
+ClientSocketListener - Recieved A Packet: Seq: 500 Ack: 3400 PacketType: 200 Sender: [Server] Recipient: [Client] WindowSize: 14
+ClientSocketListener - The Packet is an ACK. Checking/Updating Window
+Packet Acknowledged and Found. Acknowledging Now
+ClientSocketListener - Recieved A Packet: Seq: 500 Ack: 3400 PacketType: 200 Sender: [Server] Recipient: [Client] WindowSize: 14
+ClientSocketListener - The Packet is an ACK. Checking/Updating Window
+Packet Acknowledged and Found. Acknowledging Now
+ClientSocketListener - Recieved A Packet: Seq: 500 Ack: 4000 PacketType: 200 Sender: [Server] Recipient: [Client] WindowSize: 14
+ClientSocketListener - The Packet is an ACK. Checking/Updating Window
+Packet Acknowledged and Found. Acknowledging Now
+ClientSocketListener - Recieved A Packet: Seq: 500 Ack: 3200 PacketType: 200 Sender: [Server] Recipient: [Client] WindowSize: 14
+ClientSocketListener - The Packet is an ACK. Checking/Updating Window
+Packet Acknowledged and Found. Acknowledging Now
+ClientSocketListener - Recieved A Packet: Seq: 500 Ack: 4000 PacketType: 200 Sender: [Server] Recipient: [Client] WindowSize: 14
+ClientSocketListener - The Packet is an ACK. Checking/Updating Window
+Packet Acknowledged and Found. Acknowledging Now
+ClientSocketListener - Recieved A Packet: Seq: 500 Ack: 3200 PacketType: 200 Sender: [Server] Recipient: [Client] WindowSize: 14
+ClientSocketListener - The Packet is an ACK. Checking/Updating Window
+Packet Acknowledged and Found. Acknowledging Now
+ClientSocketListener - Recieved A Packet: Seq: 500 Ack: 3600 PacketType: 200 Sender: [Server] Recipient: [Client] WindowSize: 14
+ClientSocketListener - The Packet is an ACK. Checking/Updating Window
+Packet Acknowledged and Found. Acknowledging Now
+ClientSocketListener - Recieved A Packet: Seq: 500 Ack: 4000 PacketType: 200 Sender: [Server] Recipient: [Client] WindowSize: 14
+ClientSocketListener - The Packet is an ACK. Checking/Updating Window
+Packet Acknowledged and Found. Acknowledging Now
+ClientSocketListener - Recieved A Packet: Seq: 500 Ack: 3400 PacketType: 200 Sender: [Server] Recipient: [Client] WindowSize: 14
+ClientSocketListener - The Packet is an ACK. Checking/Updating Window
+Packet Acknowledged and Found. Acknowledging Now
+ClientSocketListener - Recieved A Packet: Seq: 500 Ack: 4400 PacketType: 200 Sender: [Server] Recipient: [Client] WindowSize: 14
+ClientSocketListener - The Packet is an ACK. Checking/Updating Window
+Packet Acknowledged and Found. Acknowledging Now
+PacketMeta - Packet 1400 has failed to be ACK'd in time. Resending
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Sending Packet Seq: 1400 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: -1
+WindowManager - Window Has Room. Size: 15. Slots taken: 15
+WindowManager - Found Duplicate Packet in the Window. Overwriting...
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 15
+PacketMeta - Packet 1800 has failed to be ACK'd in time. Resending
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Sending Packet Seq: 1800 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: -1
+WindowManager - Window Has Room. Size: 15. Slots taken: 15
+WindowManager - Found Duplicate Packet in the Window. Overwriting...
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 15
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+PacketMeta - Packet 3600 has failed to be ACK'd in time. Resending
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Sending Packet Seq: 3600 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: -1
+WindowManager - Window Has Room. Size: 15. Slots taken: 15
+WindowManager - Found Duplicate Packet in the Window. Overwriting...
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 15
+PacketMeta - Packet 4000 has failed to be ACK'd in time. Resending
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Sending Packet Seq: 4000 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: -1
+WindowManager - Window Has Room. Size: 15. Slots taken: 15
+WindowManager - Found Duplicate Packet in the Window. Overwriting...
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 15
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+ClientSocketListener - Recieved A Packet: Seq: 500 Ack: 4200 PacketType: 200 Sender: [Server] Recipient: [Client] WindowSize: 14
+ClientSocketListener - The Packet is an ACK. Checking/Updating Window
+Packet Acknowledged and Found. Acknowledging Now
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+PacketMeta - Packet 1400 has failed to be ACK'd in time. Resending
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Sending Packet Seq: 1400 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: -1
+WindowManager - Window Has Room. Size: 15. Slots taken: 15
+WindowManager - Found Duplicate Packet in the Window. Overwriting...
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 15
+PacketMeta - Packet 1800 has failed to be ACK'd in time. Resending
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Sending Packet Seq: 1800 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: -1
+WindowManager - Window Has Room. Size: 15. Slots taken: 15
+WindowManager - Found Duplicate Packet in the Window. Overwriting...
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 15
+ClientSocketListener - Recieved A Packet: Seq: 500 Ack: 2000 PacketType: 200 Sender: [Server] Recipient: [Client] WindowSize: 14
+ClientSocketListener - The Packet is an ACK. Checking/Updating Window
+Packet Acknowledged and Found. Acknowledging Now
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+PacketMeta - Packet 3600 has failed to be ACK'd in time. Resending
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Sending Packet Seq: 3600 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: -1
+WindowManager - Window Has Room. Size: 15. Slots taken: 15
+WindowManager - Found Duplicate Packet in the Window. Overwriting...
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 15
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+PacketMeta - Packet 1400 has failed to be ACK'd in time. Resending
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Sending Packet Seq: 1400 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: -1
+WindowManager - Window Has Room. Size: 15. Slots taken: 15
+WindowManager - Found Duplicate Packet in the Window. Overwriting...
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 15
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 4400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+ClientSocketListener - Recieved A Packet: Seq: 500 Ack: 1600 PacketType: 200 Sender: [Server] Recipient: [Client] WindowSize: 14
+ClientSocketListener - The Packet is an ACK. Checking/Updating Window
+Packet Acknowledged and Found. Acknowledging Now
+PacketMeta - Packet 3600 has failed to be ACK'd in time. Resending
+WindowManager - The current Window Size is : 15. The number of slots taken are: 4
+PacketBuilder - Sending Packet Seq: 3600 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: 10
+WindowManager - Window Has Room. Size: 15. Slots taken: 4
+WindowManager - Found Duplicate Packet in the Window. Overwriting...
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 4
+WindowManager - The current Window Size is : 15. The number of slots taken are: 4
+PacketBuilder - Sending Packet Seq: 4400 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: 10
+WindowManager - Window Has Room. Size: 15. Slots taken: 4
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 5
+Client - Sending Packet
+WindowManager - The current Window Size is : 15. The number of slots taken are: 5
+PacketBuilder - Sending Packet Seq: 4600 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: 9
+WindowManager - Window Has Room. Size: 15. Slots taken: 5
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 6
+Client - Sending Packet
+WindowManager - The current Window Size is : 15. The number of slots taken are: 6
+PacketBuilder - Sending Packet Seq: 4800 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: 8
+WindowManager - Window Has Room. Size: 15. Slots taken: 6
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 7
+Client - Sending Packet
+WindowManager - The current Window Size is : 15. The number of slots taken are: 7
+PacketBuilder - Sending Packet Seq: 5000 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: 7
+WindowManager - Window Has Room. Size: 15. Slots taken: 7
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 8
+Client - Sending Packet
+WindowManager - The current Window Size is : 15. The number of slots taken are: 8
+PacketBuilder - Sending Packet Seq: 5200 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: 6
+WindowManager - Window Has Room. Size: 15. Slots taken: 8
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 9
+Client - Sending Packet
+WindowManager - The current Window Size is : 15. The number of slots taken are: 9
+PacketBuilder - Sending Packet Seq: 5400 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: 5
+WindowManager - Window Has Room. Size: 15. Slots taken: 9
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 10
+Client - Sending Packet
+WindowManager - The current Window Size is : 15. The number of slots taken are: 10
+PacketBuilder - Sending Packet Seq: 5600 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: 4
+WindowManager - Window Has Room. Size: 15. Slots taken: 10
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 11
+Client - Sending Packet
+WindowManager - The current Window Size is : 15. The number of slots taken are: 11
+PacketBuilder - Sending Packet Seq: 5800 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: 3
+WindowManager - Window Has Room. Size: 15. Slots taken: 11
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 12
+Client - Sending Packet
+WindowManager - The current Window Size is : 15. The number of slots taken are: 12
+PacketBuilder - Sending Packet Seq: 6000 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: 2
+WindowManager - Window Has Room. Size: 15. Slots taken: 12
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 13
+Client - Sending Packet
+WindowManager - The current Window Size is : 15. The number of slots taken are: 13
+PacketBuilder - Sending Packet Seq: 6200 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: 1
+WindowManager - Window Has Room. Size: 15. Slots taken: 13
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 14
+Client - Sending Packet
+WindowManager - The current Window Size is : 15. The number of slots taken are: 14
+PacketMeta - Packet 4400 has failed to be ACK'd in time. Resending
+PacketBuilder - Sending Packet Seq: 6400 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: 0
+WindowManager - The current Window Size is : 15. The number of slots taken are: 14
+WindowManager - Window Has Room. Size: 15. Slots taken: 14
+PacketBuilder - Sending Packet Seq: 4400 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: 0
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 15
+WindowManager - Window Has Room. Size: 15. Slots taken: 15
+WindowManager - Found Duplicate Packet in the Window. Overwriting...
+Client - Sending Packet
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 15
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 6600 To Window. Window Is Full
+PacketMeta - Packet 4600 has failed to be ACK'd in time. Resending
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Sending Packet Seq: 4600 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: -1
+WindowManager - Window Has Room. Size: 15. Slots taken: 15
+WindowManager - Found Duplicate Packet in the Window. Overwriting...
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 15
+PacketMeta - Packet 4800 has failed to be ACK'd in time. Resending
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Sending Packet Seq: 4800 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: -1
+WindowManager - Window Has Room. Size: 15. Slots taken: 15
+WindowManager - Found Duplicate Packet in the Window. Overwriting...
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 15
+PacketMeta - Packet 5000 has failed to be ACK'd in time. Resending
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Sending Packet Seq: 5000 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: -1
+WindowManager - Window Has Room. Size: 15. Slots taken: 15
+WindowManager - Found Duplicate Packet in the Window. Overwriting...
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 15
+PacketMeta - Packet 5200 has failed to be ACK'd in time. Resending
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Sending Packet Seq: 5200 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: -1
+WindowManager - Window Has Room. Size: 15. Slots taken: 15
+WindowManager - Found Duplicate Packet in the Window. Overwriting...
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 15
+PacketMeta - Packet 5400 has failed to be ACK'd in time. Resending
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Sending Packet Seq: 5400 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: -1
+WindowManager - Window Has Room. Size: 15. Slots taken: 15
+WindowManager - Found Duplicate Packet in the Window. Overwriting...
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 15
+PacketMeta - Packet 5600 has failed to be ACK'd in time. Resending
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Sending Packet Seq: 5600 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: -1
+WindowManager - Window Has Room. Size: 15. Slots taken: 15
+WindowManager - Found Duplicate Packet in the Window. Overwriting...
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 15
+PacketMeta - Packet 5800 has failed to be ACK'd in time. Resending
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Sending Packet Seq: 5800 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: -1
+WindowManager - Window Has Room. Size: 15. Slots taken: 15
+WindowManager - Found Duplicate Packet in the Window. Overwriting...
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 15
+PacketMeta - Packet 6000 has failed to be ACK'd in time. Resending
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Sending Packet Seq: 6000 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: -1
+WindowManager - Window Has Room. Size: 15. Slots taken: 15
+WindowManager - Found Duplicate Packet in the Window. Overwriting...
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 15
+PacketMeta - Packet 6200 has failed to be ACK'd in time. Resending
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Sending Packet Seq: 6200 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: -1
+WindowManager - Window Has Room. Size: 15. Slots taken: 15
+WindowManager - Found Duplicate Packet in the Window. Overwriting...
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 15
+PacketMeta - Packet 6400 has failed to be ACK'd in time. Resending
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Sending Packet Seq: 6400 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: -1
+WindowManager - Window Has Room. Size: 15. Slots taken: 15
+WindowManager - Found Duplicate Packet in the Window. Overwriting...
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 15
+ClientSocketListener - Recieved A Packet: Seq: 500 Ack: 3800 PacketType: 200 Sender: [Server] Recipient: [Client] WindowSize: 14
+ClientSocketListener - The Packet is an ACK. Checking/Updating Window
+Packet Acknowledged and Found. Acknowledging Now
+PacketMeta - Packet 4400 has failed to be ACK'd in time. Resending
+WindowManager - The current Window Size is : 15. The number of slots taken are: 11
+PacketBuilder - Sending Packet Seq: 4400 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: 3
+WindowManager - Window Has Room. Size: 15. Slots taken: 11
+WindowManager - Found Duplicate Packet in the Window. Overwriting...
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 11
+PacketMeta - Packet 4600 has failed to be ACK'd in time. Resending
+WindowManager - The current Window Size is : 15. The number of slots taken are: 11
+PacketBuilder - Sending Packet Seq: 4600 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: 3
+WindowManager - Window Has Room. Size: 15. Slots taken: 11
+WindowManager - Found Duplicate Packet in the Window. Overwriting...
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 11
+PacketMeta - Packet 5000 has failed to be ACK'd in time. Resending
+WindowManager - The current Window Size is : 15. The number of slots taken are: 11
+PacketBuilder - Sending Packet Seq: 5000 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: 3
+WindowManager - Window Has Room. Size: 15. Slots taken: 11
+WindowManager - Found Duplicate Packet in the Window. Overwriting...
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 11
+PacketMeta - Packet 4800 has failed to be ACK'd in time. Resending
+WindowManager - The current Window Size is : 15. The number of slots taken are: 11
+PacketBuilder - Sending Packet Seq: 4800 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: 3
+WindowManager - Window Has Room. Size: 15. Slots taken: 11
+WindowManager - Found Duplicate Packet in the Window. Overwriting...
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 11
+PacketMeta - Packet 5200 has failed to be ACK'd in time. Resending
+WindowManager - The current Window Size is : 15. The number of slots taken are: 11
+PacketBuilder - Sending Packet Seq: 5200 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: 3
+WindowManager - Window Has Room. Size: 15. Slots taken: 11
+WindowManager - Found Duplicate Packet in the Window. Overwriting...
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 11
+PacketMeta - Packet 5400 has failed to be ACK'd in time. Resending
+WindowManager - The current Window Size is : 15. The number of slots taken are: 11
+PacketBuilder - Sending Packet Seq: 5400 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: 3
+WindowManager - Window Has Room. Size: 15. Slots taken: 11
+WindowManager - Found Duplicate Packet in the Window. Overwriting...
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 11
+PacketMeta - Packet 5600 has failed to be ACK'd in time. Resending
+WindowManager - The current Window Size is : 15. The number of slots taken are: 11
+PacketBuilder - Sending Packet Seq: 5600 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: 3
+WindowManager - Window Has Room. Size: 15. Slots taken: 11
+WindowManager - Found Duplicate Packet in the Window. Overwriting...
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 11
+PacketMeta - Packet 5800 has failed to be ACK'd in time. Resending
+WindowManager - The current Window Size is : 15. The number of slots taken are: 11
+PacketBuilder - Sending Packet Seq: 5800 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: 3
+WindowManager - Window Has Room. Size: 15. Slots taken: 11
+WindowManager - Found Duplicate Packet in the Window. Overwriting...
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 11
+PacketMeta - Packet 6000 has failed to be ACK'd in time. Resending
+WindowManager - The current Window Size is : 15. The number of slots taken are: 11
+PacketBuilder - Sending Packet Seq: 6000 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: 3
+WindowManager - Window Has Room. Size: 15. Slots taken: 11
+WindowManager - Found Duplicate Packet in the Window. Overwriting...
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 11
+PacketMeta - Packet 6200 has failed to be ACK'd in time. Resending
+WindowManager - The current Window Size is : 15. The number of slots taken are: 11
+PacketBuilder - Sending Packet Seq: 6200 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: 3
+WindowManager - Window Has Room. Size: 15. Slots taken: 11
+WindowManager - Found Duplicate Packet in the Window. Overwriting...
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 11
+PacketMeta - Packet 6400 has failed to be ACK'd in time. Resending
+WindowManager - The current Window Size is : 15. The number of slots taken are: 11
+PacketBuilder - Sending Packet Seq: 6400 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: 3
+WindowManager - Window Has Room. Size: 15. Slots taken: 11
+WindowManager - Found Duplicate Packet in the Window. Overwriting...
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 11
+ClientSocketListener - Recieved A Packet: Seq: 500 Ack: 5000 PacketType: 200 Sender: [Server] Recipient: [Client] WindowSize: 14
+ClientSocketListener - The Packet is an ACK. Checking/Updating Window
+Packet Acknowledged and Found. Acknowledging Now
+ClientSocketListener - Recieved A Packet: Seq: 500 Ack: 5400 PacketType: 200 Sender: [Server] Recipient: [Client] WindowSize: 14
+ClientSocketListener - The Packet is an ACK. Checking/Updating Window
+Packet Acknowledged and Found. Acknowledging Now
+ClientSocketListener - Recieved A Packet: Seq: 500 Ack: 6400 PacketType: 200 Sender: [Server] Recipient: [Client] WindowSize: 14
+ClientSocketListener - The Packet is an ACK. Checking/Updating Window
+Packet Acknowledged and Found. Acknowledging Now
+ClientSocketListener - Recieved A Packet: Seq: 500 Ack: 6200 PacketType: 200 Sender: [Server] Recipient: [Client] WindowSize: 14
+ClientSocketListener - The Packet is an ACK. Checking/Updating Window
+Packet Acknowledged and Found. Acknowledging Now
+ClientSocketListener - Recieved A Packet: Seq: 500 Ack: 5200 PacketType: 200 Sender: [Server] Recipient: [Client] WindowSize: 14
+ClientSocketListener - The Packet is an ACK. Checking/Updating Window
+Packet Acknowledged and Found. Acknowledging Now
+ClientSocketListener - Recieved A Packet: Seq: 500 Ack: 5600 PacketType: 200 Sender: [Server] Recipient: [Client] WindowSize: 14
+ClientSocketListener - The Packet is an ACK. Checking/Updating Window
+Packet Acknowledged and Found. Acknowledging Now
+ClientSocketListener - Recieved A Packet: Seq: 500 Ack: 5400 PacketType: 200 Sender: [Server] Recipient: [Client] WindowSize: 14
+ClientSocketListener - The Packet is an ACK. Checking/Updating Window
+Packet Acknowledged and Found. Acknowledging Now
+ClientSocketListener - Recieved A Packet: Seq: 500 Ack: 6000 PacketType: 200 Sender: [Server] Recipient: [Client] WindowSize: 14
+ClientSocketListener - The Packet is an ACK. Checking/Updating Window
+Packet Acknowledged and Found. Acknowledging Now
+ClientSocketListener - Recieved A Packet: Seq: 500 Ack: 5800 PacketType: 200 Sender: [Server] Recipient: [Client] WindowSize: 14
+ClientSocketListener - The Packet is an ACK. Checking/Updating Window
+Packet Acknowledged and Found. Acknowledging Now
+ClientSocketListener - Recieved A Packet: Seq: 500 Ack: 5200 PacketType: 200 Sender: [Server] Recipient: [Client] WindowSize: 14
+ClientSocketListener - The Packet is an ACK. Checking/Updating Window
+Packet Acknowledged and Found. Acknowledging Now
+ClientSocketListener - Recieved A Packet: Seq: 500 Ack: 6400 PacketType: 200 Sender: [Server] Recipient: [Client] WindowSize: 14
+ClientSocketListener - The Packet is an ACK. Checking/Updating Window
+Packet Acknowledged and Found. Acknowledging Now
+ClientSocketListener - Recieved A Packet: Seq: 500 Ack: 4600 PacketType: 200 Sender: [Server] Recipient: [Client] WindowSize: 14
+ClientSocketListener - The Packet is an ACK. Checking/Updating Window
+Packet Acknowledged and Found. Acknowledging Now
+ClientSocketListener - Recieved A Packet: Seq: 500 Ack: 4800 PacketType: 200 Sender: [Server] Recipient: [Client] WindowSize: 14
+ClientSocketListener - The Packet is an ACK. Checking/Updating Window
+Packet Acknowledged and Found. Acknowledging Now
+ClientSocketListener - Recieved A Packet: Seq: 500 Ack: 6200 PacketType: 200 Sender: [Server] Recipient: [Client] WindowSize: 14
+ClientSocketListener - The Packet is an ACK. Checking/Updating Window
+WindowManager - A Duplicate ACK has been received. Seq:500 Ack: 6200 Type: 200 Src: [Server] Dst: [Client]  WindowSize: 14
+WindowManager - A Duplicate ACK signals that your timer preferences settings are too short and should be extended. For this Emulation, the duplicate ACK will simply be dropped
+ClientSocketListener - Recieved A Packet: Seq: 500 Ack: 5200 PacketType: 200 Sender: [Server] Recipient: [Client] WindowSize: 14
+ClientSocketListener - The Packet is an ACK. Checking/Updating Window
+WindowManager - A Duplicate ACK has been received. Seq:500 Ack: 5200 Type: 200 Src: [Server] Dst: [Client]  WindowSize: 14
+WindowManager - A Duplicate ACK signals that your timer preferences settings are too short and should be extended. For this Emulation, the duplicate ACK will simply be dropped
+ClientSocketListener - Recieved A Packet: Seq: 500 Ack: 4600 PacketType: 200 Sender: [Server] Recipient: [Client] WindowSize: 14
+ClientSocketListener - The Packet is an ACK. Checking/Updating Window
+WindowManager - A Duplicate ACK has been received. Seq:500 Ack: 4600 Type: 200 Src: [Server] Dst: [Client]  WindowSize: 14
+WindowManager - A Duplicate ACK signals that your timer preferences settings are too short and should be extended. For this Emulation, the duplicate ACK will simply be dropped
+ClientSocketListener - Recieved A Packet: Seq: 500 Ack: 4800 PacketType: 200 Sender: [Server] Recipient: [Client] WindowSize: 14
+ClientSocketListener - The Packet is an ACK. Checking/Updating Window
+WindowManager - A Duplicate ACK has been received. Seq:500 Ack: 4800 Type: 200 Src: [Server] Dst: [Client]  WindowSize: 14
+WindowManager - A Duplicate ACK signals that your timer preferences settings are too short and should be extended. For this Emulation, the duplicate ACK will simply be dropped
+ClientSocketListener - Recieved A Packet: Seq: 500 Ack: 5800 PacketType: 200 Sender: [Server] Recipient: [Client] WindowSize: 14
+ClientSocketListener - The Packet is an ACK. Checking/Updating Window
+WindowManager - A Duplicate ACK has been received. Seq:500 Ack: 5800 Type: 200 Src: [Server] Dst: [Client]  WindowSize: 14
+WindowManager - A Duplicate ACK signals that your timer preferences settings are too short and should be extended. For this Emulation, the duplicate ACK will simply be dropped
+ClientSocketListener - Recieved A Packet: Seq: 500 Ack: 5600 PacketType: 200 Sender: [Server] Recipient: [Client] WindowSize: 14
+ClientSocketListener - The Packet is an ACK. Checking/Updating Window
+WindowManager - A Duplicate ACK has been received. Seq:500 Ack: 5600 Type: 200 Src: [Server] Dst: [Client]  WindowSize: 14
+WindowManager - A Duplicate ACK signals that your timer preferences settings are too short and should be extended. For this Emulation, the duplicate ACK will simply be dropped
+ClientSocketListener - Recieved A Packet: Seq: 500 Ack: 5000 PacketType: 200 Sender: [Server] Recipient: [Client] WindowSize: 14
+ClientSocketListener - The Packet is an ACK. Checking/Updating Window
+WindowManager - A Duplicate ACK has been received. Seq:500 Ack: 5000 Type: 200 Src: [Server] Dst: [Client]  WindowSize: 14
+WindowManager - A Duplicate ACK signals that your timer preferences settings are too short and should be extended. For this Emulation, the duplicate ACK will simply be dropped
+WindowManager - The current Window Size is : 15. The number of slots taken are: 1
+PacketBuilder - Sending Packet Seq: 6600 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: 13
+WindowManager - Window Has Room. Size: 15. Slots taken: 1
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 2
+Client - Sending Packet
+WindowManager - The current Window Size is : 15. The number of slots taken are: 2
+PacketBuilder - Sending Packet Seq: 6800 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: 12
+WindowManager - Window Has Room. Size: 15. Slots taken: 2
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 3
+Client - Sending Packet
+WindowManager - The current Window Size is : 15. The number of slots taken are: 3
+PacketBuilder - Sending Packet Seq: 7000 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: 11
+WindowManager - Window Has Room. Size: 15. Slots taken: 3
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 4
+Client - Sending Packet
+WindowManager - The current Window Size is : 15. The number of slots taken are: 4
+PacketBuilder - Sending Packet Seq: 7200 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: 10
+WindowManager - Window Has Room. Size: 15. Slots taken: 4
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 5
+Client - Sending Packet
+WindowManager - The current Window Size is : 15. The number of slots taken are: 5
+PacketBuilder - Sending Packet Seq: 7400 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: 9
+WindowManager - Window Has Room. Size: 15. Slots taken: 5
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 6
+Client - Sending Packet
+WindowManager - The current Window Size is : 15. The number of slots taken are: 6
+PacketBuilder - Sending Packet Seq: 7600 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: 8
+WindowManager - Window Has Room. Size: 15. Slots taken: 6
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 7
+Client - Sending Packet
+WindowManager - The current Window Size is : 15. The number of slots taken are: 7
+PacketBuilder - Sending Packet Seq: 7800 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: 7
+WindowManager - Window Has Room. Size: 15. Slots taken: 7
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 8
+Client - Sending Packet
+WindowManager - The current Window Size is : 15. The number of slots taken are: 8
+PacketBuilder - Sending Packet Seq: 8000 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: 6
+WindowManager - Window Has Room. Size: 15. Slots taken: 8
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 9
+Client - Sending Packet
+WindowManager - The current Window Size is : 15. The number of slots taken are: 9
+PacketBuilder - Sending Packet Seq: 8200 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: 5
+WindowManager - Window Has Room. Size: 15. Slots taken: 9
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 10
+Client - Sending Packet
+WindowManager - The current Window Size is : 15. The number of slots taken are: 10
+PacketBuilder - Sending Packet Seq: 8400 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: 4
+WindowManager - Window Has Room. Size: 15. Slots taken: 10
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 11
+Client - Sending Packet
+WindowManager - The current Window Size is : 15. The number of slots taken are: 11
+PacketBuilder - Sending Packet Seq: 8600 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: 3
+WindowManager - Window Has Room. Size: 15. Slots taken: 11
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 12
+Client - Sending Packet
+WindowManager - The current Window Size is : 15. The number of slots taken are: 12
+PacketBuilder - Sending Packet Seq: 8800 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: 2
+WindowManager - Window Has Room. Size: 15. Slots taken: 12
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 13
+Client - Sending Packet
+WindowManager - The current Window Size is : 15. The number of slots taken are: 13
+PacketBuilder - Sending Packet Seq: 9000 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: 1
+WindowManager - Window Has Room. Size: 15. Slots taken: 13
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 14
+Client - Sending Packet
+WindowManager - The current Window Size is : 15. The number of slots taken are: 14
+PacketBuilder - Sending Packet Seq: 9200 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: 0
+WindowManager - Window Has Room. Size: 15. Slots taken: 14
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 15
+Client - Sending Packet
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+PacketMeta - Packet 6600 has failed to be ACK'd in time. Resending
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Sending Packet Seq: 6600 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: -1
+WindowManager - Window Has Room. Size: 15. Slots taken: 15
+WindowManager - Found Duplicate Packet in the Window. Overwriting...
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 15
+PacketMeta - Packet 7000 has failed to be ACK'd in time. Resending
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Sending Packet Seq: 7000 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: -1
+WindowManager - Window Has Room. Size: 15. Slots taken: 15
+WindowManager - Found Duplicate Packet in the Window. Overwriting...
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 15
+PacketMeta - Packet 6800 has failed to be ACK'd in time. Resending
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Sending Packet Seq: 6800 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: -1
+WindowManager - Window Has Room. Size: 15. Slots taken: 15
+WindowManager - Found Duplicate Packet in the Window. Overwriting...
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 15
+PacketMeta - Packet 7200 has failed to be ACK'd in time. Resending
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Sending Packet Seq: 7200 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: -1
+WindowManager - Window Has Room. Size: 15. Slots taken: 15
+WindowManager - Found Duplicate Packet in the Window. Overwriting...
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 15
+PacketMeta - Packet 7400 has failed to be ACK'd in time. Resending
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Sending Packet Seq: 7400 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: -1
+WindowManager - Window Has Room. Size: 15. Slots taken: 15
+WindowManager - Found Duplicate Packet in the Window. Overwriting...
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 15
+PacketMeta - Packet 7600 has failed to be ACK'd in time. Resending
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Sending Packet Seq: 7600 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: -1
+WindowManager - Window Has Room. Size: 15. Slots taken: 15
+WindowManager - Found Duplicate Packet in the Window. Overwriting...
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 15
+PacketMeta - Packet 7800 has failed to be ACK'd in time. Resending
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Sending Packet Seq: 7800 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: -1
+WindowManager - Window Has Room. Size: 15. Slots taken: 15
+WindowManager - Found Duplicate Packet in the Window. Overwriting...
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 15
+PacketMeta - Packet 8000 has failed to be ACK'd in time. Resending
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Sending Packet Seq: 8000 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: -1
+WindowManager - Window Has Room. Size: 15. Slots taken: 15
+WindowManager - Found Duplicate Packet in the Window. Overwriting...
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 15
+PacketMeta - Packet 8200 has failed to be ACK'd in time. Resending
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Sending Packet Seq: 8200 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: -1
+WindowManager - Window Has Room. Size: 15. Slots taken: 15
+WindowManager - Found Duplicate Packet in the Window. Overwriting...
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 15
+PacketMeta - Packet 8400 has failed to be ACK'd in time. Resending
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Sending Packet Seq: 8400 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: -1
+WindowManager - Window Has Room. Size: 15. Slots taken: 15
+WindowManager - Found Duplicate Packet in the Window. Overwriting...
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 15
+PacketMeta - Packet 8600 has failed to be ACK'd in time. Resending
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Sending Packet Seq: 8600 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: -1
+WindowManager - Window Has Room. Size: 15. Slots taken: 15
+WindowManager - Found Duplicate Packet in the Window. Overwriting...
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 15
+PacketMeta - Packet 8800 has failed to be ACK'd in time. Resending
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Sending Packet Seq: 8800 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: -1
+WindowManager - Window Has Room. Size: 15. Slots taken: 15
+WindowManager - Found Duplicate Packet in the Window. Overwriting...
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 15
+PacketMeta - Packet 9000 has failed to be ACK'd in time. Resending
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Sending Packet Seq: 9000 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: -1
+WindowManager - Window Has Room. Size: 15. Slots taken: 15
+WindowManager - Found Duplicate Packet in the Window. Overwriting...
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 15
+PacketMeta - Packet 9200 has failed to be ACK'd in time. Resending
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Sending Packet Seq: 9200 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: -1
+WindowManager - Window Has Room. Size: 15. Slots taken: 15
+WindowManager - Found Duplicate Packet in the Window. Overwriting...
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 15
+PacketMeta - Packet 7000 has failed to be ACK'd in time. Resending
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Sending Packet Seq: 7000 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: -1
+WindowManager - Window Has Room. Size: 15. Slots taken: 15
+WindowManager - Found Duplicate Packet in the Window. Overwriting...
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 15
+PacketMeta - Packet 6600 has failed to be ACK'd in time. Resending
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Sending Packet Seq: 6600 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: -1
+WindowManager - Window Has Room. Size: 15. Slots taken: 15
+WindowManager - Found Duplicate Packet in the Window. Overwriting...
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 15
+PacketMeta - Packet 6800 has failed to be ACK'd in time. Resending
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Sending Packet Seq: 6800 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: -1
+WindowManager - Window Has Room. Size: 15. Slots taken: 15
+WindowManager - Found Duplicate Packet in the Window. Overwriting...
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 15
+PacketMeta - Packet 7200 has failed to be ACK'd in time. Resending
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Sending Packet Seq: 7200 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: -1
+WindowManager - Window Has Room. Size: 15. Slots taken: 15
+WindowManager - Found Duplicate Packet in the Window. Overwriting...
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 15
+PacketMeta - Packet 7600 has failed to be ACK'd in time. Resending
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Sending Packet Seq: 7600 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: -1
+WindowManager - Window Has Room. Size: 15. Slots taken: 15
+WindowManager - Found Duplicate Packet in the Window. Overwriting...
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 15
+PacketMeta - Packet 7400 has failed to be ACK'd in time. Resending
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Sending Packet Seq: 7400 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: -1
+WindowManager - Window Has Room. Size: 15. Slots taken: 15
+WindowManager - Found Duplicate Packet in the Window. Overwriting...
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 15
+PacketMeta - Packet 7800 has failed to be ACK'd in time. Resending
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Sending Packet Seq: 7800 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: -1
+WindowManager - Window Has Room. Size: 15. Slots taken: 15
+WindowManager - Found Duplicate Packet in the Window. Overwriting...
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 15
+PacketMeta - Packet 8000 has failed to be ACK'd in time. Resending
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Sending Packet Seq: 8000 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: -1
+WindowManager - Window Has Room. Size: 15. Slots taken: 15
+WindowManager - Found Duplicate Packet in the Window. Overwriting...
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 15
+PacketMeta - Packet 8400 has failed to be ACK'd in time. Resending
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Sending Packet Seq: 8400 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: -1
+WindowManager - Window Has Room. Size: 15. Slots taken: 15
+WindowManager - Found Duplicate Packet in the Window. Overwriting...
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 15
+PacketMeta - Packet 8200 has failed to be ACK'd in time. Resending
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Sending Packet Seq: 8200 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: -1
+WindowManager - Window Has Room. Size: 15. Slots taken: 15
+WindowManager - Found Duplicate Packet in the Window. Overwriting...
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 15
+PacketMeta - Packet 8800 has failed to be ACK'd in time. Resending
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Sending Packet Seq: 8800 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: -1
+WindowManager - Window Has Room. Size: 15. Slots taken: 15
+WindowManager - Found Duplicate Packet in the Window. Overwriting...
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 15
+PacketMeta - Packet 8600 has failed to be ACK'd in time. Resending
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Sending Packet Seq: 8600 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: -1
+WindowManager - Window Has Room. Size: 15. Slots taken: 15
+WindowManager - Found Duplicate Packet in the Window. Overwriting...
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 15
+PacketMeta - Packet 9000 has failed to be ACK'd in time. Resending
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Sending Packet Seq: 9000 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: -1
+WindowManager - Window Has Room. Size: 15. Slots taken: 15
+WindowManager - Found Duplicate Packet in the Window. Overwriting...
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 15
+PacketMeta - Packet 9200 has failed to be ACK'd in time. Resending
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Sending Packet Seq: 9200 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: -1
+WindowManager - Window Has Room. Size: 15. Slots taken: 15
+WindowManager - Found Duplicate Packet in the Window. Overwriting...
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 15
+ClientSocketListener - Recieved A Packet: Seq: 500 Ack: 7400 PacketType: 200 Sender: [Server] Recipient: [Client] WindowSize: 14
+ClientSocketListener - The Packet is an ACK. Checking/Updating Window
+Packet Acknowledged and Found. Acknowledging Now
+ClientSocketListener - Recieved A Packet: Seq: 500 Ack: 7000 PacketType: 200 Sender: [Server] Recipient: [Client] WindowSize: 14
+ClientSocketListener - The Packet is an ACK. Checking/Updating Window
+Packet Acknowledged and Found. Acknowledging Now
+ClientSocketListener - Recieved A Packet: Seq: 500 Ack: 8000 PacketType: 200 Sender: [Server] Recipient: [Client] WindowSize: 14
+ClientSocketListener - The Packet is an ACK. Checking/Updating Window
+Packet Acknowledged and Found. Acknowledging Now
+ClientSocketListener - Recieved A Packet: Seq: 500 Ack: 7200 PacketType: 200 Sender: [Server] Recipient: [Client] WindowSize: 14
+ClientSocketListener - The Packet is an ACK. Checking/Updating Window
+Packet Acknowledged and Found. Acknowledging Now
+ClientSocketListener - Recieved A Packet: Seq: 500 Ack: 9200 PacketType: 200 Sender: [Server] Recipient: [Client] WindowSize: 14
+ClientSocketListener - The Packet is an ACK. Checking/Updating Window
+Packet Acknowledged and Found. Acknowledging Now
+ClientSocketListener - Recieved A Packet: Seq: 500 Ack: 8000 PacketType: 200 Sender: [Server] Recipient: [Client] WindowSize: 14
+ClientSocketListener - The Packet is an ACK. Checking/Updating Window
+Packet Acknowledged and Found. Acknowledging Now
+ClientSocketListener - Recieved A Packet: Seq: 500 Ack: 8400 PacketType: 200 Sender: [Server] Recipient: [Client] WindowSize: 14
+ClientSocketListener - The Packet is an ACK. Checking/Updating Window
+Packet Acknowledged and Found. Acknowledging Now
+ClientSocketListener - Recieved A Packet: Seq: 500 Ack: 9400 PacketType: 200 Sender: [Server] Recipient: [Client] WindowSize: 14
+ClientSocketListener - The Packet is an ACK. Checking/Updating Window
+Packet Acknowledged and Found. Acknowledging Now
+ClientSocketListener - Recieved A Packet: Seq: 500 Ack: 9000 PacketType: 200 Sender: [Server] Recipient: [Client] WindowSize: 14
+ClientSocketListener - The Packet is an ACK. Checking/Updating Window
+Packet Acknowledged and Found. Acknowledging Now
+ClientSocketListener - Recieved A Packet: Seq: 500 Ack: 7200 PacketType: 200 Sender: [Server] Recipient: [Client] WindowSize: 14
+ClientSocketListener - The Packet is an ACK. Checking/Updating Window
+Packet Acknowledged and Found. Acknowledging Now
+ClientSocketListener - Recieved A Packet: Seq: 500 Ack: 9400 PacketType: 200 Sender: [Server] Recipient: [Client] WindowSize: 14
+ClientSocketListener - The Packet is an ACK. Checking/Updating Window
+Packet Acknowledged and Found. Acknowledging Now
+ClientSocketListener - Recieved A Packet: Seq: 500 Ack: 8800 PacketType: 200 Sender: [Server] Recipient: [Client] WindowSize: 14
+ClientSocketListener - The Packet is an ACK. Checking/Updating Window
+Packet Acknowledged and Found. Acknowledging Now
+ClientSocketListener - Recieved A Packet: Seq: 500 Ack: 8800 PacketType: 200 Sender: [Server] Recipient: [Client] WindowSize: 14
+ClientSocketListener - The Packet is an ACK. Checking/Updating Window
+Packet Acknowledged and Found. Acknowledging Now
+ClientSocketListener - Recieved A Packet: Seq: 500 Ack: 7400 PacketType: 200 Sender: [Server] Recipient: [Client] WindowSize: 14
+ClientSocketListener - The Packet is an ACK. Checking/Updating Window
+Packet Acknowledged and Found. Acknowledging Now
+ClientSocketListener - Recieved A Packet: Seq: 500 Ack: 7000 PacketType: 200 Sender: [Server] Recipient: [Client] WindowSize: 14
+ClientSocketListener - The Packet is an ACK. Checking/Updating Window
+Packet Acknowledged and Found. Acknowledging Now
+ClientSocketListener - Recieved A Packet: Seq: 500 Ack: 8400 PacketType: 200 Sender: [Server] Recipient: [Client] WindowSize: 14
+ClientSocketListener - The Packet is an ACK. Checking/Updating Window
+Packet Acknowledged and Found. Acknowledging Now
+ClientSocketListener - Recieved A Packet: Seq: 500 Ack: 7200 PacketType: 200 Sender: [Server] Recipient: [Client] WindowSize: 14
+ClientSocketListener - The Packet is an ACK. Checking/Updating Window
+Packet Acknowledged and Found. Acknowledging Now
+ClientSocketListener - Recieved A Packet: Seq: 500 Ack: 9200 PacketType: 200 Sender: [Server] Recipient: [Client] WindowSize: 14
+ClientSocketListener - The Packet is an ACK. Checking/Updating Window
+Packet Acknowledged and Found. Acknowledging Now
+ClientSocketListener - Recieved A Packet: Seq: 500 Ack: 8800 PacketType: 200 Sender: [Server] Recipient: [Client] WindowSize: 14
+ClientSocketListener - The Packet is an ACK. Checking/Updating Window
+Packet Acknowledged and Found. Acknowledging Now
+ClientSocketListener - Recieved A Packet: Seq: 500 Ack: 7400 PacketType: 200 Sender: [Server] Recipient: [Client] WindowSize: 14
+ClientSocketListener - The Packet is an ACK. Checking/Updating Window
+Packet Acknowledged and Found. Acknowledging Now
+ClientSocketListener - Recieved A Packet: Seq: 500 Ack: 8600 PacketType: 200 Sender: [Server] Recipient: [Client] WindowSize: 14
+ClientSocketListener - The Packet is an ACK. Checking/Updating Window
+Packet Acknowledged and Found. Acknowledging Now
+ClientSocketListener - Recieved A Packet: Seq: 500 Ack: 7600 PacketType: 200 Sender: [Server] Recipient: [Client] WindowSize: 14
+ClientSocketListener - The Packet is an ACK. Checking/Updating Window
+Packet Acknowledged and Found. Acknowledging Now
+PacketMeta - Packet 6400 has failed to be ACK'd in time. Resending
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Sending Packet Seq: 6400 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: -1
+WindowManager - Window Has Room. Size: 15. Slots taken: 15
+WindowManager - Found Duplicate Packet in the Window. Overwriting...
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 15
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+PacketMeta - Packet 6600 has failed to be ACK'd in time. Resending
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Sending Packet Seq: 6600 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: -1
+WindowManager - Window Has Room. Size: 15. Slots taken: 15
+WindowManager - Found Duplicate Packet in the Window. Overwriting...
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 15
+PacketMeta - Packet 7600 has failed to be ACK'd in time. Resending
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Sending Packet Seq: 7600 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: -1
+WindowManager - Window Has Room. Size: 15. Slots taken: 15
+WindowManager - Found Duplicate Packet in the Window. Overwriting...
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 15
+PacketMeta - Packet 8000 has failed to be ACK'd in time. Resending
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Sending Packet Seq: 8000 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: -1
+WindowManager - Window Has Room. Size: 15. Slots taken: 15
+WindowManager - Found Duplicate Packet in the Window. Overwriting...
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 15
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+ClientSocketListener - Recieved A Packet: Seq: 500 Ack: 7800 PacketType: 200 Sender: [Server] Recipient: [Client] WindowSize: 14
+ClientSocketListener - The Packet is an ACK. Checking/Updating Window
+Packet Acknowledged and Found. Acknowledging Now
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+PacketMeta - Packet 6400 has failed to be ACK'd in time. Resending
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Sending Packet Seq: 6400 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: -1
+WindowManager - Window Has Room. Size: 15. Slots taken: 15
+WindowManager - Found Duplicate Packet in the Window. Overwriting...
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 15
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+PacketMeta - Packet 6600 has failed to be ACK'd in time. Resending
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Sending Packet Seq: 6600 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: -1
+WindowManager - Window Has Room. Size: 15. Slots taken: 15
+WindowManager - Found Duplicate Packet in the Window. Overwriting...
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 15
+PacketMeta - Packet 8000 has failed to be ACK'd in time. Resending
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Sending Packet Seq: 8000 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: -1
+WindowManager - Window Has Room. Size: 15. Slots taken: 15
+WindowManager - Found Duplicate Packet in the Window. Overwriting...
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 15
+ClientSocketListener - Recieved A Packet: Seq: 500 Ack: 8200 PacketType: 200 Sender: [Server] Recipient: [Client] WindowSize: 14
+ClientSocketListener - The Packet is an ACK. Checking/Updating Window
+Packet Acknowledged and Found. Acknowledging Now
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+PacketMeta - Packet 6400 has failed to be ACK'd in time. Resending
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Sending Packet Seq: 6400 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: -1
+WindowManager - Window Has Room. Size: 15. Slots taken: 15
+WindowManager - Found Duplicate Packet in the Window. Overwriting...
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 15
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+PacketMeta - Packet 6600 has failed to be ACK'd in time. Resending
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Sending Packet Seq: 6600 Ack: 500 Type: 100 Src: [Client] Dst: [Server] WindowSize: -1
+WindowManager - Window Has Room. Size: 15. Slots taken: 15
+WindowManager - Found Duplicate Packet in the Window. Overwriting...
+WindowManager - Window Has Now Had Packet Added. Size: 15. Slots taken: 15
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+ClientSocketListener - Recieved A Packet: Seq: 500 Ack: 6800 PacketType: 200 Sender: [Server] Recipient: [Client] WindowSize: 14
+ClientSocketListener - The Packet is an ACK. Checking/Updating Window
+Packet Acknowledged and Found. Acknowledging Now
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again
+WindowManager - The current Window Size is : 15. The number of slots taken are: 15
+PacketBuilder - Can't Add Packet 9400 To Window. Window Is Full
+Client - Couldn't Send - Sleeping and Trying Again

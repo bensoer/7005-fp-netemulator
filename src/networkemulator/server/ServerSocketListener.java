@@ -8,6 +8,8 @@ import java.io.IOException;
 
 /**
  * Created by bensoer on 11/11/15.
+ *
+ * ServerSocketListener is in charge of listening to incoming packets for the Server.
  */
 public class ServerSocketListener extends Thread {
 
@@ -24,7 +26,14 @@ public class ServerSocketListener extends Thread {
         this.senderThread = senderThread;
     }
 
-
+    /**
+     * The default main entrance for the Thread. Creates an infinite while loop and waits for content to arrive, which
+     * it then parses and decides what to do based on the type of packet recieved. When an EOT packet is recieved scanning
+     * is done to make sure all packets have been recieved. At which point the Server switches roles as the reciever and
+     * starts the ServerSocketSender thread to start sending data back to the client. The ServerSocketListener then listens
+     * only for acknowledgements for the ServerSocketSender's window
+     */
+    @Override
     public void run(){
         ConfigurationManager cm = ConfigurationManager.getInstance();
         DataAssembler da = new DataAssembler(cm.serverPacketMaxSize);
@@ -44,20 +53,22 @@ public class ServerSocketListener extends Thread {
                 da.addData(data);
 
             }else if(data.packetType == PacketType.EOT.toInt()){
-                Logger.log("ServerSocketListener - Transmission has terminated. We could send stuff now");
+                Logger.log("ServerSocketListener - Recieved an EOT packet. We could send this now");
                 Packet acknowledgement = this.pb.createResponsePacket(data, "");
                 PacketBuilder.sendPacket(acknowledgement, socket, wm);
+                //add EOT to the list so that it is the appropriate length
+                da.addData(data);
                 da.EOTArrived();
             }else{
                 Logger.log("ServerSocketListener - An Unknown Packet Type Was Recieved");
             }
 
             //if the EOT has occurred and we have recieved all missing packets. LETS GOO
-            if(!da.isDisabled() && da.EOTHasArrived() && !da.isMissingPackets()){
+            if(!da.isDisabled() && da.EOTHasArrived() && !da.isMissingPackets(0)){
                 Logger.log("ServerSocketListener - EOT Received and And No Missing Packets");
                 String fileContent = da.fetchData();
 
-                System.out.println("ServerSocketListener - File retrieved. Now Writing");
+                Logger.log("ServerSocketListener - File retrieved. Now Writing");
 
                 try{
                     FileWriter fw = new FileWriter("./files/server/300loriumipsum.txt");
@@ -65,7 +76,7 @@ public class ServerSocketListener extends Thread {
                     fw.flush();
                     fw.close();
                 }catch(IOException ioe){
-                    System.out.println("ServerSocketListener - Writing Retrieved To File");
+                    Logger.log("ServerSocketListener - Writing Retrieved To File");
                     ioe.printStackTrace();
                 }
 
