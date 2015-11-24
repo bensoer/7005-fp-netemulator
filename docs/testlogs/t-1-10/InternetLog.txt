@@ -1,0 +1,3363 @@
+TCPEngine - Attempting to Create Server Socket on port 8000
+TCPEngine - Attempting to connect to localhost on port 7000
+TCPEngine - Creating Client input and output socket buffers
+Internet - Waiting for Connections from Client
+TCPEngine - Starting A Session
+TCPEngine - Awaiting A Connection Request
+TCPEngine - Allocating Input and Output Buffers for New Connection Request
+Internet - Accepted Connection from Client /127.0.0.1
+Client2Internet - Client is Sending Data. Listening to Client
+Server2Internet - Server is Sending Data. Listening to Server
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 0 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 0
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 7ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 1000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 4
+Client2Internet - Sending Packet with Seq: 1000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 4ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 2000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 3
+Client2Internet - Sending Packet with Seq: 2000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 3000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 2
+Client2Internet - Sending Packet with Seq: 3000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 4000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 1
+Client2Internet - Sending Packet with Seq: 4000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 2ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 5000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 0
+Client2Internet - Sending Packet with Seq: 5000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 0 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 0
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 1000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 4
+Client2Internet - Sending Packet with Seq: 1000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 2000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 3
+Client2Internet - Sending Packet with Seq: 2000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 4ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 3000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 2
+Client2Internet - Sending Packet with Seq: 3000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 4000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 1
+Client2Internet - Sending Packet with Seq: 4000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 5000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 0
+Client2Internet - Sending Packet with Seq: 5000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 1ms
+Client2Internet - Client is Sending Data. Listening to Client
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 3000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 4000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 6000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 2ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 2000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 5ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 1000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 5000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 4ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 2000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 2ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 1000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 5ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 4000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 5000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 6000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 3000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 1000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 4
+Client2Internet - Sending Packet with Seq: 1000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 0 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 0
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 2000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 2000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 3
+Client2Internet - Sending Packet with Seq: 2000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 3000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 2
+Client2Internet - Sending Packet with Seq: 3000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 2ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 4000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 1
+Client2Internet - Sending Packet with Seq: 4000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 1000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Client2Internet - Back from read
+Server2Internet - Back from read
+Client2Internet - Received Packet Seq: 5000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 0
+Server2Internet - Received Packet Seq: 500 Ack: 3000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Client2Internet - Sending Packet with Seq: 5000
+Server2Internet - Sending Data to Client
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Internet Tools - Delay Time Set. It is: 6ms
+Client2Internet - Client is Sending Data. Listening to Client
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 5000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 3ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 4000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 6000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 6000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 6000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 7000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 4
+Client2Internet - Sending Packet with Seq: 7000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 2ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 8000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 3
+Client2Internet - Sending Packet with Seq: 8000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 7ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 9000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 2
+Client2Internet - Sending Packet with Seq: 9000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 10000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 1
+Client2Internet - Sending Packet with Seq: 10000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 11000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 0
+Client2Internet - Sending Packet with Seq: 11000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 6000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 6000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 4ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 7000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 4
+Client2Internet - Sending Packet with Seq: 7000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 8000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 3
+Client2Internet - Sending Packet with Seq: 8000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 9000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 2
+Client2Internet - Sending Packet with Seq: 9000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 9ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 10000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 1
+Client2Internet - Sending Packet with Seq: 10000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 11000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 0
+Client2Internet - Sending Packet with Seq: 11000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 7000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 10000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 3ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 8000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 12000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 9ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 11000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 8000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 9000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 11000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 7ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 12000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 7000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 3ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 9000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 10000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 7ms
+Server2Internet - Server is Sending Data. Listening to Server
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 12000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 12000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 13000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 4
+Client2Internet - Sending Packet with Seq: 13000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 14000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 3
+Client2Internet - Sending Packet with Seq: 14000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 15000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 2
+Client2Internet - Sending Packet with Seq: 15000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 1ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 16000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 1
+Client2Internet - Sending Packet with Seq: 16000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 8ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 17000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 0
+Client2Internet - Sending Packet with Seq: 17000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 6ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 12000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 12000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 13000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 4
+Client2Internet - Sending Packet with Seq: 13000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 8ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 14000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 3
+Client2Internet - Sending Packet with Seq: 14000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 15000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 2
+Client2Internet - Sending Packet with Seq: 15000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 6ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 16000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 1
+Client2Internet - Sending Packet with Seq: 16000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 5ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 17000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 0
+Client2Internet - Sending Packet with Seq: 17000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 13000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 14000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 15000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 1ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 16000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 13000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 6ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 15000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 6ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 18000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 17000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 1ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 18000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 14000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 1ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 17000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 7ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 16000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 3ms
+Server2Internet - Server is Sending Data. Listening to Server
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 18000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 18000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 1ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 19000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 4
+Client2Internet - Sending Packet with Seq: 19000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 2ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 20000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 3
+Client2Internet - Sending Packet with Seq: 20000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 1ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 21000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 2
+Client2Internet - Sending Packet with Seq: 21000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 22000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 1
+Client2Internet - Sending Packet with Seq: 22000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 23000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 0
+Client2Internet - Sending Packet with Seq: 23000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 18000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 18000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 19000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 4
+Client2Internet - Sending Packet with Seq: 19000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 8ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 20000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 3
+Client2Internet - Sending Packet with Seq: 20000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 21000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 2
+Client2Internet - Sending Packet with Seq: 21000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 5ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 22000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 1
+Client2Internet - Sending Packet with Seq: 22000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 23000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 0
+Client2Internet - Sending Packet with Seq: 23000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 19000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 20000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 3ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 21000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 2ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 22000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 23000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 4ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 24000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 19000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 21000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 23000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 24000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 22000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 1ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 20000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 24000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 24000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 25000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 4
+Client2Internet - Sending Packet with Seq: 25000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 9ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 26000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 3
+Client2Internet - Sending Packet with Seq: 26000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 27000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 2
+Client2Internet - Sending Packet with Seq: 27000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 28000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 1
+Client2Internet - Sending Packet with Seq: 28000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 29000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 0
+Client2Internet - Sending Packet with Seq: 29000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 24000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 24000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 25000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 4
+Client2Internet - Sending Packet with Seq: 25000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 26000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 3
+Client2Internet - Sending Packet with Seq: 26000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 27000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 2
+Client2Internet - Sending Packet with Seq: 27000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 7ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 28000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 1
+Client2Internet - Sending Packet with Seq: 28000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 29000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 0
+Client2Internet - Sending Packet with Seq: 29000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 3ms
+Client2Internet - Client is Sending Data. Listening to Client
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 25000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 27000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 5ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 28000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 7ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 29000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 30000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 6ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 26000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 8ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 25000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 26000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 4ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 27000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 2ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 29000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 30000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 28000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 30000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 30000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 31000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 4
+Client2Internet - Sending Packet with Seq: 31000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 32000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 3
+Client2Internet - Sending Packet with Seq: 32000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 33000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 2
+Client2Internet - Sending Packet with Seq: 33000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 7ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 34000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 1
+Client2Internet - Sending Packet with Seq: 34000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 35000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 0
+Client2Internet - Sending Packet with Seq: 35000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 30000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 30000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 31000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 4
+Client2Internet - Sending Packet with Seq: 31000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 4ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 33000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 2
+Client2Internet - Sending Packet with Seq: 33000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 5ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 32000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 3
+Client2Internet - Sending Packet with Seq: 32000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 34000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 1
+Client2Internet - Sending Packet with Seq: 34000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 2ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 35000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 0
+Client2Internet - Sending Packet with Seq: 35000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 31000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 32000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 8ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 33000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 35000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 36000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 4ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 31000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 5ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 33000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 36000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 34000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 8ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 32000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 6ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 35000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 34000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 8ms
+Server2Internet - Server is Sending Data. Listening to Server
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 36000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 36000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 37000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 4
+Client2Internet - Sending Packet with Seq: 37000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 1ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 38000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 3
+Client2Internet - Sending Packet with Seq: 38000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 2ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 39000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 2
+Client2Internet - Sending Packet with Seq: 39000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 9ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 40000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 1
+Client2Internet - Sending Packet with Seq: 40000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 41000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 0
+Client2Internet - Sending Packet with Seq: 41000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 36000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 36000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 37000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 4
+Client2Internet - Sending Packet with Seq: 37000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 38000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 3
+Client2Internet - Sending Packet with Seq: 38000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 2ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 39000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 2
+Client2Internet - Sending Packet with Seq: 39000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 40000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 1
+Client2Internet - Sending Packet with Seq: 40000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 6ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 41000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 0
+Client2Internet - Sending Packet with Seq: 41000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 37000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 7ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 38000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 39000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 9ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 41000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 42000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 6ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 37000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 40000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 38000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 40000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 39000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 42000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 41000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 3ms
+Server2Internet - Server is Sending Data. Listening to Server
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 42000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 42000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 43000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 4
+Client2Internet - Sending Packet with Seq: 43000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 44000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 3
+Client2Internet - Sending Packet with Seq: 44000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 45000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 2
+Client2Internet - Sending Packet with Seq: 45000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 46000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 1
+Client2Internet - Sending Packet with Seq: 46000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 47000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 0
+Client2Internet - Sending Packet with Seq: 47000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 42000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 42000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 43000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 4
+Client2Internet - Sending Packet with Seq: 43000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 6ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 45000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 2
+Client2Internet - Sending Packet with Seq: 45000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 44000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 3
+Client2Internet - Sending Packet with Seq: 44000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 46000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 1
+Client2Internet - Sending Packet with Seq: 46000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 47000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 0
+Client2Internet - Sending Packet with Seq: 47000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 4ms
+Client2Internet - Client is Sending Data. Listening to Client
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 43000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 5ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 44000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 45000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 9ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 46000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 47000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 4ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 48000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 3ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 43000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 1ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 46000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 5ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 45000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 47000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 1ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 44000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 48000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 48000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 48000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 3ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 49000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 4
+Client2Internet - Sending Packet with Seq: 49000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 50000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 3
+Client2Internet - Sending Packet with Seq: 50000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 5ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 51000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 2
+Client2Internet - Sending Packet with Seq: 51000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 5ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 52000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 1
+Client2Internet - Sending Packet with Seq: 52000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 9ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 53000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 0
+Client2Internet - Sending Packet with Seq: 53000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 5ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 48000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 48000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 49000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 4
+Client2Internet - Sending Packet with Seq: 49000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 2ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 50000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 3
+Client2Internet - Sending Packet with Seq: 50000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 51000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 2
+Client2Internet - Sending Packet with Seq: 51000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 52000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 1
+Client2Internet - Sending Packet with Seq: 52000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 1ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 53000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 0
+Client2Internet - Sending Packet with Seq: 53000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 50000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 49000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 1ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 51000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 52000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 49000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 8ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 54000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 53000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 7ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 51000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 50000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 8ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 52000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 53000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 3ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 54000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 54000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 54000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 55000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 4
+Client2Internet - Sending Packet with Seq: 55000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 2ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 56000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 3
+Client2Internet - Sending Packet with Seq: 56000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 57000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 2
+Client2Internet - Sending Packet with Seq: 57000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 1ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 58000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 1
+Client2Internet - Sending Packet with Seq: 58000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 59000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 0
+Client2Internet - Sending Packet with Seq: 59000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 2ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 54000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 54000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 6ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 55000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 4
+Client2Internet - Sending Packet with Seq: 55000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 8ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 56000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 3
+Client2Internet - Sending Packet with Seq: 56000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 57000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 2
+Client2Internet - Sending Packet with Seq: 57000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 8ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 59000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 0
+Client2Internet - Sending Packet with Seq: 59000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 8ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 58000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 1
+Client2Internet - Sending Packet with Seq: 58000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 3ms
+Client2Internet - Client is Sending Data. Listening to Client
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 55000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 57000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 56000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 59000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 58000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 5ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 60000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 1ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 57000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 55000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 9ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 59000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 2ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 56000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 3ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 58000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 2ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 60000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 5ms
+Server2Internet - Server is Sending Data. Listening to Server
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 60000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 60000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 61000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 4
+Client2Internet - Sending Packet with Seq: 61000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 8ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 62000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 3
+Client2Internet - Sending Packet with Seq: 62000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 9ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 63000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 2
+Client2Internet - Sending Packet with Seq: 63000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 64000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 1
+Client2Internet - Sending Packet with Seq: 64000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 65000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 0
+Client2Internet - Sending Packet with Seq: 65000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 60000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 60000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 61000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 4
+Client2Internet - Sending Packet with Seq: 61000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 5ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 62000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 3
+Client2Internet - Sending Packet with Seq: 62000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 63000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 2
+Client2Internet - Sending Packet with Seq: 63000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 64000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 1
+Client2Internet - Sending Packet with Seq: 64000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 1ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 65000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 0
+Client2Internet - Sending Packet with Seq: 65000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 1ms
+Client2Internet - Client is Sending Data. Listening to Client
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 61000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 64000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 4ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 65000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 66000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 6ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 62000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 2ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 61000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 63000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 7ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 63000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 6ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 64000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 62000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 65000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 4ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 66000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 66000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 66000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 67000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 4
+Client2Internet - Sending Packet with Seq: 67000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 68000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 3
+Client2Internet - Sending Packet with Seq: 68000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 69000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 2
+Client2Internet - Sending Packet with Seq: 69000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 70000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 1
+Client2Internet - Sending Packet with Seq: 70000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 1ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 71000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 0
+Client2Internet - Sending Packet with Seq: 71000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 66000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 66000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 67000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 4
+Client2Internet - Sending Packet with Seq: 67000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 68000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 3
+Client2Internet - Sending Packet with Seq: 68000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 1ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 69000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 2
+Client2Internet - Sending Packet with Seq: 69000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 7ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 71000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 0
+Client2Internet - Sending Packet with Seq: 71000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 70000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 1
+Client2Internet - Sending Packet with Seq: 70000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 7ms
+Client2Internet - Client is Sending Data. Listening to Client
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 67000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 9ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 68000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 69000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 70000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 2ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 71000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 67000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 9ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 72000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 7ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 68000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 5ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 69000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 2ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 72000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 70000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 71000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 6ms
+Server2Internet - Server is Sending Data. Listening to Server
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 72000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 72000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 9ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 73000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 4
+Client2Internet - Sending Packet with Seq: 73000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 7ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 74000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 3
+Client2Internet - Sending Packet with Seq: 74000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 75000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 2
+Client2Internet - Sending Packet with Seq: 75000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 6ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 76000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 1
+Client2Internet - Sending Packet with Seq: 76000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 77000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 0
+Client2Internet - Sending Packet with Seq: 77000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 72000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 72000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 73000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 4
+Client2Internet - Sending Packet with Seq: 73000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 74000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 3
+Client2Internet - Sending Packet with Seq: 74000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 9ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 75000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 2
+Client2Internet - Sending Packet with Seq: 75000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 8ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 76000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 1
+Client2Internet - Sending Packet with Seq: 76000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 8ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 77000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 0
+Client2Internet - Sending Packet with Seq: 77000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 5ms
+Client2Internet - Client is Sending Data. Listening to Client
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 75000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 2ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 77000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 78000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 74000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 76000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 73000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 7ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 73000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 4ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 74000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 78000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 76000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 77000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 4ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 75000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 78000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 78000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 79000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 4
+Client2Internet - Sending Packet with Seq: 79000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 80000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 3
+Client2Internet - Sending Packet with Seq: 80000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 6ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 81000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 2
+Client2Internet - Sending Packet with Seq: 81000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 6ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 82000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 1
+Client2Internet - Sending Packet with Seq: 82000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 1ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 83000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 0
+Client2Internet - Sending Packet with Seq: 83000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 4ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 78000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 78000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 3ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 79000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 4
+Client2Internet - Sending Packet with Seq: 79000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 1ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 80000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 3
+Client2Internet - Sending Packet with Seq: 80000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 7ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 81000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 2
+Client2Internet - Sending Packet with Seq: 81000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 3ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 82000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 1
+Client2Internet - Sending Packet with Seq: 82000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 7ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 83000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 0
+Client2Internet - Sending Packet with Seq: 83000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 79000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 3ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 80000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 83000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 2ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 81000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 80000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 4ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 82000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 3ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 79000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 6ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 84000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 84000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 82000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 81000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 83000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 2ms
+Server2Internet - Server is Sending Data. Listening to Server
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 84000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 84000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 6ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 85000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 4
+Client2Internet - Sending Packet with Seq: 85000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 86000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 3
+Client2Internet - Sending Packet with Seq: 86000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 87000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 2
+Client2Internet - Sending Packet with Seq: 87000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 7ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 88000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 1
+Client2Internet - Sending Packet with Seq: 88000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 2ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 89000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 0
+Client2Internet - Sending Packet with Seq: 89000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 84000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 84000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 85000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 4
+Client2Internet - Sending Packet with Seq: 85000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 86000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 3
+Client2Internet - Sending Packet with Seq: 86000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 5ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 87000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 2
+Client2Internet - Sending Packet with Seq: 87000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 88000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 1
+Client2Internet - Sending Packet with Seq: 88000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 89000 Ack: 500 Src: [Client] Dst: [Server] Type: 100 WindowSize: 0
+Client2Internet - Sending Packet with Seq: 89000
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 86000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 87000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 89758 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 89000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 85000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 6ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 88000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 85000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 86000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 88000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 89000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 89758 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 87000 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 5ms
+Server2Internet - Server is Sending Data. Listening to Server
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 89758 Ack: 500 Src: [Client] Dst: [Server] Type: 101 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 89758
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 8ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 89758 Ack: 500 Src: [Client] Dst: [Server] Type: 101 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 89758
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 89758 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 2ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 89758 Src: [Server] Dst: [Client] Type: 200 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 500 Ack: 500 Src: [Server] Dst: [Client] Type: 100 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 1500 Ack: 500 Src: [Server] Dst: [Client] Type: 100 WindowSize: 4
+Server2Internet - Sending Packet with Seq: 1500
+Server2Internet - Sending Data to Client
+Client2Internet - Back from read
+Internet Tools - Delay Time Set. It is: 5ms
+Client2Internet - Received Packet Seq: 500 Ack: 1500 Src: [Client] Dst: [Server] Type: 200 WindowSize: 5
+Server2Internet - Server is Sending Data. Listening to Server
+Client2Internet - Sending Packet with Seq: 500
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 6ms
+Server2Internet - Back from read
+Client2Internet - Client is Sending Data. Listening to Client
+Server2Internet - Received Packet Seq: 2500 Ack: 500 Src: [Server] Dst: [Client] Type: 100 WindowSize: 3
+Server2Internet - Sending Packet with Seq: 2500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 3500 Ack: 500 Src: [Server] Dst: [Client] Type: 100 WindowSize: 2
+Server2Internet - Sending Packet with Seq: 3500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 4500 Ack: 500 Src: [Server] Dst: [Client] Type: 100 WindowSize: 1
+Server2Internet - Sending Packet with Seq: 4500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 2ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 5500 Ack: 500 Src: [Server] Dst: [Client] Type: 100 WindowSize: 0
+Server2Internet - Sending Packet with Seq: 5500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 5ms
+Server2Internet - Server is Sending Data. Listening to Server
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 500 Ack: 3500 Src: [Client] Dst: [Server] Type: 200 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 500
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 1ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 500 Ack: 4500 Src: [Client] Dst: [Server] Type: 200 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 500
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 500 Ack: 2500 Src: [Client] Dst: [Server] Type: 200 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 500
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 500 Ack: 5500 Src: [Client] Dst: [Server] Type: 200 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 500
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 7ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 500 Ack: 6500 Src: [Client] Dst: [Server] Type: 200 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 500
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 6500 Ack: 500 Src: [Server] Dst: [Client] Type: 100 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 6500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 7500 Ack: 500 Src: [Server] Dst: [Client] Type: 100 WindowSize: 4
+Server2Internet - Sending Packet with Seq: 7500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 8ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 8500 Ack: 500 Src: [Server] Dst: [Client] Type: 100 WindowSize: 3
+Server2Internet - Sending Packet with Seq: 8500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 9500 Ack: 500 Src: [Server] Dst: [Client] Type: 100 WindowSize: 2
+Server2Internet - Sending Packet with Seq: 9500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 10500 Ack: 500 Src: [Server] Dst: [Client] Type: 100 WindowSize: 1
+Server2Internet - Sending Packet with Seq: 10500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 11500 Ack: 500 Src: [Server] Dst: [Client] Type: 100 WindowSize: 0
+Server2Internet - Sending Packet with Seq: 11500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 1ms
+Server2Internet - Server is Sending Data. Listening to Server
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 500 Ack: 7500 Src: [Client] Dst: [Server] Type: 200 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 500
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 500 Ack: 9500 Src: [Client] Dst: [Server] Type: 200 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 500
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 9ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 500 Ack: 10500 Src: [Client] Dst: [Server] Type: 200 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 500
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 500 Ack: 11500 Src: [Client] Dst: [Server] Type: 200 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 500
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 500 Ack: 12500 Src: [Client] Dst: [Server] Type: 200 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 500
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 500 Ack: 8500 Src: [Client] Dst: [Server] Type: 200 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 500
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 3ms
+Client2Internet - Client is Sending Data. Listening to Client
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 12500 Ack: 500 Src: [Server] Dst: [Client] Type: 100 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 12500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 1ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 13500 Ack: 500 Src: [Server] Dst: [Client] Type: 100 WindowSize: 4
+Server2Internet - Sending Packet with Seq: 13500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 14500 Ack: 500 Src: [Server] Dst: [Client] Type: 100 WindowSize: 3
+Server2Internet - Sending Packet with Seq: 14500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 8ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 15500 Ack: 500 Src: [Server] Dst: [Client] Type: 100 WindowSize: 2
+Server2Internet - Sending Packet with Seq: 15500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 2ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 16500 Ack: 500 Src: [Server] Dst: [Client] Type: 100 WindowSize: 1
+Server2Internet - Sending Packet with Seq: 16500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 3ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 17500 Ack: 500 Src: [Server] Dst: [Client] Type: 100 WindowSize: 0
+Server2Internet - Sending Packet with Seq: 17500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 2ms
+Server2Internet - Server is Sending Data. Listening to Server
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 500 Ack: 13500 Src: [Client] Dst: [Server] Type: 200 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 500
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 1ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 500 Ack: 14500 Src: [Client] Dst: [Server] Type: 200 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 500
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 500 Ack: 16500 Src: [Client] Dst: [Server] Type: 200 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 500
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 500 Ack: 18500 Src: [Client] Dst: [Server] Type: 200 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 500
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 500 Ack: 17500 Src: [Client] Dst: [Server] Type: 200 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 500
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 4ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 500 Ack: 15500 Src: [Client] Dst: [Server] Type: 200 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 500
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 18500 Ack: 500 Src: [Server] Dst: [Client] Type: 100 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 18500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 9ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 19500 Ack: 500 Src: [Server] Dst: [Client] Type: 100 WindowSize: 4
+Server2Internet - Sending Packet with Seq: 19500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 20500 Ack: 500 Src: [Server] Dst: [Client] Type: 100 WindowSize: 3
+Server2Internet - Sending Packet with Seq: 20500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 9ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 21500 Ack: 500 Src: [Server] Dst: [Client] Type: 100 WindowSize: 2
+Server2Internet - Sending Packet with Seq: 21500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 22500 Ack: 500 Src: [Server] Dst: [Client] Type: 100 WindowSize: 1
+Server2Internet - Sending Packet with Seq: 22500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 7ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 23500 Ack: 500 Src: [Server] Dst: [Client] Type: 100 WindowSize: 0
+Server2Internet - Sending Packet with Seq: 23500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 500 Ack: 20500 Src: [Client] Dst: [Server] Type: 200 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 500
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 4ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 500 Ack: 22500 Src: [Client] Dst: [Server] Type: 200 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 500
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 4ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 500 Ack: 24500 Src: [Client] Dst: [Server] Type: 200 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 500
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 500 Ack: 19500 Src: [Client] Dst: [Server] Type: 200 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 500
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 5ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 500 Ack: 23500 Src: [Client] Dst: [Server] Type: 200 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 500
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 9ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 500 Ack: 21500 Src: [Client] Dst: [Server] Type: 200 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 500
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 2ms
+Client2Internet - Client is Sending Data. Listening to Client
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 24500 Ack: 500 Src: [Server] Dst: [Client] Type: 100 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 24500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 25500 Ack: 500 Src: [Server] Dst: [Client] Type: 100 WindowSize: 4
+Server2Internet - Sending Packet with Seq: 25500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 26500 Ack: 500 Src: [Server] Dst: [Client] Type: 100 WindowSize: 3
+Server2Internet - Sending Packet with Seq: 26500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 5ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 27500 Ack: 500 Src: [Server] Dst: [Client] Type: 100 WindowSize: 2
+Server2Internet - Sending Packet with Seq: 27500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 7ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 28500 Ack: 500 Src: [Server] Dst: [Client] Type: 100 WindowSize: 1
+Server2Internet - Sending Packet with Seq: 28500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 29500 Ack: 500 Src: [Server] Dst: [Client] Type: 100 WindowSize: 0
+Server2Internet - Sending Packet with Seq: 29500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 6ms
+Server2Internet - Server is Sending Data. Listening to Server
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 500 Ack: 25500 Src: [Client] Dst: [Server] Type: 200 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 500
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 500 Ack: 26500 Src: [Client] Dst: [Server] Type: 200 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 500
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 1ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 500 Ack: 29500 Src: [Client] Dst: [Server] Type: 200 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 500
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 500 Ack: 27500 Src: [Client] Dst: [Server] Type: 200 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 500
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 500 Ack: 28500 Src: [Client] Dst: [Server] Type: 200 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 500
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 5ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 500 Ack: 30500 Src: [Client] Dst: [Server] Type: 200 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 500
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 7ms
+Client2Internet - Client is Sending Data. Listening to Client
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 30500 Ack: 500 Src: [Server] Dst: [Client] Type: 100 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 30500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 31500 Ack: 500 Src: [Server] Dst: [Client] Type: 100 WindowSize: 4
+Server2Internet - Sending Packet with Seq: 31500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 32500 Ack: 500 Src: [Server] Dst: [Client] Type: 100 WindowSize: 3
+Server2Internet - Sending Packet with Seq: 32500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 9ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 33500 Ack: 500 Src: [Server] Dst: [Client] Type: 100 WindowSize: 2
+Server2Internet - Sending Packet with Seq: 33500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 34500 Ack: 500 Src: [Server] Dst: [Client] Type: 100 WindowSize: 1
+Server2Internet - Sending Packet with Seq: 34500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 35500 Ack: 500 Src: [Server] Dst: [Client] Type: 100 WindowSize: 0
+Server2Internet - Sending Packet with Seq: 35500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 6ms
+Server2Internet - Server is Sending Data. Listening to Server
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 500 Ack: 31500 Src: [Client] Dst: [Server] Type: 200 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 500
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 7ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 500 Ack: 32500 Src: [Client] Dst: [Server] Type: 200 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 500
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 500 Ack: 34500 Src: [Client] Dst: [Server] Type: 200 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 500
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 500 Ack: 35500 Src: [Client] Dst: [Server] Type: 200 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 500
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 500 Ack: 33500 Src: [Client] Dst: [Server] Type: 200 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 500
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 500 Ack: 36500 Src: [Client] Dst: [Server] Type: 200 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 500
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 4ms
+Client2Internet - Client is Sending Data. Listening to Client
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 36500 Ack: 500 Src: [Server] Dst: [Client] Type: 100 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 36500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 37500 Ack: 500 Src: [Server] Dst: [Client] Type: 100 WindowSize: 4
+Server2Internet - Sending Packet with Seq: 37500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 2ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 38500 Ack: 500 Src: [Server] Dst: [Client] Type: 100 WindowSize: 3
+Server2Internet - Sending Packet with Seq: 38500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 39500 Ack: 500 Src: [Server] Dst: [Client] Type: 100 WindowSize: 2
+Server2Internet - Sending Packet with Seq: 39500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 40500 Ack: 500 Src: [Server] Dst: [Client] Type: 100 WindowSize: 1
+Server2Internet - Sending Packet with Seq: 40500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 8ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 41500 Ack: 500 Src: [Server] Dst: [Client] Type: 100 WindowSize: 0
+Server2Internet - Sending Packet with Seq: 41500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 500 Ack: 37500 Src: [Client] Dst: [Server] Type: 200 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 500
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 500 Ack: 39500 Src: [Client] Dst: [Server] Type: 200 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 500
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 5ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 500 Ack: 38500 Src: [Client] Dst: [Server] Type: 200 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 500
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 500 Ack: 40500 Src: [Client] Dst: [Server] Type: 200 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 500
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 500 Ack: 42500 Src: [Client] Dst: [Server] Type: 200 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 500
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 8ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 500 Ack: 41500 Src: [Client] Dst: [Server] Type: 200 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 500
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 6ms
+Client2Internet - Client is Sending Data. Listening to Client
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 42500 Ack: 500 Src: [Server] Dst: [Client] Type: 100 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 42500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 5ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 43500 Ack: 500 Src: [Server] Dst: [Client] Type: 100 WindowSize: 4
+Server2Internet - Sending Packet with Seq: 43500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 9ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 44500 Ack: 500 Src: [Server] Dst: [Client] Type: 100 WindowSize: 3
+Server2Internet - Sending Packet with Seq: 44500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 45500 Ack: 500 Src: [Server] Dst: [Client] Type: 100 WindowSize: 2
+Server2Internet - Sending Packet with Seq: 45500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 46500 Ack: 500 Src: [Server] Dst: [Client] Type: 100 WindowSize: 1
+Server2Internet - Sending Packet with Seq: 46500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 47500 Ack: 500 Src: [Server] Dst: [Client] Type: 100 WindowSize: 0
+Server2Internet - Sending Packet with Seq: 47500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 500 Ack: 45500 Src: [Client] Dst: [Server] Type: 200 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 500
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 4ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 500 Ack: 46500 Src: [Client] Dst: [Server] Type: 200 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 500
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 500 Ack: 47500 Src: [Client] Dst: [Server] Type: 200 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 500
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 8ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 500 Ack: 48500 Src: [Client] Dst: [Server] Type: 200 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 500
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 500 Ack: 43500 Src: [Client] Dst: [Server] Type: 200 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 500
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 3ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 500 Ack: 44500 Src: [Client] Dst: [Server] Type: 200 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 500
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 2ms
+Client2Internet - Client is Sending Data. Listening to Client
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 48500 Ack: 500 Src: [Server] Dst: [Client] Type: 100 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 48500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 8ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 49500 Ack: 500 Src: [Server] Dst: [Client] Type: 100 WindowSize: 4
+Server2Internet - Sending Packet with Seq: 49500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 4ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 50500 Ack: 500 Src: [Server] Dst: [Client] Type: 100 WindowSize: 3
+Server2Internet - Sending Packet with Seq: 50500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 5ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 51500 Ack: 500 Src: [Server] Dst: [Client] Type: 100 WindowSize: 2
+Server2Internet - Sending Packet with Seq: 51500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 52500 Ack: 500 Src: [Server] Dst: [Client] Type: 100 WindowSize: 1
+Server2Internet - Sending Packet with Seq: 52500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 53500 Ack: 500 Src: [Server] Dst: [Client] Type: 100 WindowSize: 0
+Server2Internet - Sending Packet with Seq: 53500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 500 Ack: 52500 Src: [Client] Dst: [Server] Type: 200 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 500
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 2ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 500 Ack: 53500 Src: [Client] Dst: [Server] Type: 200 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 500
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 500 Ack: 50500 Src: [Client] Dst: [Server] Type: 200 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 500
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 500 Ack: 54500 Src: [Client] Dst: [Server] Type: 200 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 500
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 500 Ack: 51500 Src: [Client] Dst: [Server] Type: 200 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 500
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 500 Ack: 49500 Src: [Client] Dst: [Server] Type: 200 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 500
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 54500 Ack: 500 Src: [Server] Dst: [Client] Type: 100 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 54500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 55500 Ack: 500 Src: [Server] Dst: [Client] Type: 100 WindowSize: 4
+Server2Internet - Sending Packet with Seq: 55500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 56500 Ack: 500 Src: [Server] Dst: [Client] Type: 100 WindowSize: 3
+Server2Internet - Sending Packet with Seq: 56500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 6ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 57500 Ack: 500 Src: [Server] Dst: [Client] Type: 100 WindowSize: 2
+Server2Internet - Sending Packet with Seq: 57500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 58500 Ack: 500 Src: [Server] Dst: [Client] Type: 100 WindowSize: 1
+Server2Internet - Sending Packet with Seq: 58500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 59500 Ack: 500 Src: [Server] Dst: [Client] Type: 100 WindowSize: 0
+Server2Internet - Sending Packet with Seq: 59500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 500 Ack: 55500 Src: [Client] Dst: [Server] Type: 200 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 500
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 9ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 500 Ack: 56500 Src: [Client] Dst: [Server] Type: 200 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 500
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 500 Ack: 58500 Src: [Client] Dst: [Server] Type: 200 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 500
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 6ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 500 Ack: 59500 Src: [Client] Dst: [Server] Type: 200 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 500
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 500 Ack: 60500 Src: [Client] Dst: [Server] Type: 200 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 500
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 500 Ack: 57500 Src: [Client] Dst: [Server] Type: 200 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 500
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 7ms
+Client2Internet - Client is Sending Data. Listening to Client
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 60500 Ack: 500 Src: [Server] Dst: [Client] Type: 100 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 60500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 61500 Ack: 500 Src: [Server] Dst: [Client] Type: 100 WindowSize: 4
+Server2Internet - Sending Packet with Seq: 61500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 62500 Ack: 500 Src: [Server] Dst: [Client] Type: 100 WindowSize: 3
+Server2Internet - Sending Packet with Seq: 62500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 2ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 63500 Ack: 500 Src: [Server] Dst: [Client] Type: 100 WindowSize: 2
+Server2Internet - Sending Packet with Seq: 63500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 64500 Ack: 500 Src: [Server] Dst: [Client] Type: 100 WindowSize: 1
+Server2Internet - Sending Packet with Seq: 64500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 65500 Ack: 500 Src: [Server] Dst: [Client] Type: 100 WindowSize: 0
+Server2Internet - Sending Packet with Seq: 65500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 9ms
+Server2Internet - Server is Sending Data. Listening to Server
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 500 Ack: 61500 Src: [Client] Dst: [Server] Type: 200 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 500
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 1ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 500 Ack: 62500 Src: [Client] Dst: [Server] Type: 200 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 500
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 2ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 500 Ack: 64500 Src: [Client] Dst: [Server] Type: 200 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 500
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 6ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 500 Ack: 65500 Src: [Client] Dst: [Server] Type: 200 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 500
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 500 Ack: 63500 Src: [Client] Dst: [Server] Type: 200 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 500
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 9ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 500 Ack: 66500 Src: [Client] Dst: [Server] Type: 200 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 500
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 66500 Ack: 500 Src: [Server] Dst: [Client] Type: 100 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 66500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 8ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 67500 Ack: 500 Src: [Server] Dst: [Client] Type: 100 WindowSize: 4
+Server2Internet - Sending Packet with Seq: 67500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 6ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 68500 Ack: 500 Src: [Server] Dst: [Client] Type: 100 WindowSize: 3
+Server2Internet - Sending Packet with Seq: 68500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 2ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 69500 Ack: 500 Src: [Server] Dst: [Client] Type: 100 WindowSize: 2
+Server2Internet - Sending Packet with Seq: 69500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 6ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 70500 Ack: 500 Src: [Server] Dst: [Client] Type: 100 WindowSize: 1
+Server2Internet - Sending Packet with Seq: 70500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 71500 Ack: 500 Src: [Server] Dst: [Client] Type: 100 WindowSize: 0
+Server2Internet - Sending Packet with Seq: 71500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 7ms
+Server2Internet - Server is Sending Data. Listening to Server
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 500 Ack: 71500 Src: [Client] Dst: [Server] Type: 200 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 500
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 3ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 500 Ack: 69500 Src: [Client] Dst: [Server] Type: 200 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 500
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 6ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 500 Ack: 68500 Src: [Client] Dst: [Server] Type: 200 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 500
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 4ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 500 Ack: 70500 Src: [Client] Dst: [Server] Type: 200 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 500
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 500 Ack: 67500 Src: [Client] Dst: [Server] Type: 200 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 500
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 500 Ack: 72500 Src: [Client] Dst: [Server] Type: 200 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 500
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 8ms
+Client2Internet - Client is Sending Data. Listening to Client
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 72500 Ack: 500 Src: [Server] Dst: [Client] Type: 100 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 72500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 73500 Ack: 500 Src: [Server] Dst: [Client] Type: 100 WindowSize: 4
+Server2Internet - Sending Packet with Seq: 73500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 5ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 74500 Ack: 500 Src: [Server] Dst: [Client] Type: 100 WindowSize: 3
+Server2Internet - Sending Packet with Seq: 74500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 8ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 75500 Ack: 500 Src: [Server] Dst: [Client] Type: 100 WindowSize: 2
+Server2Internet - Sending Packet with Seq: 75500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 9ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 76500 Ack: 500 Src: [Server] Dst: [Client] Type: 100 WindowSize: 1
+Server2Internet - Sending Packet with Seq: 76500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 77500 Ack: 500 Src: [Server] Dst: [Client] Type: 100 WindowSize: 0
+Server2Internet - Sending Packet with Seq: 77500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 500 Ack: 73500 Src: [Client] Dst: [Server] Type: 200 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 500
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 500 Ack: 77500 Src: [Client] Dst: [Server] Type: 200 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 500
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 500 Ack: 78500 Src: [Client] Dst: [Server] Type: 200 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 500
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 4ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 500 Ack: 74500 Src: [Client] Dst: [Server] Type: 200 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 500
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 8ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 500 Ack: 75500 Src: [Client] Dst: [Server] Type: 200 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 500
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 500 Ack: 76500 Src: [Client] Dst: [Server] Type: 200 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 500
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 78500 Ack: 500 Src: [Server] Dst: [Client] Type: 100 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 78500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 7ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 79500 Ack: 500 Src: [Server] Dst: [Client] Type: 100 WindowSize: 4
+Server2Internet - Sending Packet with Seq: 79500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 80500 Ack: 500 Src: [Server] Dst: [Client] Type: 100 WindowSize: 3
+Server2Internet - Sending Packet with Seq: 80500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 8ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 81500 Ack: 500 Src: [Server] Dst: [Client] Type: 100 WindowSize: 2
+Server2Internet - Sending Packet with Seq: 81500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 3ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 82500 Ack: 500 Src: [Server] Dst: [Client] Type: 100 WindowSize: 1
+Server2Internet - Sending Packet with Seq: 82500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 83500 Ack: 500 Src: [Server] Dst: [Client] Type: 100 WindowSize: 0
+Server2Internet - Sending Packet with Seq: 83500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 500 Ack: 80500 Src: [Client] Dst: [Server] Type: 200 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 500
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 500 Ack: 83500 Src: [Client] Dst: [Server] Type: 200 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 500
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 500 Ack: 84500 Src: [Client] Dst: [Server] Type: 200 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 500
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 500 Ack: 82500 Src: [Client] Dst: [Server] Type: 200 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 500
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 500 Ack: 79500 Src: [Client] Dst: [Server] Type: 200 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 500
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 500 Ack: 81500 Src: [Client] Dst: [Server] Type: 200 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 500
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 3ms
+Client2Internet - Client is Sending Data. Listening to Client
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 84500 Ack: 500 Src: [Server] Dst: [Client] Type: 100 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 84500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 1ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 85500 Ack: 500 Src: [Server] Dst: [Client] Type: 100 WindowSize: 4
+Server2Internet - Sending Packet with Seq: 85500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 9ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 86500 Ack: 500 Src: [Server] Dst: [Client] Type: 100 WindowSize: 3
+Server2Internet - Sending Packet with Seq: 86500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 8ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 87500 Ack: 500 Src: [Server] Dst: [Client] Type: 100 WindowSize: 2
+Server2Internet - Sending Packet with Seq: 87500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 9ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 88500 Ack: 500 Src: [Server] Dst: [Client] Type: 100 WindowSize: 1
+Server2Internet - Sending Packet with Seq: 88500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 2ms
+Server2Internet - Server is Sending Data. Listening to Server
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 89500 Ack: 500 Src: [Server] Dst: [Client] Type: 100 WindowSize: 0
+Server2Internet - Sending Packet with Seq: 89500
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 9ms
+Server2Internet - Server is Sending Data. Listening to Server
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 500 Ack: 85500 Src: [Client] Dst: [Server] Type: 200 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 500
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 9ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 500 Ack: 89500 Src: [Client] Dst: [Server] Type: 200 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 500
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 1ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 500 Ack: 86500 Src: [Client] Dst: [Server] Type: 200 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 500
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 500 Ack: 87500 Src: [Client] Dst: [Server] Type: 200 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 500
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 0ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 500 Ack: 88500 Src: [Client] Dst: [Server] Type: 200 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 500
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 2ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 500 Ack: 90258 Src: [Client] Dst: [Server] Type: 200 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 500
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 6ms
+Client2Internet - Client is Sending Data. Listening to Client
+Server2Internet - Back from read
+Server2Internet - Received Packet Seq: 90258 Ack: 500 Src: [Server] Dst: [Client] Type: 101 WindowSize: 5
+Server2Internet - Sending Packet with Seq: 90258
+Server2Internet - Sending Data to Client
+Internet Tools - Delay Time Set. It is: 0ms
+Server2Internet - Server is Sending Data. Listening to Server
+Client2Internet - Back from read
+Client2Internet - Received Packet Seq: 500 Ack: 90258 Src: [Client] Dst: [Server] Type: 200 WindowSize: 5
+Client2Internet - Sending Packet with Seq: 500
+Client2Internet - Sending Data to Server
+Internet Tools - Delay Time Set. It is: 9ms
+Client2Internet - Client is Sending Data. Listening to Client
+Client2Internet - Back from read
+Client2Internet - Client has Terminated. Not processing Data. Attempting to Recover
+Internet - Waiting for Connections from Client
+TCPEngine - Starting A Session
+TCPEngine - Awaiting A Connection Request
