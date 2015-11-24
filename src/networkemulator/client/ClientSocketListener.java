@@ -33,6 +33,7 @@ public class ClientSocketListener extends Thread {
     public void run(){
         ConfigurationManager cm = ConfigurationManager.getInstance();
         DataAssembler da = new DataAssembler(cm.serverPacketMaxSize);
+        da.setOffset(500);
         while(true){
             //System.out.println("ClientSocketListener - About to Read From Socket");
             Packet data = socket.readFromSocket();

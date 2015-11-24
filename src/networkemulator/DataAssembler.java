@@ -19,9 +19,20 @@ public class DataAssembler {
 
     private boolean eotArrived = false;
     private boolean disabled = false;
+    private int offset = 0;
 
     public DataAssembler(int packetSize){
         this.packetSize = packetSize;
+    }
+
+    /**
+     * setOffset sets the offset value of the initial sequence number. This is so that when adding packets, the first
+     * packet sent will always end up in index 0. Allowing the data assembler to accuratly calculate if there are any
+     * missing packets
+     * @param offset int - the offset amount
+     */
+    public void setOffset(int offset){
+        this.offset = offset;
     }
 
     /**
@@ -34,9 +45,8 @@ public class DataAssembler {
      */
     public void addData(Packet packet){
         System.out.println("DataAssembler - Adding Packet");
-        ConfigurationManager cm = ConfigurationManager.getInstance();
 
-        int index = packet.seqNum / packetSize;
+        int index = (packet.seqNum-this.offset) / packetSize;
 
         if(index >= dataSequence.size()){
 
