@@ -1,8 +1,6 @@
 package networkemulator;
 
-import java.io.FileInputStream;
-import java.io.IOException;
-import java.io.InputStream;
+import java.io.*;
 import java.util.Properties;
 
 /**
@@ -55,7 +53,26 @@ public final class ConfigurationManager {
 
         try {
 
-            input = new FileInputStream("./configuration.properties");
+
+            System.out.println("Userdir: " + System.getProperty("user.dir"));
+
+            File configLocation1 = new File("config/configuration.properties");
+            File configLocation2 = new File("../config/configuration.properties");
+
+            if(configLocation1.exists()){
+                input = new FileInputStream(configLocation1.getAbsolutePath());
+                System.out.println("Config Path: " + configLocation1.getAbsolutePath());
+            }else if(configLocation2.exists()){
+                input = new FileInputStream(configLocation2.getAbsolutePath());
+                System.out.println("Config Path: " + configLocation1.getAbsolutePath());
+            }else{
+                System.err.println("ERROR. Could Not Find Confiuration File");
+                System.exit(1);
+            }
+
+
+
+
             // load a properties file
             prop.load(input);
 
