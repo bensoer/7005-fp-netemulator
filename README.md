@@ -12,8 +12,8 @@ requires that to start up the emulator, the following files will be initialized 
 3. client/Client.java
 
 Upon the Client.java file starting, the emulation will begin transferring data with the set settings passed as parameters
-or in the `configuration.properties` file. Each module will not start if there are required parameters needing to be
-passed at initialization. `configuration.properties` has been setup with default settings so that the emulator will
+or in the `config/configuration.properties` file. Each module will not start if there are required parameters needing to be
+passed at initialization. `config/configuration.properties` has been setup with default settings so that the emulator will
 work right away.
 
 #features & settings
@@ -34,10 +34,10 @@ either the client (Client2Internet) or the server (Server2Internet) for incoming
 static class to determine whether to drop the packet, and how long to hold onto the packet (delaying it) before passing
 it on to the appropriate opposite socket based on the `src` and `dst` attributes set in the packet.
 
-The internet module can also be configured with parameters in the `configuration.properties` file located in the root
+The internet module can also be configured with parameters in the `config/configuration.properties` file located in the root
 of the project. Here you can set the `listener` and `sender` ports aswell as the sender host. By default the internet
 module is configured to function on localhost and assumes the `Server` is also located on localhost on port `7000`. Below
-is a breakdown of all the settings that can be configured in the `configuration.properties` file:
+is a breakdown of all the settings that can be configured in the `config/configuration.properties` file:
 ###internet.connection.listener.port
 Set the port number for the internet to listen on for connections from the `Client` module
 ###internet.connection.sender.port
@@ -52,7 +52,7 @@ two threads based on the `ServerSocketListener` and `ServerSocketSender` classes
 incoming data from the client and then sends back an `ACK` packet for each until an `EOT` packet arrives at which point
 the `ServerSocketSender` thread is initialized and sends back file data to the client
 
-Configuration of the server can be set in the `configuration.properties` file. The following attributes in the 
+Configuration of the server can be set in the `config/configuration.properties` file. The following attributes in the 
 configuration file will alter settings of the server:
 ###server.connection.port
 Set the port number the `Server` module will listen on for connections
